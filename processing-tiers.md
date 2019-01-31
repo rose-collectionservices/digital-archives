@@ -24,10 +24,10 @@ All incoming born-digital materials undergo the same stages of work following ar
 
 Born-digital materials are then processed at one of four tiers of processing:
 
-* **Tier 1:** [Standard](#tier-1-standard)
-* **Tier 2:** [Enhanced](#tier-2-enhanced)
-* **Tier 2b:** [Enhanced+](#tier-2b-enhanced+)
-* **Tier 3:** [Full](#tier-3-full)
+* [**Tier 1:** Standard](#tier-1-standard)
+* [**Tier 2:** Enhanced](#tier-2-enhanced)
+* [**Tier 2b:** Enhanced+](#tier-2b-enhanced+)
+* [**Tier 3:** Full](#tier-3-full)
 
 There is no hard and fast formula for determining the appropriate tier of processing. Archivists should refer to the following criteria and use their best judgement, recognizing that this decision can be revisited later should additional processing become warranted. Once a decision has been made, it should be documented in the digital archives processing plan.
 
