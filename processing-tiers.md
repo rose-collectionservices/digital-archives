@@ -121,7 +121,7 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 		* De-duplication of files;
 		* The creation of file-level checksums;
 		* The identification of file formats;
-    * The packaging of files and associated metadata using TAR and BagIt;
+		* The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
@@ -136,7 +136,7 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 		* The creation of file-level checksums;
 		* The identification of file formats;
 		* File format normalization and the creation of access copies;
-    * The packaging of files and associated metadata using TAR and BagIt;
+		* The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
@@ -154,7 +154,7 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 		* Any necessary redaction work;
 		* File format normalization;
 		* Any necessary arrangement and the creation of access copies;
-    * The packaging of files and associated metadata using TAR and BagIt;
+		* The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
@@ -166,12 +166,12 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 	* This would not include known issues or problem areas (for example,
 	  repeated attempts to image a damaged floppy disk).
 	* This would also not include collection-specific tasks (for example,
-    establishing how to migrate a particular file format to PDF. This would be
-    considered part of normalization and tracked either under Tier 2b
-    processing or Tier 3 processing.)
+		establishing how to migrate a particular file format to PDF. This would be
+		considered part of normalization and tracked either under Tier 2b
+		processing or Tier 3 processing.)
 	* This would include new or unresolved issues (for example, establishing
-    workflows for imaging new media formats, time spect researching how a tool
-    works, etc.).
+		workflows for imaging new media formats, time spect researching how a tool
+		works, etc.).
 
 In addition to tracking your time within the relevant project, you should use tags to identify the category of work underway. Pre-populated tags include:
 
