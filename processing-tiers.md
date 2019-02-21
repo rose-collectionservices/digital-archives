@@ -6,6 +6,8 @@
 * [Tier 2 (Enhanced)](#tier-2-enhanced)
 * [Tier 2b (Enahanced+)](#tier-2b-enhanced)
 * [Tier 3 (Full)](#tier-3-full)
+* [Tracking time using Toggl](#tracking-time-using-toggl)
+	* [How to Use Toggl](#how-to-use-toggl)
 * [Time analysis](#time-analysis)
 	* [Tier 1 (Standard)](#tier-1-standard)
 
@@ -31,7 +33,7 @@ Born-digital materials are then processed at one of four tiers of processing:
 
 There is no hard and fast formula for determining the appropriate tier of processing. Archivists should refer to the following criteria and use their best judgement, recognizing that this decision can be revisited later should additional processing become warranted. Once a decision has been made, it should be documented in the digital archives processing plan.
 
-## Processing Tier Criteria 
+## Processing Tier Criteria
 
 | ﻿Criteria                            | Considerations                                                                                                                                                                                                                                           |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,6 +89,89 @@ In cases where a collection's content is low-risk and stored using a very limite
 12. Folder containing extracted files, restricted files, and access copies of files are wrapped into a tar file.
 13. Disk image, tar files, metadata, and virus scan report are bagged and ingested into the repository.
 14. A copy of a completed processing plan is added to the collection file.
+
+## Tracking Time using [Toggl](https/toggl.com)
+
+All time spent processing born-digital collections should be tracked using the Rose Library Digital Archives [Toggl](https/toggl.com) account. Contact the account administrator to be added.
+
+All time tracked in Toggl should be associated with a project. The Rose Library Digital Archives Toggl account has five projects. Use the descriptions below to determine which project should be used to track your time:
+
+1. **Accessioning/Tier 1 processing**
+	* Used to track any activity that falls under the scope of accessioning born-digital materials.
+	* This includes:
+		* Any review of media (for example, using ISOBuster to review optical discs);
+		* Disk Imaging;
+		* The creation of TAR files;
+		* Any reporting activity associated with accessioning and tier 1 processing (for example, FiWalk, ClamAV, etc.);
+		* Packaging the SIP (using BagIt);
+		* Ingest into the Keep and completion of Keep metadata;
+		* Any necessary updates to the collection finding aids.
+2. **Tier 2a processing**
+	* If a collection is selected for tier 2 processing, all post-accessioning activity should be tracked within Toggl's **Tier 2a processing project**.
+	* This includes:
+		* The extraction of files from the disk image or TAR file;
+		* Virus scanning;
+		* De-duplication of files;
+		* The creation of file-level checksums;
+		* The identification of file formats;
+		*	The packaging of files and associated metadata using TAR and BagIt;
+		* Ingest into the Keep and completion of Keep metadata;
+		* Any necessary updates to the collection finding aids.
+3. **Tier 2b processing**
+	* If a collection is selected for tier 2b processing, all post-accessioning activity should be tracked within Toggl's **Tier 2b processing project**.
+	* This includes:
+		* The extraction of files from the disk image or TAR file;
+		* Virus scanning;
+		* De-duplication of files;
+		* The creation of file-level checksums;
+		* The identification of file formats;
+		* File format normalization and the creation of access copies;
+		*	The packaging of files and associated metadata using TAR and BagIt;
+		* Ingest into the Keep and completion of Keep metadata;
+		* Any necessary updates to the collection finding aids.
+4. **Tier 3 processing**
+	* If a collection is selected for tier 3 processing, all post-accessioning activity should be tracked within Toggl's **Tier 3 processing** project.
+	* This includes:
+		* The extraction of files from the disk image or TAR file;
+		* Virus scanning;
+		* De-duplication of files;
+		* The creation of file-level checksums;
+		* The identification of file formats;
+		* Scans for PII and other restricted information;
+		* Any necessary redaction work;
+		* File format normalization;
+		* Any necessary arrangement and the creation of access copies;
+		*	The packaging of files and associated metadata using TAR and BagIt;
+		* Ingest into the Keep and completion of Keep metadata;
+		* Any necessary updates to the collection finding aids.
+4. **Troubleshooting**
+	* Any significant problem-solving or research conducted in response to issues identified during the accessioning or processing of a collection should be tracked within Toggl's **Troubleshooting** project.
+	* This would not include known issues or problem areas (for example, repeated attempts to image a damaged floppy disk).
+	* This would also not include collection-specific tasks (for example, establishing how to migrate a particular file format to PDF. This would be considered part of normalization and tracked either under **Tier 2b processing** or **Tier 3 processing**.)
+	* This would include new or unresolved issues (for example, establishing workflows for imaging new media formats, time spect researching how a tool works, etc.).
+
+In addition to tracking your time within the relevant project, you should use tags to identify the category of work underway. Pre-populated tags include:
+
+| Tags                          | Use for:                                                                                                                                                                                                                             |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Arrangement                   | Any tasks associated with arranging files for access                                                                                                                                                                                 |
+| Deduplication                 | Any tasks associated with the deduplication of files                                                                                                                                                                                 |
+| Description                   | Includes any updates to the finding aids and/or the creation of any supplementary files used to support access (file inventories, for example)                                                                                       |
+| File extraction and reporting | Includes the extraction of files from disk images or TAR files, the creation of file-level checksums, the identification of file formats, virus scanning, and use of any additional reporting tools (for example, Brunhilde, FiWalk) |
+| Imaging                       | Includes any pre-imaging review of media (for example, using ISObuster to review optical discs), and the initial creation of disk images and TAR files                                                                               |
+| Ingest                        | Includes any taska associated with packaging and ingesting files into the Keep, and the creation of Keep metadata                                                                                                                    |
+| Normalization or migration    | Includes any tasks associated with the normalization or migration of files, including any work required to establish methods and tools                                                                                               |
+| Restrictions and PII          | Includes any tasks associated with identifying PII and other restricted content, and redacting or removing restricted content from the collection                                                                                    |
+
+### How to Use Toggl
+
+1. Log into your [Toggl](https/toggl.com) account.
+2. From the **Timer**, enter the collection name in the space marked **What are you working on?**
+3. Click the **Project** icon (which looks like a small folder) and select the relevant project.
+4. Click the **Tags** icon (to the right of the **Project** icon) and select the relevant tags.
+5. Hit the green **Play** button to start the timer.
+6. When work is complete, hit the red **Stop** button to stop the timer.
+7. Don't forget to stop and restart the timer as you complete one category of work and move into another. This will let you change the tags associated with your work.
 
 ## Time Analysis
 
