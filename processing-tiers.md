@@ -98,19 +98,23 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 
 1 | **ACCESSIONING/TIER 1 PROCESSING**
 
-	* Used to track any activity that falls under the scope of accessioning born-digital materials.
+	* Used to track any activity that falls under the scope of accessioning born-
+	digital materials.
 	* This includes:
-		* Any review of media (for example, using ISOBuster to review optical discs);
+		* Any review of media (for example, using ISOBuster to review optical
+			discs);
 		* Disk Imaging;
 		* The creation of TAR files;
-		* Any reporting activity associated with accessioning and tier 1 processing (for example, FiWalk, ClamAV, etc.);
+		* Any reporting activity associated with accessioning and tier 1
+		  processing (for example, FiWalk, ClamAV, etc.);
 		* Packaging the SIP (using BagIt);
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
 2 | **TIER 2A PROCESSING**
 
-	* If a collection is selected for tier 2 processing, all post-accessioning activity should be tracked within Toggl's **Tier 2a processing project**.
+	* If a collection is selected for tier 2 processing, all post-accessioning
+	activity should be tracked within Toggl's **Tier 2a processing project**.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
@@ -123,7 +127,8 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 
 3 | **TIER 2B PROCESSING**
 
-	* If a collection is selected for tier 2b processing, all post-accessioning activity should be tracked within Toggl's **Tier 2b processing project**.
+	* If a collection is selected for tier 2b processing, all post-accessioning
+	activity should be tracked within Toggl's **Tier 2b processing project**.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
@@ -137,7 +142,8 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 
 4 | **TIER 3 PROCESSING**
 
-	* If a collection is selected for tier 3 processing, all post-accessioning activity should be tracked within Toggl's **Tier 3 processing** project.
+	* If a collection is selected for tier 3 processing, all post-accessioning
+	activity should be tracked within Toggl's **Tier 3 processing** project.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
@@ -148,16 +154,24 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 		* Any necessary redaction work;
 		* File format normalization;
 		* Any necessary arrangement and the creation of access copies;
-		*	The packaging of files and associated metadata using TAR and BagIt;
+    * The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
 4 | **TROUBLESHOOTING**
 
-	* Any significant problem-solving or research conducted in response to issues identified during the accessioning or processing of a collection should be tracked within Toggl's **Troubleshooting** project.
-	* This would not include known issues or problem areas (for example, repeated attempts to image a damaged floppy disk).
-	* This would also not include collection-specific tasks (for example, establishing how to migrate a particular file format to PDF. This would be considered part of normalization and tracked either under **Tier 2b processing** or **Tier 3 processing**.)
-	* This would include new or unresolved issues (for example, establishing workflows for imaging new media formats, time spect researching how a tool works, etc.).
+	* Any significant problem-solving or research conducted in response to
+	  issues identified during the accessioning or processing of a collection
+	  should be tracked within Toggl's **Troubleshooting** project.
+	* This would not include known issues or problem areas (for example,
+	  repeated attempts to image a damaged floppy disk).
+	* This would also not include collection-specific tasks (for example,
+		establishing how to migrate a particular file format to PDF. This would be
+		considered part of normalization and tracked either under **Tier 2b
+		processing** or **Tier 3 processing**.)
+	* This would include new or unresolved issues (for example, establishing
+		workflows for imaging new media formats, time spect researching how a tool
+		works, etc.).
 
 In addition to tracking your time within the relevant project, you should use tags to identify the category of work underway. Pre-populated tags include:
 
