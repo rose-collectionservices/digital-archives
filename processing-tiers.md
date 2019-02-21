@@ -114,21 +114,21 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 2 | **TIER 2A PROCESSING**
 
 	* If a collection is selected for tier 2 processing, all post-accessioning
-	activity should be tracked within Toggl's **Tier 2a processing project**.
+	activity should be tracked within Toggl's Tier 2a processing project.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
 		* De-duplication of files;
 		* The creation of file-level checksums;
 		* The identification of file formats;
-		*	The packaging of files and associated metadata using TAR and BagIt;
+    * The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
 3 | **TIER 2B PROCESSING**
 
 	* If a collection is selected for tier 2b processing, all post-accessioning
-	activity should be tracked within Toggl's **Tier 2b processing project**.
+	activity should be tracked within Toggl's Tier 2b processing project.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
@@ -136,14 +136,14 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 		* The creation of file-level checksums;
 		* The identification of file formats;
 		* File format normalization and the creation of access copies;
-		*	The packaging of files and associated metadata using TAR and BagIt;
+    * The packaging of files and associated metadata using TAR and BagIt;
 		* Ingest into the Keep and completion of Keep metadata;
 		* Any necessary updates to the collection finding aids.
 
 4 | **TIER 3 PROCESSING**
 
 	* If a collection is selected for tier 3 processing, all post-accessioning
-	activity should be tracked within Toggl's **Tier 3 processing** project.
+	activity should be tracked within Toggl's Tier 3 processing project.
 	* This includes:
 		* The extraction of files from the disk image or TAR file;
 		* Virus scanning;
@@ -162,29 +162,29 @@ All time tracked in Toggl should be associated with a project. The Rose Library 
 
 	* Any significant problem-solving or research conducted in response to
 	  issues identified during the accessioning or processing of a collection
-	  should be tracked within Toggl's **Troubleshooting** project.
+	  should be tracked within Toggl's Troubleshooting project.
 	* This would not include known issues or problem areas (for example,
 	  repeated attempts to image a damaged floppy disk).
 	* This would also not include collection-specific tasks (for example,
-		establishing how to migrate a particular file format to PDF. This would be
-		considered part of normalization and tracked either under **Tier 2b
-		processing** or **Tier 3 processing**.)
+    establishing how to migrate a particular file format to PDF. This would be
+    considered part of normalization and tracked either under Tier 2b
+    processing or Tier 3 processing.)
 	* This would include new or unresolved issues (for example, establishing
-		workflows for imaging new media formats, time spect researching how a tool
-		works, etc.).
+    workflows for imaging new media formats, time spect researching how a tool
+    works, etc.).
 
 In addition to tracking your time within the relevant project, you should use tags to identify the category of work underway. Pre-populated tags include:
 
 | Tags                          | Use for:                                                                                                                                                                                                                             |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Arrangement                   | Any tasks associated with arranging files for access                                                                                                                                                                                 |
-| Deduplication                 | Any tasks associated with the deduplication of files                                                                                                                                                                                 |
-| Description                   | Includes any updates to the finding aids and/or the creation of any supplementary files used to support access (file inventories, for example)                                                                                       |
-| File extraction and reporting | Includes the extraction of files from disk images or TAR files, the creation of file-level checksums, the identification of file formats, virus scanning, and use of any additional reporting tools (for example, Brunhilde, FiWalk) |
-| Imaging                       | Includes any pre-imaging review of media (for example, using ISObuster to review optical discs), and the initial creation of disk images and TAR files                                                                               |
-| Ingest                        | Includes any taska associated with packaging and ingesting files into the Keep, and the creation of Keep metadata                                                                                                                    |
-| Normalization or migration    | Includes any tasks associated with the normalization or migration of files, including any work required to establish methods and tools                                                                                               |
-| Restrictions and PII          | Includes any tasks associated with identifying PII and other restricted content, and redacting or removing restricted content from the collection                                                                                    |
+| Arrangement                   | Any tasks associated with arranging files for access.                                                                                                                                                                                 |
+| Deduplication                 | Any tasks associated with the deduplication of files.                                                                                                                                                                                 |
+| Description                   | Includes any updates to the finding aids and/or the creation of any supplementary files used to support access (file inventories, for example).                                                                                       |
+| File extraction and reporting | Includes the extraction of files from disk images or TAR files, the creation of file-level checksums, the identification of file formats, virus scanning, and use of any additional reporting tools (for example, Brunhilde, FiWalk). |
+| Imaging                       | Includes any pre-imaging review of media (for example, using ISObuster to review optical discs), and the initial creation of disk images and TAR files.                                                                               |
+| Ingest                        | Includes any taska associated with packaging and ingesting files into the Keep, and the creation of Keep metadata.                                                                                                                    |
+| Normalization or migration    | Includes any tasks associated with the normalization or migration of files, including any work required to establish methods and tools.                                                                                               |
+| Restrictions and PII          | Includes any tasks associated with identifying PII and other restricted content, and redacting or removing restricted content from the collection.                                                                                    |
 
 ### How to Use Toggl
 
