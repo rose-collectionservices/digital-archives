@@ -9,7 +9,9 @@
 * [Tracking time using Toggl](#tracking-time-using-toggl)
 	* [How to Use Toggl](#how-to-use-toggl)
 * [Time analysis](#time-analysis)
-	* [Tier 1 (Standard)](#tier-1-standard)
+	* [Tier 1 (Standard)](#tier-1-standard-1)
+	* [Tier 2 (Enhanced)](#tier-2-enchanced-1)
+	* [Tier 2b (Enahanced+)](#tier-2b-enhanced-1)
 
 ## An overview of processing workflows for born-digital materials
 
@@ -225,7 +227,35 @@ With that being said, processing times vary depending on format. When planning r
 
 ### Tier 2 (Enhanced)
 
+The following estimates are based on metrics gathered between September 2019 and April 2020. During that time, born-digital materials from 6 collections were processed at tier 2. Collections included 18 individual pieces of media (including floppy disks and hard drives), totaling 102 MB. 
+
+Based on these numbers and for the purposes of high-level planning, archivists should anticipate tier 2 processing times of **4 minutes per 25 MB**. 
+
+With that being said, processing times vary depending on format and task. When planning resources for processing projects at tier 2, the following should be taken into consideration: 
+
+| Task                               | Time per collection |
+|------------------------------------|---------------------|
+| File extraction and identification | 2.4 minutes         |
+| Deduplication                      | 30 seconds          |
+| Description                        | 3.5 minutes         |
+
+
 ### Tier 2b (Enhanced+)
+
+The following estimates are based on metrics gathered between September 2019 and April 2020. During that time, born-digital materials from 59 collections were processed at tier 2b. Collections included 1,956 individual pieces of media (including floppy disks, optical discs, hard drives, zip disks, flash drives, and file transfers), totaling 794.5 GB. 
+
+Based on these numbers and for the purposes of high-level planning, archivists should anticipate tier 2b processing times of **[time per size/collection]**. 
+
+With that being said, processing times vary depending on format and task. When planning resources for processing projects at tier 2b, the following should be taken into consideration: 
+
+| Task                               | Time per collection |
+|------------------------------------|---------------------|
+| File extraction and identification | 25 minutes          |
+| Deduplication                      | 3 minutes           |
+| Normalization                      | 1.3 hours           |
+| Arrangement                        | 12 minutes          |
+| Ingest                             | 10 minutes          |
+| Description                        | 12 minutes          |
 
 ### Tier 3 (Full)
 
