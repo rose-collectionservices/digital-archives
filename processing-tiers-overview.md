@@ -11,7 +11,7 @@
 * [Time analysis](#time-analysis)
 	* [Tier 1 (Standard)](#tier-1-standard-1)
 	* [Tier 2 (Enhanced)](#tier-2-enchanced-1)
-	* [Tier 2b (Enahanced+)](#tier-2b-enhanced-1)
+	* [Tier 2b (Enhanced+)](#tier-2b-enhanced-1)
 
 ## An overview of processing workflows for born-digital materials
 
@@ -276,3 +276,6 @@ With that being said, processing times vary depending on format and task. When p
 ### Tier 3 (Full)
 
 Data collection underway
+
+
+[Back to top](#digital-archives-processing-tiers)
