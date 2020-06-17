@@ -21,7 +21,7 @@ A disc’s contents will fall into one of four categories:
 - A raw disk image is created using Guymager.
 - The resulting ISO file is bagged and ingested into the Keep using our normal workflows.
 
-**NOTE:** Check to see if the CD is a *CD-R* or a *CD-RW*. If the CD is a **CD-RW**, you will need to create a TAR file, using [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md). 
+**NOTE:** Check to see if the CD is a *CD-R* or a *CD-RW*. If the CD is a **CD-RW**, you will need to create a TAR file, using [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/TAR_Files.md). 
 
 **If the disc in question is a recordable mixed-mode CD...**
 - A disk image is created using the BIN/CUE file format, using either FTK Imager or IsoBuster.
