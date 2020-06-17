@@ -15,16 +15,16 @@
 - c. If the disc contains mixed-mode data (both audiovisual and filesystem data), image using IsoBuster.
 
 **NOTE:** For more information about the Rose Library’s approach to optical discs, see the 
-[Capturing Data from Optical Discs policy](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Optical_Disc_Policy.md).
+[Capturing Data from Optical Discs policy](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Optical_Disc_Policy.md).
 
-**NOTE:** Check to see if the CD is a *CD-R* or a *CD-RW*. If the CD is a **CD-RW**, you will need to create a TAR file, using [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md). 
+**NOTE:** Check to see if the CD is a *CD-R* or a *CD-RW*. If the CD is a **CD-RW**, you will need to create a TAR file, using [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/TAR_Files.md). 
 
 [Back to top](#table-of-contents)
 
 ---
 
 ### CAPTURE DISK IMAGE USING GUYMAGER:
-1. Switch to the BitCurator side of the machine. See [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions. 
+1. Switch to the BitCurator side of the machine. See [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions. 
 2. Right-click anywhere on the Desktop to create a new folder. Name it collectionName_diskImages_cds 
 (e.g., Cleage_diskImages_cds).
 3. Insert disc, if not already loaded.
@@ -59,7 +59,7 @@ Guymager to have it appear in the list.
 ---
 
 ### CAPTURE DISK IMAGE USING ISOBUSTER:
-1. Switch to the Windows side of the machine. See [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions. 
+1. Switch to the Windows side of the machine. See [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions. 
 2. Power on the hard drive dock and create a new folder in the diskImages directory, named 
 collectionName_diskImages (e.g., Cleage_diskImages).
 3. Launch *IsoBuster*.
@@ -85,7 +85,7 @@ select one of four options and proceed with imaging, or quit. One selection will
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Run Fiwalk with the ClamAV plugin:
@@ -159,7 +159,7 @@ Using the **virus.bash** file, fiwalk reports can be read for an entire collecti
 
 ### Before you begin:
 
-* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Create folders:
@@ -276,7 +276,7 @@ The file should look like this:
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
