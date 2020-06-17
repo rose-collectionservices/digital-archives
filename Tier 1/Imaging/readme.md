@@ -1,5 +1,7 @@
 # Imaging
 
+**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link.
+
 For instructions on how to image different types of material, choose from the list below: 
 * [Floppy disks](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/Floppy_Disks.md)
 * [Optical discs](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/Optical_Discs.md)
