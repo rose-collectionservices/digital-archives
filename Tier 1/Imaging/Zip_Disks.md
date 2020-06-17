@@ -26,7 +26,7 @@
 - GuyMager
 
 ### Instructions:
-1. Make sure the computer is in the BitCurator environment (see [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md))
+1. Make sure the computer is in the BitCurator environment (see [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md)) (Right click to open in a new tab)
 2. Connect the USB of the ZIP drive to the USB port of the Tableau bridge, using the Iomega USB cable (white)
 3. Connect the Tableau Bridge to the computer using the <span class="blue">BLUE</span> USB cable 
 4. Plug in the Iomega drive to a power source using its provided power cord. A <span class="green">green</span> light should appear on the front of the drive. 
@@ -129,7 +129,7 @@ Refer to Metadata Guidelines for guidance:
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) (Right click to open in a new tab).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Run Fiwalk with the ClamAV plugin:
@@ -203,7 +203,7 @@ Using the **virus.bash** file, fiwalk reports can be read for an entire collecti
 
 ### Before you begin:
 
-* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) (Right click to open in a new tab).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Create folders:
@@ -320,7 +320,7 @@ The file should look like this:
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) (Right click to open in a new tab).
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
