@@ -51,12 +51,14 @@ There is no hard and fast formula for determining the appropriate tier of proces
 Depending on the selected tier, processing will continue as follows:
 
 ## Tier 1 (Standard)
+**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%201)**
 
 1.	Basic descriptive metadata is added to the finding aid.
 2.	Disk image or tar file, plus metadata, is bagged and ingested into the Keep.
 3.	A copy of a completed processing plan is added to the collection file.
 
 ## Tier 2 (Enhanced)
+**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202)**
 
 1.	Files are extracted from the disk image or tar file.
 2.	Files are scanned for viruses and malware, and the results of the scan documented.
@@ -69,6 +71,7 @@ Depending on the selected tier, processing will continue as follows:
 9.	A copy of a completed processing plan is added to the collection file.
 
 ## Tier 2b (Enhanced+)
+**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b)**
 
 In cases where a collection's content is low-risk and stored using a very limited number of standard file formats, files undergo all steps listed under **Tier 2**, plus:
 
@@ -76,6 +79,7 @@ In cases where a collection's content is low-risk and stored using a very limite
 2. Access copies of files are moved to the secure server.
 
 ## Tier 3 (Full)
+**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%203)**
 
 1. Files are extracted from the disk image or tar file(s).
 2. Files are scanned for viruses and malware, and the results of the scan documented.
@@ -92,9 +96,9 @@ In cases where a collection's content is low-risk and stored using a very limite
 13. Disk image, tar files, metadata, and virus scan report are bagged and ingested into the repository.
 14. A copy of a completed processing plan is added to the collection file.
 
-## Tracking Time using [Toggl](https/toggl.com)
+## Tracking Time using [Toggl](https://toggl.com)
 
-All time spent processing born-digital collections should be tracked using the Rose Library Digital Archives [Toggl](https/toggl.com) account. Contact the account administrator to be added.
+All time spent processing born-digital collections should be tracked using the Rose Library Digital Archives [Toggl](https://toggl.com) account. Contact the account administrator to be added.
 
 All time tracked in Toggl should be associated with a project. The Rose Library Digital Archives Toggl account has five projects. Use the descriptions below to determine which project should be used to track your time:
 
