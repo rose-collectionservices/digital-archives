@@ -1,5 +1,5 @@
 # Tier 2 - File Extraction and Light Processing
-Tier 2 processing is done by staff, students, and interns as deemed appropriate. Tier 2 is the initial extraction of materials, along with a virus and deduplication scan. If only system files or degraded files are left after these steps, follow the [Finding Aid Edits section](#finding-aid-edits) below and mark the collection as Tier 2 in the shelf list. Steps one through seven must be completed, if files are initially extracted, to determine if the collection is Tier 2 or [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b). 
+Tier 2 processing is done by staff, students, and interns as deemed appropriate. Tier 2 is the initial extraction of materials, along with a virus and deduplication scan. If only system files or degraded files are left after these steps, follow the [Finding Aid Edits section](#finding-aid-edits) below and mark the collection as Tier 2 in the shelf list. Steps one through seven must be completed, if files are initially extracted, to determine if the collection is Tier 2 or [Tier 2b](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b). 
 
 **Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link.
 
@@ -79,7 +79,7 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
-1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
+1. [Instructions here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
@@ -144,7 +144,7 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 13. Repeat this process for other folders in the collection, removing and adding each one every time
 14. Once done with the individual folders, add the Working Files folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once. This is to triple-check there are no more lingering duplicate files or empty directories in the collection. 
 
-**NOTE:** At this point, take a look to see if there is anything in the folders that is not system or program files - things like Word files, photographs, etc. If there is, please refer to [Tier 2b instructions](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b#normalizing-files). If not, use the language below to edit the collection's finding aid to reflect nothing of research value to the collection was found. 
+**NOTE:** At this point, take a look to see if there is anything in the folders that is not system or program files - things like Word files, photographs, etc. If there is, please refer to [Tier 2b instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b#normalizing-files). If not, use the language below to edit the collection's finding aid to reflect nothing of research value to the collection was found. 
 
 [Back to top](#table-of-contents)
 
