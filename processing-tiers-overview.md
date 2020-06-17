@@ -244,7 +244,7 @@ With that being said, processing times vary depending on format and task. When p
 
 The following estimates are based on metrics gathered between September 2019 and April 2020. During that time, born-digital materials from 59 collections were processed at tier 2b. Collections included 1,956 individual pieces of media (including floppy disks, optical discs, hard drives, zip disks, flash drives, and file transfers), totaling 794.5 GB. 
 
-Based on these numbers and for the purposes of high-level planning, archivists should anticipate tier 2b processing times of **[time per size/collection]**. 
+Based on these numbers and for the purposes of high-level planning, archivists should anticipate tier 2b processing times of **6 minutes per 1 GB**. 
 
 With that being said, processing times vary depending on format and task. When planning resources for processing projects at tier 2b, the following should be taken into consideration: 
 
