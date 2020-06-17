@@ -35,6 +35,10 @@ Born-digital materials are then processed at one of four tiers of processing:
 
 There is no hard and fast formula for determining the appropriate tier of processing. Archivists should refer to the following criteria and use their best judgement, recognizing that this decision can be revisited later should additional processing become warranted. Once a decision has been made, it should be documented in the digital archives processing plan.
 
+[Back to top](#digital-archives-processing-tiers)
+
+---
+
 ## Processing Tier Criteria
 
 | ﻿Criteria                            | Considerations                                                                                                                                                                                                                                           |
@@ -95,6 +99,10 @@ In cases where a collection's content is low-risk and stored using a very limite
 12. Folder containing extracted files, restricted files, and access copies of files are wrapped into a tar file.
 13. Disk image, tar files, metadata, and virus scan report are bagged and ingested into the repository.
 14. A copy of a completed processing plan is added to the collection file.
+
+[Back to top](#digital-archives-processing-tiers)
+
+---
 
 ## Tracking Time using [Toggl](https://toggl.com)
 
@@ -201,6 +209,10 @@ In addition to tracking your time within the relevant project, you should use ta
 5. Hit the green **Play** button to start the timer.
 6. When work is complete, hit the red **Stop** button to stop the timer.
 7. Don't forget to stop and restart the timer as you complete one category of work and move into another. This will let you change the tags associated with your work.
+
+[Back to top](#digital-archives-processing-tiers)
+
+---
 
 ## Time Analysis
 
