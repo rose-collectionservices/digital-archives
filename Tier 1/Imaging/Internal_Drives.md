@@ -70,7 +70,7 @@ drive, write blocker, and host computer.
 **Connect drive, write blocker, and host computer:**
 1. Locate the correct write blocker and appropriate connectors in the write blocker kit. Use the associated Tableau card 
 to look for what’s needed.
-2. Connect the write blocker to the drivewith both data cable and power cable.
+2. Connect the write blocker to the drive with both the data cable and power cable.
 3. If imaging an internal hard drive, use the Dr. Cool Multi Functional Router Cooler to elevate and cool the drive 
 during the imaging process.
 4. Connect the write blocker to the host computer.
@@ -128,7 +128,7 @@ image will be mounted on the Desktop. Double-click to open it and view files.
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Run Fiwalk with the ClamAV plugin:
@@ -202,7 +202,7 @@ Using the **virus.bash** file, fiwalk reports can be read for an entire collecti
 
 ### Before you begin:
 
-* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Create folders:
@@ -319,7 +319,7 @@ The file should look like this:
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
