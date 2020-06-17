@@ -11,7 +11,7 @@
 
 ### Before you begin:
 
-* This workflow uses tools  in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools  in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the Windows hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * **Make sure the Digital Archives' Lab workstation is not connected to the internet.** Unplug the yellow ethernet cord at the back of the computer.
 * As you unpack the KryoFlux, pay attention to the labels on the data cable and the KryoFlux enclosure. These will help ensure that the floppy disk drive and the KryoFlux are connected correctly.
 * As you are setting up the KryoFlux, avoid placing any drives on the metal shelves over the workstations.
@@ -141,7 +141,7 @@ This runs both command above in one step. Once it runs, swap out the disks, hit 
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Locate existing image files:
@@ -235,7 +235,7 @@ Using the **MD5.bash** file, the MD5 file and verify files created during the mi
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Run Fiwalk with the ClamAV plugin:
@@ -309,7 +309,7 @@ Using the **virus.bash** file, fiwalk reports can be read for an entire collecti
 
 ### Before you begin:
 
-* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Create folders:
@@ -428,7 +428,7 @@ The file should look like this:
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
