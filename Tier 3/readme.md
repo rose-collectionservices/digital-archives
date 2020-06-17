@@ -1,6 +1,6 @@
 # Tier 3 - Full Processing with Restrictions
 Tier 3 processing is done by digital archives staff **only**, as these collections are normally very large, or have unique 
-restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. 
+restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. 
 
 Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files).
 
@@ -90,7 +90,7 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
-1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) (Right-click to open in a new tab)
+1. [Instructions here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) (Right-click to open in a new tab)
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
@@ -220,7 +220,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
-•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md) (Right-click to open in new tab)
+•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/TAR_Files.md) (Right-click to open in new tab)
 3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
 
 [Back to top](#table-of-contents)
@@ -265,7 +265,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ## Uploading to Keep
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-*Staff: Follow [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Keep_Ingest.md)(Right-click to open in new tab) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
+*Staff: Follow [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md)(Right-click to open in new tab) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
 1. **Abstract:** *TAR file of files brought to Tier 3 processing, MD5 file, and original disk image*
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
