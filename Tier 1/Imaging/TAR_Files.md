@@ -3,7 +3,7 @@
 These instructions explain how to create and extract a TAR file in cases where a complete disk image is not warranted. An example of this is an overly large hard drive or a CD-RW (read-write) optical disc. 
 
 ### Using the Windows machine in the lab:
-*This should take place in the Windows environment. Please see [Switching from BitCurator to Windows](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions to switch.*
+*This should take place in the Windows environment. Please see [Switching from BitCurator to Windows](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions to switch.*
 1. Connect the collection hard drive to the DA lab machine using a write blocker.
 2. Launch Cygwin Terminal.
 3. Navigate to the collection hard drive using: ``$ cd [drive letter]``:
@@ -20,7 +20,7 @@ include the path): ``$ tar -xvpf [TAR-file-name-with-extension]``
   * For example: ``$ tar -xvpf 868_01.tar``
   
 ### Using Mac OS or Linux:
-*This should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions to switch.*
+*This should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions to switch.*
 1. Connect the collection hard drive to the DA lab machine using a write blocker.
 2. Navigate to the collection hard drive using: ``$ cd [drive letter]:``
   * For example: ``$ cd J:``  
