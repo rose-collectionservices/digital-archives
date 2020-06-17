@@ -128,7 +128,7 @@ image will be mounted on the Desktop. Double-click to open it and view files.
 
 ### Before you begin:
 
-* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored as part of the BitCurator suite. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Run Fiwalk with the ClamAV plugin:
@@ -202,7 +202,7 @@ Using the **virus.bash** file, fiwalk reports can be read for an entire collecti
 
 ### Before you begin:
 
-* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+* This workflow uses tools stored in BitCurator. If necessary, restart the Digital Archives Lab workstation and boot to the BitCurator hard drive. You can find instructions on how to do this [here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 * Ensure that the Digital Archives Lab workstation is not connected to the Internet by unplugging the ethernet cable.
 
 ### Create folders:
@@ -319,7 +319,7 @@ The file should look like this:
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md).
+[here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md). Right click to open in a new tab. 
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
