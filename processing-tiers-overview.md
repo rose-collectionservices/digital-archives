@@ -12,6 +12,7 @@
 	* [Tier 1 (Standard)](#tier-1-standard-1)
 	* [Tier 2 (Enhanced)](#tier-2-enchanced-1)
 	* [Tier 2b (Enhanced+)](#tier-2b-enhanced-1)
+	* [Tier 3 (Full)](#tier-3-full-1)
 
 ## An overview of processing workflows for born-digital materials
 
@@ -275,7 +276,22 @@ With that being said, processing times vary depending on format and task. When p
 
 ### Tier 3 (Full)
 
-Data collection underway
+The following estimates are based on metrics gathered between September 2019 and April 2020. During that time, born-digital materials from 13 collections were processed at tier 3. Collections included 488 individual pieces of media (including floppy disks, optical discs, hard drives, zip disks, flash drives, and file transfers), totaling 167.5 GB. 
+
+Based on these numbers and for the purposes of high-level planning, archivists should anticipate tier 3 processing times of **7 minutes per 1 GB**. 
+
+With that being said, processing times vary depending on format and task. When planning resources for processing projects at tier 3, the following should be taken into consideration: 
+
+| Task                               | Time per collection |
+|------------------------------------|---------------------|
+| File extraction and identification | 4.5 hours           |
+| Deduplication                      | 1.5 hours           |
+| Normalization                      | 12.7 hours          |
+| Arrangement                        | 1.5 hours           |
+| Ingest*                            | 11 minutes          |
+| Description                        | 30 minutes          |
+
+* Ingest started to be counted into the Description timing starting in 2020, so this reflection is off, but still important to note. 
 
 
 [Back to top](#digital-archives-processing-tiers)
