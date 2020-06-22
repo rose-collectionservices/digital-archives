@@ -10,7 +10,7 @@
 	* [How to Use Toggl](#how-to-use-toggl)
 * [Time analysis](#time-analysis)
 	* [Tier 1 (Standard)](#tier-1-standard-1)
-	* [Tier 2 (Enhanced)](#tier-2-enchanced-1)
+	* [Tier 2 (Enhanced)](#tier-2-enhanced-1)
 	* [Tier 2b (Enhanced+)](#tier-2b-enhanced-1)
 	* [Tier 3 (Full)](#tier-3-full-1)
 
