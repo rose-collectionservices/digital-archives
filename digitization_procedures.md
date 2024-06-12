@@ -4,7 +4,17 @@
 This guide pertains to project-based digitization of materials selected by Rose Library staff. The procedures do not apply to address small-scale digitization requested by patrons, which is handled by the Research Services team as part of the Rose Library's suite of reproduction services. It covers the aspects of digitization preparation and coordination based in the Rose Library; specific procedures for digital imaging, post-processing, metadata assignment, and asset ingest are out of scope, as these functions are handled by other departments and covered in non-Rose documentation. 
 
 ## Table of Contents
-1. [Roles and responsibilities](#roles-and-responsibilities)
+1. [Roles and Responsibilities](#roles-and-responsibilities)
+2. [Eligible Content](#eligible-content)
+3. [Workflow and Timeline](#workflow-and-timeline)
+ - [Selection and prioritization](#selection-and-prioritization)
+ - [Book, manuscript, and still image digitization](#book-manuscript-and-still-image-digitization)
+ - [Audiovisual digitization](#audiovisual-digitization)
+ - [Timeline overview](#timeline-overview)
+4. [Decision Criteria](#decision-criteria)
+5. [Outsourcing](#outsourcing)
+6. [Third-Party Dissemination](#third-party-dissemination)
+7. [Managing Digitized Rose Content](#managing-digitized-rose-content)
 
 ## Roles and Responsibilities
 Digitization activities in Emory Libraries are part of the Digital Library Program and employ infrastructure, resources, and staffing shared across the organization. The following individuals and groups play a significant part in advancing digitization initiatives based in the Rose Library:
@@ -23,7 +33,7 @@ Digitization projects will typically have open online access as the end goal, bu
 
 Current infrastructure and workflows allow for digitization of material in most formats. Formats that cannot be handled in house, such as film, or large-scale projects that involve outsourcing or grant funding will require additional planning beyond what is outlined here and may incur direct costs for the Rose Library.
 
-## Workflow and timeline 
+## Workflow and Timeline 
  
 ### Selection and prioritization
 1. At any time throughout the year, Rose staff may recommend collections in any format for digitization and online access by submitting the Digitization Suggestion Form . 
@@ -57,7 +67,18 @@ Current infrastructure and workflows allow for digitization of material in most 
 5. After ingest, the HDA, AL, or processing archivist updates finding aids and other records to direct researchers and staff to online access copies.
 6. The HDA shares periodic updates about newly available audiovisual content in the Rose Library #collections Slack channel so that curatorial and Research Services staff can relay the information to donors and researchers as appropriate.
 
-## Decision criteria
+### Timeline overview
+The table below summarizes the activities that should take place each month during the annual digitization planning cycle.
+|Month  |Rose Activities	|Non-Rose Activities  |
+|-----  |-----------------|---------------------|
+|March  |DST and other Rose staff submit suggestions  |	
+|April |DST reviews suggestions	
+|May  |DST finalizes and ranks selections; HDA prepares and submits third-party dissemination proposals	
+|June  |HDA and content stewards prepare digitization proposals and copyright forms  |CSC reviews dissemination proposals
+|July  |HDA submits digitization proposals; HDA and content stewards meet with DWG  |SMT/Cabinet approves dissemination proposals; DWG reviews digitization proposals and creates combined project list
+|August  |  |CSC reviews digitization project list
+
+## Decision Criteria
 Digitization requests gathered and proposed by DST members will be evaluated according to the following criteria:
 
 ### Importance
@@ -89,25 +110,14 @@ For AV material, funding options and vendor coordination procedures are typicall
 7. Content steward receives physical materials shipped back by vendor.
 Note that unusual circumstances might warrant a modified process with more input from Conservation, Rose Research Services, etc. (e.g., fragile or valuable materials with different packing and insurance needs, digitization arranged by another organization as a loan).
 
-## Third-party dissemination  
+## Third-Party Dissemination  
 The dissemination of Rose Library digital collections to non–Emory University access services, such as vendor databases and open-access portals, is governed by the Emory Libraries Third-Party Dissemination Policy. To propose that Rose Library digitize content for or otherwise contribute material to such services and projects, Rose staff should consult the DST. If the DST votes to support the initiative, Rose staff will prepare a proposal using the third-party dissemination proposal template and route it for review by CSC and SMT/Cabinet according to the official review process.    
 
 Like any other non-AV material destined for online access, non-AV content being digitized for third-party dissemination and/or ingested to Emory Digital Collections in addition to a third-party platform must be placed on the annual priority list and reviewed by DWG and CSC. To allow time for the submission of digitization proposals to the DWG, dissemination proposals should be routed to CSC no later than June prior to the beginning of the fiscal year in which the project will be done. If a third-party dissemination proposal has not been approved by the time a project list and proposals are due to DWG in July but approval is likely, the DST or HDA may authorize moving forward with a conditional proposal to ensure time is allotted for the project. In this circumstance, initiation of digitization work is contingent on completion of the third-party dissemination approval process.
 
 Note that this policy and workflow do not apply to use of Rose Library material by researchers who obtain copies and permission under Research Service procedures. The third-party dissemination workflow is designed to guide handling of large-scale requests, multi-institution collaborations, formal partnerships, and other arrangements outside of standard patron services.
 
-## Timeline
-The table below summarizes the activities that should take place each month during the annual digitization planning cycle.
-|Month  |Rose Activities	|Non-Rose Activities  |
-|-----  |-----------------|---------------------|
-|March  |DST and other Rose staff submit suggestions  |	
-|April |DST reviews suggestions	
-|May  |DST finalizes and ranks selections; HDA prepares and submits third-party dissemination proposals	
-|June  |HDA and content stewards prepare digitization proposals and copyright forms  |CSC reviews dissemination proposals
-|July  |HDA submits digitization proposals; HDA and content stewards meet with DWG  |SMT/Cabinet approves dissemination proposals; DWG reviews digitization proposals and creates combined project list
-|August  |  |CSC reviews digitization project list
-
-## Managing Rose content in Emory Digital Collections
+## Managing Digitized Rose Content
 The Head of Digital Archives has Manager-level permissions in Curate, the application used to manage Emory Digital Collections content. Other Rose staff may have Viewer or Depositor access. 
 To request changes to collection-level metadata, contact the Head of Digital Archives. If a member of the Rose Digital Archives team is unable to make the changes, or if the changes are extensive, they will consult the Digital Preservation Program Manager or Repository Program Manager.
 To request changes to item-level metadata, content stewards should fill out the Metadata Change Request Form. Form submission will trigger an email to the Head of Metadata Services and the Digital Preservation Program Manager, who will update the metadata in Curate and any other required systems. Rose staff who notice metadata issues (or receive metadata-related feedback from researchers) but are not content stewards should share their observations with the appropriate content steward, who will decide whether to request a change. Rose staff, including those classified as Managers in Curate, are not permitted to edit item-level metadata directly in Curate at this time; this could change with future repository development.
