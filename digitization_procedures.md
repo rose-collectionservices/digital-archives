@@ -1,4 +1,4 @@
-# Rose Library Procedures for Creation and Management of Digitized Collections
+# Procedures for Creation and Management of Digitized Collections
 
 ## Scope
 This guide pertains to project-based digitization of materials selected by Rose Library staff. The procedures do not apply to address small-scale digitization requested by patrons, which is handled by the Research Services team as part of the Rose Library's suite of reproduction services. It covers the aspects of digitization preparation and coordination based in the Rose Library; specific procedures for digital imaging, post-processing, metadata assignment, and asset ingest are out of scope, as these functions are handled by other departments and covered in non-Rose documentation. 
