@@ -7,14 +7,14 @@ This guide pertains to project-based digitization of materials selected by Rose 
 1. [Roles and Responsibilities](#roles-and-responsibilities)
 2. [Eligible Content](#eligible-content)
 3. [Workflow and Timeline](#workflow-and-timeline)
-	[Selection and prioritization](#selection-and-prioritization)
-	[Book, manuscript, and still image digitization](#book-manuscript-and-still-image-digitization)
-	[Audiovisual digitization](#audiovisual-digitization)
-	[Timeline overview](#timeline-overview)
-4. [Decision Criteria](#decision-criteria)
-5. [Outsourcing](#outsourcing)
-6. [Third-Party Dissemination](#third-party-dissemination)
-7. [Managing Digitized Rose Content](#managing-digitized-rose-content)
+   [Selection and prioritization](#selection-and-prioritization)
+   [Book, manuscript, and still image digitization](#book-manuscript-and-still-image-digitization)
+   [Audiovisual digitization](#audiovisual-digitization)
+   [Timeline overview](#timeline-overview)
+5. [Decision Criteria](#decision-criteria)
+6. [Outsourcing](#outsourcing)
+7. [Third-Party Dissemination](#third-party-dissemination)
+8. [Managing Digitized Rose Content](#managing-digitized-rose-content)
 
 ## Roles and Responsibilities
 Digitization activities in Emory Libraries are part of the Digital Library Program and employ infrastructure, resources, and staffing shared across the organization. The following individuals and groups play a significant part in advancing digitization initiatives based in the Rose Library:
