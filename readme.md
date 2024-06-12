@@ -12,7 +12,7 @@ This manual outlines policies and procedures for working with digital collection
     * [Tier 2 - File Extraction and Light Processing](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202.md)
     * [Tier 2b - Full Processing without Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202b.md)
     * [Tier 3 - Full Processing with Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%203.md)
-* [Digitization](#digitization-procedures)
+* [Digitization](#digitization-procedures.md)
 * Web Archiving (under construction)
 * Using the Lab (under construction)
 * Digital Preservation and Access systems (under construction)
