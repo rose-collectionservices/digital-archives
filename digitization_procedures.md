@@ -38,15 +38,15 @@ Current infrastructure and workflows allow for digitization of material in most 
 ### Selection and prioritization
 1. At any time throughout the year, Rose staff may recommend collections in any format for digitization and online access by submitting the Digitization Suggestion Form . 
 2. In March of each year, the HDA invites Rose staff to submit any suggestions not already on the Digitization/Ingest Priorities list in Airtable. 
-** The HDA should make an early March announcement in a Rose staff meeting or via Slack/email and share a similar reminder late in the month. The HDA should also send reminders throughout the month to DST members specifically.
-** HDA announcements should include a link to the Digitization Suggestion Form in  Airtable. 
-** Suggestions should be submitted by April 1 to receive full consideration for the upcoming fiscal year.
+   - The HDA should make an early March announcement in a Rose staff meeting or via Slack/email and share a similar reminder late in the month. The HDA should also send reminders throughout the month to DST members specifically.
+   - HDA announcements should include a link to the Digitization Suggestion Form in  Airtable. 
+   - Suggestions should be submitted by April 1 to receive full consideration for the upcoming fiscal year.
 3. Also in March, members of the DST consult with their respective units and identify materials (whether on the list already or not) that are high priorities for digitization based on their core functions. 
 4. In April, the DST reviews the status of the previous year's projects, suggestions submitted during the preceding year, and the priorities from each of their areas. The DST scores the suggested projects using the decision criteria.
-5. In May, the DST finalizes a list of projects to pursue in the upcoming fiscal year. Based on the decision criteria, material types, amount of preparation required, and DWG capacity, the DST ranks the list and divides it into priority tiers. 
-** A typical list consists of 5-10 book, manuscript, or still image projects and 2-3 audiovisual projects. 
-** The final number of projects may vary depending on their size and complexity and whether any of the prioritized content has already been digitized. 
-** The list should contain at least one project from each major collecting area. 
+5. In May, the DST finalizes a list of projects to pursue in the upcoming fiscal year. Based on the decision criteria, material types, amount of preparation required, and DWG capacity, the DST ranks the list and divides it into priority tiers.
+   - A typical list consists of 5-10 book, manuscript, or still image projects and 2-3 audiovisual projects.
+   - The final number of projects may vary depending on their size and complexity and whether any of the prioritized content has already been digitized.
+   - The list should contain at least one project from each major collecting area. 
  
 ### Book, manuscript, and still image digitization
 1. Throughout May and June, the HDA works with select DST members and content stewards to draft project proposals and copyright review forms.
