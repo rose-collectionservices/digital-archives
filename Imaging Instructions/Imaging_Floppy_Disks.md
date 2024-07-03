@@ -1,5 +1,5 @@
 # Table of Contents
-* [Imaging[Transferring data from floppy disks using the KryoFlux](#transferring-data-from-floppy-disks-using-the-kryoflux)
+* [Transferring data from floppy disks using the KryoFlux](#transferring-data-from-floppy-disks-using-the-kryoflux)
 * [Migrating KryoFlux image files in preparation for ingest](#migrating-kryoflux-image-files-in-preparation-for-ingest)
 
 ---
