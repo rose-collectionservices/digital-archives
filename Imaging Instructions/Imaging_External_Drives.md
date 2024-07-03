@@ -7,10 +7,6 @@
 * [Equipment](#equipment-1)
 * [Instructions](#instructions-1)
 
-[Generating Fiwalk reports, with virus checking](#generating-fiwalk-reports-with-virus-checking)</br>
-[Packaging disk images and supplemental files using BagIt](#packaging-disk-images-and-supplemental-files-using-bagit)</br>
-[Ingesting packaged content into the Keep](#ingesting-packaged-content-into-the-keep)
-
 ---
 
 ## External Hard Drives
