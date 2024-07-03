@@ -2,9 +2,6 @@
 * [Review optical disc content](#review-optical-disc-content)
 * [Capture disk image using GuyMager](#capture-disk-image-using-guymager)
 * [Capture disk image using ISOBuster](#capture-disk-image-using-isobuster)
-* [Generating Fiwalk reports, with virus checking](#generating-fiwalk-reports-with-virus-checking)
-* [Packaging disk images and supplemental files using BagIt](#packaging-disk-images-and-supplemental-files-using-bagit)
-* [Ingesting optical discs into the Keep](#ingesting-optical-discs-into-the-keep)
 
 ### REVIEW OPTICAL DISC CONTENT:
 1. Launch IsoBuster from the Desktop (Windows side).
