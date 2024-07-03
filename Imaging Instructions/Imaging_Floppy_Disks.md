@@ -1,11 +1,11 @@
 # Table of Contents
-* [Transferring data from floppy disks using the KryoFlux](#transferring-data-from-floppy-disks-using-the-kryoflux)
+* [Imaging[Transferring data from floppy disks using the KryoFlux](#transferring-data-from-floppy-disks-using-the-kryoflux)
 * [Migrating KryoFlux image files in preparation for ingest](#migrating-kryoflux-image-files-in-preparation-for-ingest)
-* [Generating Fiwalk reports, with virus checking](#generating-fiwalk-reports-with-virus-checking)
-* [Packaging disk images and supplemental files using BagIt](#packaging-disk-images-and-supplemental-files-using-bagit)
-* [Ingesting packaged content into the Keep](#ingesting-packaged-content-into-the-keep)
 
 ---
+This page focuses on how to image floppy disks using the KryoFlux. For floppy disks in good condition and with common file systems, it is also acceptable (and often faster) to image using a USB floppy drive and Guymager in BitCurator (see [instructions for imaging external drives]([digital-archives/Imaging_Instructions/Imaging_External_Drives](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Imaging_External_Drives.md))).
+
+Before imaging a floppy disk, check for physical damage and make sure the write-protect tab is open.
 
 # Transferring data from floppy disks using the KryoFlux
 
