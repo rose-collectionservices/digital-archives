@@ -17,7 +17,7 @@ necessary. Unlike many of our processes, ingest into the Keep does require a net
    to the taskbar at the bottom of the screen.
 2. Click **Connect**.
 3. Log-in using the stored Emory NetID and password. If no stored log-in details are 
-   available, you may contact either John, Carrie, or Elizabeth.  
+   available, contact Katherine.  
 4. Wait until the connection status has changed to **Connected**. Once connected, the BIG-IP Edge Client window will close automatically.
 
 ### Connect to the server via SFTP:
