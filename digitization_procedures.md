@@ -110,6 +110,7 @@ For AV material, funding options and vendor coordination procedures are typicall
 5. HDS and content steward/HDA together determine who will arrange shipping and receiving of materials, based on project timeline, vendor requirements, and material condition and format.
 6. HDS tracks project in Airtable and receives and QCs digital assets.
 7. Content steward receives physical materials shipped back by vendor.
+
 Note that unusual circumstances might warrant a modified process with more input from Conservation, Rose Research Services, etc. (e.g., fragile or valuable materials with different packing and insurance needs, digitization arranged by another organization as a loan).
 
 ## Third-Party Dissemination  
