@@ -31,7 +31,7 @@ Digitization activities in Emory Libraries are part of the Digital Library Progr
 ## Eligible Content
 Materials selected for digitization projects using the procedures described herein will be entire collections, significant portions of collections, or substantial aggregations of non-manuscript material. Single-item requests or other small requests received by the Head of Digital Archives or Digital Strategy Team will be redirected to Research Services. Conversely, if Research Services receives a patron request that exceeds that limits of standard reformatting services, Research Services staff may refer the request to the Digital Strategy Team for consideration as a digitization project.
 
-Digitization projects will typically have open online access as the end goal, but digitization may also be recommended for preservation reasons or to provide online access with restrictions   . Digitized book, manuscript, and still image content can be made available in Emory Digital Collections at a range of visibility levels. Digitized audiovisual content can be made available in the Keep (mediated access through Research Services) or Aviary (open     access or mediated access through Digital Archives).
+Digitization projects will typically have open online access as the end goal, but digitization may also be recommended for preservation reasons or to provide online access with restrictions. Digitized book, manuscript, and still image content can be made available in Emory Digital Collections at a range of visibility levels. Digitized audiovisual content can be made available in the Keep (mediated access through Research Services) or Aviary (open access or mediated access through Digital Archives).
 
 Current infrastructure and workflows allow for digitization of material in most formats. Formats that cannot be handled in house, such as film, or large-scale projects that involve outsourcing or grant funding will require additional planning beyond what is outlined here and may incur direct costs for the Rose Library.
 
@@ -85,7 +85,7 @@ Digitization requests gathered and proposed by DST members will be evaluated acc
 
 ### Importance
 1. Mission/mandate: Does the project directly support part of the Rose Library's mission or mandate (in a specific way that goes beyond our general mission to provide access to our collections)?
-2. Strategic priorities: Does the project directly support one or more of the DST’s core objectives? (weighted 2x)
+2. Strategic priorities: Does the project directly support one or more of the DST’s core objectives or Rose Library's SMART goals? (weighted 2x)
 3. Research value: Does the material have significant research value because of its notability, comprehensiveness, or uniqueness?
 4. Innovation: Could the project enable new or creative uses of the collection material or related data?
 5. User demand: Do we have evidence of user demand (in the form of reading room use statistics, community stakeholder interest, reference questions, or instructor requests) for online  access? (weighted 2x)
