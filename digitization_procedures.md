@@ -122,8 +122,11 @@ Note that this policy and workflow do not apply to use of Rose Library material 
 
 ## Managing Digitized Rose Content
 The Head of Digital Archives has Manager-level permissions in Curate, the application used to manage Emory Digital Collections content. Other Rose staff may have Viewer or Depositor access. 
+
 To request changes to collection-level metadata, contact the Head of Digital Archives. If a member of the Rose Digital Archives team is unable to make the changes, or if the changes are extensive, they will consult the Digital Preservation Program Manager or Repository Program Manager.
-To request changes to item-level metadata, content stewards should fill out the Metadata Change Request Form. Form submission will trigger an email to the Head of Metadata Services and the Digital Preservation Program Manager, who will update the metadata in Curate and any other required systems. Rose staff who notice metadata issues (or receive metadata-related feedback from researchers) but are not content stewards should share their observations with the appropriate content steward, who will decide whether to request a change. Rose staff, including those classified as Managers in Curate, are not permitted to edit item-level metadata directly in Curate at this time; this could change with future repository development.
+
+To request changes to item-level metadata, content stewards should fill out the [Metadata Change Request Form](<https://airtable.com/appsSJF6QEjFAKCa6/shrp7UgseYQewHbo1>). Form submission will trigger an email to the Head of Metadata Services and the Digital Preservation Program Manager, who will update the metadata in Curate and any other required systems. Rose staff who notice metadata issues (or receive metadata-related feedback from researchers) but are not content stewards should share their observations with the appropriate content steward, who will decide whether to request a change. Rose staff, including those classified as Managers in Curate, are not permitted to edit item-level metadata directly in Curate at this time; this could change with future repository development.
+
 If you notice any other problems with Emory Digital Collections items or metadata, notify the Head of Digital Archives.
 
 ## Metadata for Digitized Content
