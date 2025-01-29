@@ -143,3 +143,20 @@ For definitions of web archiving terms, explanations of the Archive-It interface
 
 # Accessioning and Describing Web Archives
 See the <a href="https://github.com/rose-collectionservices/collection-services-manual/blob/master/11-FORMAT%20SPECIFIC%20PROCEDURES/readme.md#114-web-archives">Format-Specific Procedures</a> section of the Collection Services manual.
+
+# Access
+Most researchers will access websites captured with Archive-It through one of two methods:
+1. Following a pointer from an ArchivesSpace resource record to the Wayback interface for a specific seed.
+2. Searching or browsing in the Rose Library’s Archive-It collection page. 
+Other methods may be used when needed, but Digital Archives will not actively support them unless adopted as preferred approaches.
+
+For content captured using another tool and not available through an online WARC viewer, researchers’ access will be mediated using one of the following methods:
+1. When appropriate based on the nature and format of the content (e.g., basic HTML pages, individually saved files, static PDF or JPG renderings of page content), we will make it available through our normal workflow for reading room or remote access to born-digital material.
+2. For more complex captures saved as WARC files, we will temporarily upload the packaged content to a web-based WARC viewer such as Conifer and share a link with the researcher. Like other temporary access to online content, such as through Aviary or The Keep, access will remain valid for 30 days, after which we will take down the uploaded content to save space and avoid the need to maintain the access copy indefinitely. 
+
+# Preservation
+At present, content captured through Archive-It is stored and preserved solely by the Internet Archive. A future goal is to develop a workflow using the Archive-It API to download copies of WARC for preservation in an Emory Libraries preservation system; these local copies would be maintained for preservation only and access still provided through Archive-It unless or until the Internet Archive ceases to maintain Archive-It or Emory’s digital repository includes a WARC viewer we prefer to the Internet Archive’s.
+
+Content captured using tools and methods other than Archive-It is treated like other born-digital collection material for the purposes of preservation. WARCs or sets of files in other formats are packaged and uploaded to a designated system, such as The Keep or LIBSAFE Go, for storage and monitoring. 
+
+Any web content stored within Emory Libraries’ centrally managed preservation ecosystem is subject to the Libraries’ policies about preservation, retention, and deletion. Decisions about long-term management of the content should align with those policies. Regardless of the system used to store and manage the content, Rose Library staff should follow established Rose and Emory Libraries processes for appraisal, deaccessioning, and takedown requests.
