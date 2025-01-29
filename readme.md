@@ -13,6 +13,6 @@ This manual outlines policies and procedures for working with digital collection
     * [Tier 2b - Full Processing without Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202b.md)
     * [Tier 3 - Full Processing with Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%203.md)
 * [Digitization](https://github.com/rose-collectionservices/digital-archives/blob/master/digitization_procedures.md)
-* Web Archiving (under construction)
+* [Web Archiving](https://github.com/rose-collectionservices/digital-archives/blob/master/web_archives.md)
 * Using the Lab (under construction)
 * Digital Preservation and Access systems (under construction)
