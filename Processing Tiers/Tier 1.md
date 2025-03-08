@@ -10,7 +10,7 @@ Tier 1 process:
 3. Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
 4. Generate manifest and scan for viruses. To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md). For content destined for LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions. 
 5. Assemble disk images/logically transferred content and supplemental files. If uploading to The Keep, bag using BagIt. See [BagIt packaging instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Packaging_with_BagIt.md).
-6. Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go). See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep. See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go.
+6. Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go). See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep. See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go. Content ingested to LIBSAFE Go should go through the complete accessioning workflow in the platform and will typically go through the processing workflow as well, although the latter might be abbreviated for Tier 1 (e.g., no weeding or arrangement, minimal object metadata).
 7. Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
 8. Add basic descriptive information to the finding aid. Collection-level description should follow the requirements outlined in the [Collection Services Manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-DESCRIPTION), including at minimum a collection-level processing note about the transfer of data and a collection-level access note ("Researchers must contact the Rose Library in advance for access to unprocessed born digital materials in this collection. Collection restrictions, copyright limitations, or technical complications may hinder the Rose Library's ability to provide access to unprocessed born digital materials.").
 9. Add an archival object for each physical carrier or batch of transferred files. Archival objects may be placed at the top level of the hierarchy, grouped intellectually with other materials into preliminary series, or gathered in a "born-digital materials" series as appropriate. See the [quick guide to processing digital media](https://github.com/rose-collectionservices/collection-services-manual/blob/master/10-PHYSICAL%20PROCESSING/readme.md#1074-processing-digital-media) for guidance on titling AOs if placeholders were not already created during accessioning of physical media.
@@ -25,34 +25,38 @@ Checklist for accessioning born-digital content, including both digital-specific
 1. Create processing plan document and/or media log
 2. Label disks with numbers
 3. Image or transfer content
-4. Assemble or bag content and supplemental files
-5. Create manifests/checksums creation and scan for viruses
-6. Ingest to preservation repository
-7. Record metadata in preservation repository
-8. Create CL-2 file (physical and electronic)
-9. Write accession number on acquisitions paperwork
-10. File acquisitions paperwork in CL-2
+5. Create manifests/checksums
+6. Scan for viruses
+7. Collect/bag content and supplemental files
+8. Ingest to preservation repository
+9. Record metadata in preservation repository
+10. Create CL-2 file (physical and electronic)
+    *  Write accession number on acquisitions paperwork
+    *  File acquisitions paperwork in CL-2
 11. Update accession record
-12. Add seeds for web archives and create additional accession record
-13. Gather physical media into BD box(es)
-14. Create or update finding aid with digital-specific information in the following fields:
-* Extent
-* Abstract
-* Scope and content note
-* Processing note
-* Conditions governing access note
-15. Add AO for each piece of media or batch of files
-16. Add DO for each AO describing digital content
-17. Create or update catalog record 
-18. Label and barcode boxes
-19. Create top container(s) for boxes and link to AOs in ASpace
-20. Add box(es) to Alma holdings
-21. Move box(es) to permanent location
-22. Update shelf list (main entry and digital archives tab)
-23. Update records in Acquisitions & Accessioning table
-24. Update processing stats spreadsheet
-25. Announce to #collections Slack channel (if new or significant)
-26. Notify curator
+    * Link to acquisitions paperwork in SharePoint
+12. Archive web content
+    *  Add seeds to Archive-It and start test crawl
+    *  QA and save
+    *  Create additional accession record
+13. Create or update finding aid with digital-specific information in the following fields:
+    * Extent
+    * Abstract
+    * Scope and content note
+    * Processing note
+    * Conditions governing access note
+14. Add AO for each piece of media or batch of files
+15. Add DO for each AO describing digital content
+16. Create or update catalog record 
+17. Gather physical media into BD box(es)
+    * Label and barcode boxes
+    * Create top container(s) for boxes and link to AOs in ASpace
+    * Add box(es) to Alma holdings
+    * Move box(es) to permanent location
+18. Update shelf list (main entry and digital archives tab)
+19. Update records in Acquisitions & Accessioning table
+20. Update processing stats spreadsheet
+21. Announce to #collections Slack channel (if new or significant)
 
 ---
 Standard disk sizes (to help fill out the [processing plan] size estimate):
