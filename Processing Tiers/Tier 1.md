@@ -10,7 +10,7 @@ These steps apply when accessioning a new born-digital collection or digital med
    * Label physical media with disk numbers.
    * Review deed terms and check for born digital addendum.
    * Create a digital processing plan and/or media log spreadsheet. A log is often more efficient for accessioning content from large numbers of carriers.
-   * After all steps are complete, add the completed digital processing plan and/or media log to the collection file.
+   * After accessioning is complete, add the completed digital processing plan and/or media log, along with any addenda and other relevant records, to the collection file.
 * Transfer and ingest content
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Generate manifest and scan for viruses. To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md). For content destined for LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions.
