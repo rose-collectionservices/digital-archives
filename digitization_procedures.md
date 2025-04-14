@@ -38,10 +38,10 @@ Current infrastructure and workflows allow for digitization of material in most 
 ## Workflow and Timeline 
  
 ### Selection and prioritization
-1. At any time throughout the year, Rose staff may recommend collections in any format for digitization and online access by submitting the Digitization Suggestion Form . 
+1. At any time throughout the year, Rose staff may recommend collections in any format for digitization and online access by submitting the [Digitization Suggestion Form](https://airtable.com/appICxLGuqtiBPI4w/shrIZB6w3QWLMmc4T). 
 2. In March of each year, the HDA invites Rose staff to submit any suggestions not already on the Digitization/Ingest Priorities list in Airtable. 
    - The HDA should make an early March announcement in a Rose staff meeting or via Slack/email and share a similar reminder late in the month. The HDA should also send reminders throughout the month to DST members specifically.
-   - HDA announcements should include a link to the Digitization Suggestion Form in  Airtable. 
+   - HDA announcements should include a link to the [Digitization Suggestion Form](https://airtable.com/appICxLGuqtiBPI4w/shrIZB6w3QWLMmc4T) in  Airtable. 
    - Suggestions should be submitted by April 1 to receive full consideration for the upcoming fiscal year.
 3. Also in March, members of the DST consult with their respective units and identify materials (whether on the list already or not) that are high priorities for digitization based on their core functions. 
 4. In April, the DST reviews the status of the previous year's projects, suggestions submitted during the preceding year, and the priorities from each of their areas. The DST scores the suggested projects using the decision criteria.
