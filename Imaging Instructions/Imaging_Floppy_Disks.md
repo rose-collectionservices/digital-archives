@@ -3,9 +3,18 @@
 * [Migrating KryoFlux image files in preparation for ingest](#migrating-kryoflux-image-files-in-preparation-for-ingest)
 
 ---
-This page focuses on how to image floppy disks using the KryoFlux. For floppy disks in good condition and with common file systems, it is also acceptable (and often faster) to image using a USB floppy drive and Guymager in BitCurator (see [instructions for imaging external drives]([digital-archives/Imaging_Instructions/Imaging_External_Drives](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Imaging_External_Drives.md))).
+This page focuses on how to image floppy disks using the KryoFlux. For floppy disks in good condition and with common file systems, it is also acceptable (and often faster) to image using a USB floppy drive and FTK Imager or Guymager in BitCurator (see [instructions for imaging external drives]([digital-archives/Imaging_Instructions/Imaging_External_Drives](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Imaging_External_Drives.md))).
 
 Before imaging a floppy disk, check for physical damage and make sure the write-protect tab is open.
+
+Quick steps for imaging with FTK Imager (to be revised and expanded):
+1. Connect floppy drive to host computer, ensure disk's write-protect tab is open, and insert disk.
+2. In FTK Imager, click the button with two green pluses ("add all available evidence items").
+3. When the list of disks appear, right click on "A:\" and select "Export disk image."
+4. Click the "Add" button, select E01, fill in case and evidence numbers with the media identifier (e.g., 1000_01), enter your Emory ID as examiner, and record a description if desired.
+5. On the following screen, browse to and select the folder you prepared for the disk image to be stored.
+6. Ensure all verification and reporting boxes are checked, then click "Finish."
+
 
 # Transferring data from floppy disks using the KryoFlux
 
