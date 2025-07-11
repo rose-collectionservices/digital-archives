@@ -107,9 +107,9 @@ In cases where a collection's content is low-risk and stored using a very limite
 
 ---
 
-## Tracking Time using [Toggl](https://toggl.com)
+## Tracking Time using [Toggl](https://toggl.com) (not currently in use)
 
-All time spent processing born-digital collections should be tracked using the Rose Library Digital Archives [Toggl](https://toggl.com) account. Contact the account administrator to be added.
+For a period of time, Digital Archives staff tracked all time spent processing born-digital collections using the Rose Library Digital Archives [Toggl](https://toggl.com) account. The resulting data was used to generate processing time estimates. While we are not currently using Toggl to actively track processing time, the information below is retained as documentation for the Toggl reports in our records and in case we decide to use Toggl again in the future.
 
 All time tracked in Toggl should be associated with a project. The Rose Library Digital Archives Toggl account has five projects. Use the descriptions below to determine which project should be used to track your time:
 
