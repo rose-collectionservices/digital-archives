@@ -8,7 +8,7 @@ The content of this manual will eventually be merged with the Rose Library <a hr
 
 
 * [Processing Tiers](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Workflow%20Overview.md)
-    * [Tier 1 - Accessioning and Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%201)
+    * [Tier 1 - Accessioning and Imaging](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%201.md)
           **[Public Instructions](http://bedwards254.github.io/testBDBC)
     * [Tier 2 - File Extraction and Light Processing](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202.md)
     * [Tier 2b - Full Processing without Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202b.md)
