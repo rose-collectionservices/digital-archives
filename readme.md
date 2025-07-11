@@ -5,7 +5,7 @@ This manual outlines policies and procedures for working with digital collection
 ## Table of Contents
 
 * [Imaging Instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions)
-* [Processing Tiers](https://github.com/rose-collectionservices/digital-archives/blob/master/processing-tiers-overview.md)
+* [Processing Tiers](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Workflow%20Overview.md)
     * [Tier 1 - Accessioning and Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%201)
           **[Public Instructions](http://bedwards254.github.io/testBDBC)
     * [Tier 2 - File Extraction and Light Processing](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202.md)
