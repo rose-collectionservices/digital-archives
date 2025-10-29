@@ -73,11 +73,11 @@ necessary. Unlike many of our processes, ingest into the Keep does require a net
 	The following fields should be completed:
 		
 	* **Imaging Date:** Enter the date on which you imaged the disk.
-	* **Creating Application:** From the drop-down menu, select the application used to create the disk image. For all of our Mackey floppy disks, this will be **ewfacquire 20140608**.
+	* **Creating Application:** From the drop-down menu, select the application used to create the disk image.
 	* **Original Environment Software:** Type *none* in all three **Original * Environment Software** fields.
-	* **Hardware - Name:** Type *3.5" floppy disk*.
-	* **Hardware - Type:** Select **removable media** from drop-down menu.
-	* **Other information:** Type *Data originally transferred using KryoFlux. Raw disk image file migrated to Expert Witness Format using ewfacquire*.
+	* **Hardware - Name:** Type the media type. For example: *3.5" floppy disk*.
+	* **Hardware - Type:** Select the appropriate option from the drop-down menu. In most cases, it will be **removable media**.
+	* **Other information:** If applicable, type *Data originally transferred using KryoFlux. Raw disk image file migrated to Expert Witness Format using ewfacquire*.
 		   
 21. Complete **Rights Metadata**:
 	
