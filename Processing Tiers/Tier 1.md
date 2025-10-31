@@ -5,15 +5,14 @@ Tier 1 is imaging or transfer of content and ingest into a preservation reposito
 ## Tier 1 Processing Procedures
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
-* Document processing steps
+* Document processing steps and collection needs
+   * Review deed terms and check for born digital addendum.
    * Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a> with one row for each carrier or file transfer/batch.
    * Create a digital processing plan/readme file to document any work beyond Tier 1. (High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record.)
+   * After accessioning is complete, add the completed documents, along with any addenda and other relevant records, to the collection file.
 * Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
    * Remove any out-of-scope computer equipment or nonfunctional media.
    * Label physical media with disk numbers.
-   * Review deed terms and check for born digital addendum.
-   * Create a digital processing plan and/or media log spreadsheet. A log is often more efficient for accessioning content from large numbers of carriers.
-   * After accessioning is complete, add the completed digital processing plan and/or media log, along with any addenda and other relevant records, to the collection file.
 * Transfer and ingest content
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Generate manifest and scan for viruses. To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md). For content submitted directly to LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions. For content an archivist is uploading to LIBSAFE Go, use any appropriate combination of tools prior to ingest then repeat with LIBSAFE Go's built-in functions after uploading. If possible, either format the pre-ingest md5 manifest in a compatible manner so it can be verified by LIBSAFE Go or plan to package the content with Bagger so it can be verified as a bag. 
