@@ -5,6 +5,9 @@ Tier 1 is imaging or transfer of content and ingest into a preservation reposito
 ## Tier 1 Processing Procedures
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
+* Document processing steps
+   * Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a> with one row for each carrier or file transfer/batch.
+   * Create a digital processing plan/readme file to document any work beyond Tier 1. (High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record.)
 * Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
    * Remove any out-of-scope computer equipment or nonfunctional media.
    * Label physical media with disk numbers.
@@ -13,22 +16,24 @@ These steps apply when accessioning a new born-digital collection or digital med
    * After accessioning is complete, add the completed digital processing plan and/or media log, along with any addenda and other relevant records, to the collection file.
 * Transfer and ingest content
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
-   * Generate manifest and scan for viruses. To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md). For content destined for LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions.
-   * Assemble disk images/logically transferred content and supplemental files. If uploading to The Keep, bag using BagIt. See [BagIt packaging instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Packaging_with_BagIt.md).
-   * Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go). See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep. See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go. Content ingested to LIBSAFE Go should go through the complete accessioning workflow in the platform and will typically go through the processing workflow as well, although the latter might be abbreviated for Tier 1 (e.g., no weeding or arrangement, minimal object metadata).
+   * Generate manifest and scan for viruses. To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md). For content submitted directly to LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions. For content an archivist is uploading to LIBSAFE Go, use any appropriate combination of tools prior to ingest then repeat with LIBSAFE Go's built-in functions after uploading. If possible, either format the pre-ingest md5 manifest in a compatible manner so it can be verified by LIBSAFE Go or plan to package the content with Bagger so it can be verified as a bag. 
+   * Assemble disk images/logically transferred content and supplemental files. If uploading to The Keep, bag using Bagger. See [BagIt packaging instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Packaging_with_BagIt.md). Bagging is optional for LIBSAFE Go but recommended for preservation copies of content processed by an archivist outside the platform (vs. files transferred directly through submission areas).
+   * Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go). See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep. See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go. If content is ingested to LIBSAFE Go as a bag, verify using the built-in function. Content ingested to LIBSAFE Go should go through the complete accessioning workflow in the platform and will typically go through the processing workflow as well, although the latter might be abbreviated for Tier 1 (e.g., no weeding or arrangement, minimal object metadata).
    * If the collection includes web content, set up seed(s) in Archive-It, run a test crawl, QA the crawl, and configure recurring crawls if applicable.
 * Describe content
    * Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
    * Add basic descriptive information to the finding aid. Collection-level description should follow the requirements outlined in the [Collection Services Manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-DESCRIPTION), including at minimum a collection-level processing note about the transfer of data and a collection-level access note ("Researchers must contact the Rose Library in advance for access to unprocessed born digital materials in this collection. Collection restrictions, copyright limitations, or technical complications may hinder the Rose Library's ability to provide access to unprocessed born digital materials").
    * Add an archival object for each physical carrier or batch of transferred files. Archival objects may be placed at the top level of the hierarchy, grouped intellectually with other materials into preliminary series, or gathered in a "born-digital materials" series as appropriate. See the [quick guide to processing digital media](https://github.com/rose-collectionservices/collection-services-manual/blob/master/10-PHYSICAL%20PROCESSING/readme.md#1074-processing-digital-media) for guidance on titling AOs if placeholders were not already created during accessioning of physical media.
-   * Create a corresponding digital object record as an instance of each AO describing digital content. Every DO record should have a one-to-one relationship with an AO record, description following [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU), and a file version linking to the relevant disk image or batch of files in the preservation repository.
+   * Create a corresponding digital object record as an instance of each AO describing digital content. Every DO record should have a one-to-one relationship with an AO record, description following [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU), and a file version linking to the relevant disk image or batch of files in the preservation repository. (A DO might have multiple file versions if there are separate preservation and access copies in the same or different systems.)
    * If the AO is not a file transfer and is associated with physical media, add the container housing the media as an instance.
    * If the collection includes archived websites, create another accession record and add an AO and DO for each one in the finding aid. For more detailed instructions, see [accessioning and description guidelines for web archives](https://github.com/rose-collectionservices/collection-services-manual/tree/master/11-FORMAT%20SPECIFIC%20PROCEDURES#114-web-archives).
 
 ## Accessioning Checklist for Born-Digital Content
+Note that not all steps will apply in every situation—adapt as needed.
 
-Checklist for accessioning born-digital content, including both digital-specific steps and general accessioning steps (not all steps will apply in every situation):
-1. Create processing plan document and/or media log
+### Entire Accession
+Use this checklist when the born-digital material is the entire collection or accession. This version includes both digital-specific steps and general accessioning steps. 
+1. Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a> and processing plan/readme
 2. Label disks with numbers
 3. Image or transfer content
 5. Create manifests/checksums
@@ -45,7 +50,7 @@ Checklist for accessioning born-digital content, including both digital-specific
     *  Add seeds to Archive-It and start test crawl
     *  QA and save
     *  Create additional accession record
-13. Create or update finding aid with digital-specific information in the following fields:
+13. Create or update finding aid with digital-specific information:
     * Extent
     * Abstract
     * Scope and content note
@@ -61,8 +66,33 @@ Checklist for accessioning born-digital content, including both digital-specific
     * Move box(es) to permanent location
 18. Update shelf list (main entry and digital archives tab)
 19. Update records in Acquisitions & Accessioning table
-20. Update processing stats spreadsheet
+20. Update processing stats
 21. Announce to #collections Slack channel (if new or significant)
+
+### Part of Previous Accession
+Often digital media will have been physically accessioned or processed without their content being captured for preservation and access. Use this checklist when accessioning digital content from a larger, mixed-format accession or even a collection that's already been fully processed. Typically there will already be an accession record and possibly a resource record. The goal of these steps is to stabilize digital content and provide baseline access equivalent to the rest of the accessioned materials in other formats.
+
+1. Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a>
+2. Label disks with numbers
+3. Image or transfer content
+4. Move media to BD box
+5. Create manifests/checksums
+6. Scan for viruses
+7. Collect/bag content and supplemental files
+8. Ingest to preservation repository
+9. Record metadata in preservation repository
+11. Update accession record
+13. Update finding aid with digital-specific information:
+    * Extent
+    * Abstract
+    * Scope and content note
+    * Processing note
+    * Conditions governing access note
+18. Create AO for each piece of media or batch of files
+15. Add DO for each AO
+16. Update catalog record 
+18. Update shelf list (main entry and digital archives tab)
+20. Update processing stats
 
 ## Size Estimates
 
