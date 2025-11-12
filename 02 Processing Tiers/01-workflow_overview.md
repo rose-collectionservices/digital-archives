@@ -8,13 +8,6 @@ This document outlines a tiered approach to processing born-digital material for
 * [Tier 2 (Enhanced)](#tier-2-enhanced)
 * [Tier 2b (Enahanced+)](#tier-2b-enhanced)
 * [Tier 3 (Full)](#tier-3-full)
-* [Tracking time using Toggl](#tracking-time-using-toggl)
-	* [How to Use Toggl](#how-to-use-toggl)
-* [Time analysis](#time-analysis)
-	* [Tier 1 (Standard)](#tier-1-standard-1)
-	* [Tier 2 (Enhanced)](#tier-2-enhanced-1)
-	* [Tier 2b (Enhanced+)](#tier-2b-enhanced-1)
-	* [Tier 3 (Full)](#tier-3-full-1)
 
 ## An overview of processing workflows for born-digital materials
 
