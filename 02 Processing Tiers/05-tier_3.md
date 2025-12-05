@@ -5,8 +5,6 @@ To process at the Tier 3 level, begin with steps 1-7 of the [Tier 2 instructions
 
 Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files).
 
-**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link.
-
 # Table of Contents
 8. [Bulk Reviewer/BulkExtractor](#bulk-reviewerbulkextractor)
 9. [Normalizing Files](#normalizing-files)
