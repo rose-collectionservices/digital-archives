@@ -2,13 +2,6 @@
 
 This document outlines a tiered approach to processing born-digital material for the Digital Archives program at the Stuart A. Rose Manuscripts, Archives, and Rare Books Library at Emory University in Atlanta, GA.
 
-* [An overview of processing workflows for born-digital materials](#an-overview-of-processing-workflows-for-born-digital-materials)
-* [Processing tier criteria](#processing-tier-criteria)
-* [Tier 1 (Standard)](#tier-1-standard)
-* [Tier 2 (Enhanced)](#tier-2-enhanced)
-* [Tier 2b (Enahanced+)](#tier-2b-enhanced)
-* [Tier 3 (Full)](#tier-3-full)
-
 ## An overview of processing workflows for born-digital materials
 
 All incoming born-digital materials undergo the same stages of work following arrival at Emory:
