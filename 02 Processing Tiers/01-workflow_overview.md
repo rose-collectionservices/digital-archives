@@ -19,23 +19,45 @@ All incoming born-digital materials undergo the same stages of work following ar
 4.	Born-digital materials are stabilized and prepared for ingest. This process will vary depending on the original format of the materials:
 	a.	*Digital media* will be imaged.
 	b.	*Transferred files* will be quarantined for thirty days and scanned for viruses. If not completed during transfer, checksums will be created for all files.
-5.	Using Fiwalk, a DFXML report is created.
+5.	Content is analyzed and reports created. Often this involves using Fiwalk to producing a DFXML report with metadata and provenance information, but it might instead mean creating a directory list, a checksum manifest, or other outputs from similar tools.
 6.	At this point, the archivist will determine and document the appropriate tier of processing for the collection.
 
-Born-digital materials are then processed at one of four tiers of processing:
+## Levels of processing
+Born-digital materials are processed at one of four tiers:
 
-* [**Tier 1:** Standard](#tier-1-standard)
-* [**Tier 2:** Enhanced](#tier-2-enhanced)
-* [**Tier 2b:** Enhanced+](#tier-2b-enhanced)
+* [**Tier 1:** Standard](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/02-tier_1_(accessioning).md)
+	* Basic descriptive metadata added to finding aid
+ 	* Content transferred and ingested, along with metadata, into preservation repository
+  	* Processing documentation added to collection file
+* [**Tier 2:** Enhanced](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/03-tier_2.md) 
+	* All Tier 1 steps 
+ 	* Files extracted from preservation copy
+  	* Files scanned for viruses and malware
+  	* Checksums created for extracted files
+  	* Optional:
+  		* Duplicate files identified and deleted
+  		* File formats identified
+ 	* Enhanced descriptive metadata added to finding aid
+	* Additional reports and metadata added to preservation repository and/or collection file
+* [**Tier 2b:** Enhanced+](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/04-tier_2b.md)
+	* All Tier 1 and 2 steps
+ 	* Extracted files normalized if needed
+  	* Files added to access system
 * [**Tier 3:** Full](#tier-3-full)
+	* All Tier 1 and 2 steps
+ 	* Extracted files scanned for PII and other restricted information
+  	* Restricted information redacted or restricted documents moved into a restricted folder in preservation repository
+  	* Files normalized if needed
+  	* Files arranged if needed
+  	* Files added to access system
 
 There is no hard and fast formula for determining the appropriate tier of processing. Archivists should refer to the following criteria and use their best judgement, recognizing that this decision can be revisited later should additional processing become warranted. Once a decision has been made, it should be documented in the digital archives processing plan.
 
-[Back to top](#digital-archives-processing-tiers)
+Generally, though, the following guidelines apply: All materials should receive Tier 1 processing at or near the time of accessioning to establish basic intellectual and physical control and ensure researchers know the content exists. At Tier 1, born-digital materials are still considered unprocessed. Processing to Tier 2, 2b, or 3 typically occurs when a researcher requests access, when a collection is selected for priority processing, or when processing additions to a collection that already has digital content processed to Tier 2b or 3. Tier 2b is the most common level for content available to researchers. Tier 2 is the stopping point when processing step yield no usable content' when usable content is recovered, the archivist either completes the few additional steps from Tier 2b to facilitate access or proceeds to Tier 3, which includes more extensive review, restriction, and possibly rearrangement prior to access. 
 
----
+While the born-digital processing tiers do not map perfectly to the (traditional levels and arrangement and description)[https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-LEVELS%20OF%20ARRANGEMENT%20AND%20DESCRIPTION#51-levels-of-arrangement-and-description], it might be helpful to think of Tier 1 are corresponding roughly with collection-level processing. Tiers 2, 2b, and 3 can be considered variations on file-level processing. 
 
-## Processing Tier Criteria
+## Processing tier criteria
 
 | ﻿Criteria                            | Considerations                                                                                                                                                                                                                                           |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,53 +69,3 @@ There is no hard and fast formula for determining the appropriate tier of proces
 | Relationship to paper component     | How much overlap exists between the born-digital materials and any paper component of the collection?                                                                                                                                                    |
 | Digital Archives research potential | Is the collection stored on media or in formats that would allow digital archives to test new methods or tools, or refine workflows and processes?                                                                                                       |
 | Technical feasibility               | What types of media and files have we received, and how well-equipped are we to process and render them? How much staff time would need to be devoted to this project?                                                                                   |
-
-Depending on the selected tier, processing will continue as follows:
-
-## Tier 1 (Standard)
-**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%201)**
-
-1.	Basic descriptive metadata is added to the finding aid.
-2.	Disk image or tar file, plus metadata, is bagged and ingested into the Keep.
-3.	A copy of a completed processing plan is added to the collection file.
-
-## Tier 2 (Enhanced)
-**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202)**
-
-1.	Files are extracted from the disk image or tar file.
-2.	Files are scanned for viruses and malware, and the results of the scan documented.
-3.	Duplicate files are identified and deleted.
-4.	Checksums are created for extracted files.
-5.	File formats are identified.
-6.	Extracted files are wrapped into a tar file.
-7.	Enhanced descriptive metadata is added to the finding aid.
-8.	Disk image, tar file, metadata, and virus scan report are bagged and ingested into the Keep.
-9.	A copy of a completed processing plan is added to the collection file.
-
-## Tier 2b (Enhanced+)
-**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b)**
-
-In cases where a collection's content is low-risk and stored using a very limited number of standard file formats, files undergo all steps listed under **Tier 2**, plus:
-
-1. Files are normalized.
-2. Access copies of files are moved to the secure server.
-
-## Tier 3 (Full)
-**[Link to full instructions](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%203)**
-
-1. Files are extracted from the disk image or tar file(s).
-2. Files are scanned for viruses and malware, and the results of the scan documented.
-3. Duplicate files are identified and deleted.
-4. Using bulk_extractor (and other methods where necessary), files are scanned for PII and other restricted information.
-5. Restricted information is redacted or restricted documents are moved into a restricted folder.
-6. Checksums are created for extracted files.
-7. File formats are identified.
-8. Files are normalized.
-9. Files are 'arranged.'
-10. Full descriptive metadata is added to the finding aid.
-11. Access copies of files are moved to the secure server.
-12. Folder containing extracted files, restricted files, and access copies of files are wrapped into a tar file.
-13. Disk image, tar files, metadata, and virus scan report are bagged and ingested into the repository.
-14. A copy of a completed processing plan is added to the collection file.
-
-[Back to top](#digital-archives-processing-tiers)
