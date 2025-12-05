@@ -3,8 +3,6 @@ Tier 2 includes the extraction of the materials from disk images, tar files, or 
 
 If only system files or degraded files are left after completion of steps 1-7 below, follow the [Finding Aid Edits section](#finding-aid-edits) and mark the collection as Tier 2 in the shelf list. If the collection requires further processing (normalization, arrangment, or restriction) after the Tier 2 steps, proceed to either Tier 2b or Tier 3 as appropriate. Note Tier 1 and Tier 2 are sequential, but 2b and 3 are branching paths from Tier 2.
 
-**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link.
-
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
 2. [Extraction](#extraction)</br>
