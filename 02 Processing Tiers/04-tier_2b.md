@@ -3,8 +3,6 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 
 To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 and follow the additional steps below. Once the files are normalized and arranged, complete the [finding aid edits](#finding-aid-edits), [upload to the reading room server](#upload-to-reading-room-server), and mark the collection as Tier 2b in the shelf list.
 
-**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link. 
-
 # Table of Contents
 8. [Normalizing Files](#normalizing-files)
 9. [Arranging Files](#arranging-files)
