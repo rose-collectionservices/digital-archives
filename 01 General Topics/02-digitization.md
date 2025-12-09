@@ -120,7 +120,7 @@ Like any other non-AV material destined for online access, non-AV content being 
 
 Note that this policy and workflow do not apply to use of Rose Library material by researchers who obtain copies and permission under Research Service procedures. The third-party dissemination workflow is designed to guide handling of large-scale requests, multi-institution collaborations, formal partnerships, and other arrangements outside of standard patron services.
 
-## Managing Digitized Rose Content
+## Managing Rose Content in EDC
 The Head of Digital Archives has Manager-level permissions in Curate, the application used to manage Emory Digital Collections content. Other Rose staff may have Viewer or Depositor access. 
 
 To request changes to collection-level metadata, contact the Head of Digital Archives. If a member of the Rose Digital Archives team is unable to make the changes, or if the changes are extensive, they will consult the Digital Preservation Program Manager or Repository Program Manager.
@@ -129,7 +129,7 @@ To request changes to item-level metadata, content stewards should fill out the 
 
 If you notice any other problems with Emory Digital Collections items or metadata, notify the Head of Digital Archives.
 
-## Metadata for Digitized Content
+## Describing Digitized Content in Discovery Systems
 As ArchivesSpace is the system of record for descriptive metadata and the primary access point for Rose Library collectioins, all digitized content should be represented by an archival object record and corresponding digital object record in ArchivesSpace. 
 
 DOs must follow [Metadata Guidelines for Digital Archival Objects in ArchivesSpace at Emory](<https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=HprEql>). The AO and DO records should describe the content at the same level (e.g., item level or file level) at which it is presented to researchers. Large collections and legacy practices may mean that ArchivesSpace does not contain item-level AOs and DOs for all objects in EDC; this will be rectified in future integration projects.
