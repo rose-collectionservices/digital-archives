@@ -1,8 +1,3 @@
-# Table of Contents
-* [Transferring data from floppy disks using the KryoFlux](#transferring-data-from-floppy-disks-using-the-kryoflux)
-* [Migrating KryoFlux image files in preparation for ingest](#migrating-kryoflux-image-files-in-preparation-for-ingest)
-
----
 This page focuses on how to image floppy disks using the KryoFlux. For floppy disks in good condition and with common file systems, it is also acceptable (and often faster) to image using a USB floppy drive and FTK Imager or Guymager in BitCurator (see [instructions for imaging external drives]([digital-archives/Imaging_Instructions/Imaging_External_Drives](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Imaging_External_Drives.md))).
 
 Quick steps for imaging with FTK Imager (to be revised and expanded):
