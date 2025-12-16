@@ -5,6 +5,8 @@ To process at the Tier 3 level, begin with steps 1-7 of the [Tier 2 instructions
 
 Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files).
 
+Record actions and observations in a media log. If a log was not already created during accessioning/Tier 1 processing, or if the log does not include fields for Tier 2-3 processing steps, you may create a new one or create a .txt readme file to document processing work instead. The log is recommended over a .txt file for large, complex collections.
+
 # Table of Contents
 8. [Bulk Reviewer/BulkExtractor](#bulk-reviewerbulkextractor)
 9. [Normalizing Files](#normalizing-files)
