@@ -1,5 +1,5 @@
 # Tier 2b - Full Processing without Restrictions
-To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 and follow the additional steps below. If you are following these steps as part of a Tier 3 processing project, complete the Tier 3 steps related to restrictions before following the instructions below.
+To process at the Tier 2b level, begin after deduplication in Tier 2 and follow the additional steps below. If you are following these steps as part of a Tier 3 processing project, complete the Tier 3 steps related to restrictions before following the instructions below.
 
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
