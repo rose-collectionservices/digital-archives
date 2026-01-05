@@ -73,6 +73,9 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
+
+[2026 note: Move this somewhere else.]
+
 1. [Instructions here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
