@@ -2,17 +2,17 @@
 Record Tier 2 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
 # Workflow
-1. [Folder Structure Setup](#folder-structure-setup)
-2. [Extraction](#extraction)</br>
-•	[Pull down from Keep](#pull-down-from-keep)</br>
-•	[FTK Imager](#ftk-imager)</br>
-3. [Virus Scanning](#virus-scanning)
-4. [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows)
-5. [XML Files](#xml-files)
-6. [MD5 File Creation](#md5-file-creation)
-7. [Deduplication](#deduplication)</br>
-•	[FSLint](#fslint)</br>
-8. [Finding Aid Edits](#finding-aid-edits)
+* [Folder Structure Setup](#folder-structure-setup)
+* [Extraction](#extraction)
+  * [Pull down from Keep](#pull-down-from-keep)
+  * [FTK Imager](#ftk-imager)</br>
+* [Virus Scanning](#virus-scanning)
+* [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows)
+* [XML Files](#xml-files)
+* [MD5 File Creation](#md5-file-creation)
+* [Deduplication](#deduplication)</br>
+    * [FSLint](#fslint)</br>
+* [Finding Aid Edits](#finding-aid-edits) (if not proceeding to Tier 2b/3)
 
 [Examples](#examples)
 
