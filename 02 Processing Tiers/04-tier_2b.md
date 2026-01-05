@@ -1,5 +1,5 @@
 # Tier 2b - Full Processing without Restrictions
-To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 and follow the additional steps below. Once the files are normalized and arranged, complete the [finding aid edits](#finding-aid-edits), [upload to the reading room server](#upload-to-reading-room-server), and mark the collection as Tier 2b in the shelf list.
+To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 and follow the additional steps below. If you are following these steps as part of a Tier 3 processing project, complete the Tier 3 steps related to restrictions before following the instructions below.
 
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
@@ -122,7 +122,9 @@ Talk with the digital archivist to upload to the reading room server. The digita
 * b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
 6. *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born digital materials. 
 7. *Container list XML code:* ```<c01 level="file"><did><container type="box">RRL</container><container type="folder" /><unittitle>Access copies of processed born digital material [Reading room access ONLY]</unittitle></did></c01>```
-  
+
+Once the files are processed, ingested, and described, mark the collection as Tier 2b (or Tier 3, if applicable) in the shelf list and update any applicable inventory notes.
+
 ---
 
 ## Examples
