@@ -5,13 +5,13 @@ To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 an
 
 Record actions and observations in a media log. If a log was not already created during accessioning/Tier 1 processing, or if the log does not include fields for Tier 2-3 processing steps, you may create a new one or create a .txt readme file to document processing work instead. The log is recommended over a .txt file for large, complex collections.
 
-# Table of Contents
-8. [Normalizing Files](#normalizing-files)
-9. [Arranging Files](#arranging-files)
+# Workflow
+8. [Normalize Files](#normalize-files)
+9. [Arrange Files](#arrange-files)
 10. [TAR Files](#tar-files)
-11. [Bagging Files](#bagging-files)
+11. [Bag Files](#bag-files)
 12. [Directory Listing](#directory-listing)
-13. [Uploading to Keep](#uploading-to-keep)
+13. [Upload to Keep](#upload-to-keep)
 14. [Finding Aid Edits](#finding-aid-edits)
 15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
@@ -19,13 +19,16 @@ Record actions and observations in a media log. If a log was not already created
 
 ---
 
-## Normalizing Files
+## Normalize Files
+The instructions below are specifically for text and image files. They may be applied to all files in a collection or a subset. 
+
+This step is no longer required in all cases, as most text and image files can be used in their original formats. It is still recommended when files are in uncommon formats and will not be usable by researchers using standard reading room access tools. If the files of concern are not text or image files that can be converted to PDF or JPG using the scripts, a digital archivist will identify alternative tools or suitable manual processes.
+
 ### In BitCurator/Ubuntu
-*To stay in BitCurator/Ubuntu:*
 1. Locate the *convertFINAL.bash* file on the desktop. Double-click to open the file in the text editor. 
 2. In the text editor, select all of the text and right-click to copy (or do ```Ctrl+C```)
 3. In the collection folder, navigate to the WorkingFiles folder. Right-click and select "Open in Terminal"</br>
-a. You can also choose each indivudal folder inside WorkingFiles, if that's what you prefer. </br>
+a. You can also choose each individual folder inside WorkingFiles, if that's what you prefer. </br>
 4. In the terminal, double-check the file path to make sure the right folder is open in the terminal. 
 5. In the terminal, right-click and select *Paste* to paste the previously copied text into the terminal window.
 6. Hit *Enter* on the keyboard. 
@@ -44,46 +47,20 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 ---
 
-## Arranging Files
+## Arrange Files
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.* </br>
-1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers)
-2. Right-click the folder you just created, and choose "Open in New Window." 
-3. In the original window, navigate to the *WorkingFiles* folder. 
-4. In the WorkingFiles folder, navigate to the individual folders and copy the files in there past the ```[root]``` folder (if applicable). If there are any folders in the directory, copy those as a whole. 
-5. In the *[MSS_ID]_[title_statement]* folder, paste the files copied directly, with no organization. 
-6. Repeat this process for the rest of the individual folders in WorkingFiles. </br>
-a. If there are any files noted by Windows as duplicates, select **See details for all files** in the pop-up window. Select **BOTH** checkboxes at the top of the list to select both copies of the materials. Windows will automatically append a "(1)" to the end of the original file title. 
-
-[Back to top](#table-of-contents)
-
----
-
-## TAR Files
-1. In [collectionName]_workingFiles, create a folder called [MSS]files
-2. Create TAR files for the Original Disk Images and the Working Files folders </br>
-•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Imaging/TAR_Files.md)
-3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
-
-[Back to top](#table-of-contents)
-
----
-
-## Bagging Files
-*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-1. In BitCurator, mount the hard drive and navigate to the [collectionName]_workingFiles folder
-2. Right click inside the folder and select “Open in Terminal”
-3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
-4. Let it run
-5. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
-6. A message should appear saying it is valid </br>
-•	If not, contact the digital archivist</br>
-
-[Back to top](#table-of-contents)
+1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers). This folder will become the final version of the content and will live as two copies in our systems: one packaged for preservation and ingested alongside the Tier 1/original versions, and one uploaded to an access system for researcher use.
+2. If you are maintaining the original groupings of the content by carrier or batch, copy and paste (ideally using TeraCopy) the content of the WorkingFiles into the new [MSS_ID]_[title_statement] folder. Within each disk-level subfolder, move any folders and files past the root folder up to the disk-level directory to reduce the number of unnecessary nested folders. (This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.)
+3. If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement, create folders with the [MSS_ID]_[title_statement] folder based on the planned arrangement. Then copy the content of each individual folder under WorkingFiles into the appropriate new location. (This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.)
+4. If there are any files noted by Windows as duplicates as you copy and paste, select **See details for all files** in the pop-up window. Select **BOTH** checkboxes at the top of the list to select both copies of the materials. Windows will automatically append a "(1)" to the end of the original file title.
 
 ---
 
 ## Directory Listing
 *This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+
+[2026 note: Rewrite this section to use TreeSize Pro report instead with the original method as a backup/alternative.]
+
 1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
 2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
 3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
@@ -100,11 +77,23 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 14. For larger documents/collections, wait until the orange progress bar at the top of the text editor is gone to make sure the PDF is finished being printed. 
 15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
 
-[Back to top](#table-of-contents)
-
 ---
 
-## Uploading to Keep
+## Bag Files
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+1. In BitCurator, mount the hard drive and navigate to the [MSS_ID]_[title_statement] folder
+2. Right click inside the folder and select “Open in Terminal”
+3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
+4. Let it run
+5. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
+6. A message should appear saying it is valid. If not, contact the digital archivist.
+7.
+8. ---
+
+## Upload to Preservation Repository
+
+[2026 note: Rewrite this section with instructions for LIBSAFE Go upload instead of Keep.]
+
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 *Staff: Follow [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
 1. **Abstract:** *TAR file of files brought to Tier 2b processing, MD5 file, and original disk image*
@@ -112,12 +101,19 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
 
-[Back to top](#table-of-contents)
+---
+
+## Upload to Reading Room Server
+
+[2026 note: Rewrite this section with instructions for LIBSAFE Go upload instead of RR server.]
+
+Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
 
 ---
 
 ## Finding Aid Edits
-*This step should take place in the Windows environment, or on a shared department computer with access to Oxygen XML. Talk with Elizabeth Russey Roke to gain access. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+
+[2026 note: Add step for creating DO records and replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
 
 1. *Extent:* at end have “[MB/GB amount] born digital material ([# files])
 * *To find out the size and number of files:* In Windows, right-click on the *[MSS_ID]_[title_statement]* folder and select *Properties*. A new window will appear with size information and the number of files and folders. For the MB/GB amount, choose the first one (size).
@@ -129,17 +125,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 * b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
 6. *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born digital materials. 
 7. *Container list XML code:* ```<c01 level="file"><did><container type="box">RRL</container><container type="folder" /><unittitle>Access copies of processed born digital material [Reading room access ONLY]</unittitle></did></c01>```
-
-
-[Back to top](#table-of-contents)
-
----
-
-## Upload to Reading Room Server
-Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
-
-[Back to top](#table-of-contents)
-
+  
 ---
 
 ## Examples
@@ -148,5 +134,3 @@ Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Readin
 * [Henry H. and Ella Pearson Mitchell papers](https://findingaids.library.emory.edu/documents/mitchell1018/)
 * [AID Atlanta records](https://findingaids.library.emory.edu/documents/aidatlanta1264/)
 * [Teri Darnell photographs](https://findingaids.library.emory.edu/documents/darnell1450/)
-
-[Back to top](#table-of-contents)
