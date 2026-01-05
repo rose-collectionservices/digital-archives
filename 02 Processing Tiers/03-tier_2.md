@@ -145,7 +145,7 @@ At this point, take a look to see if there is anything in the folders that is no
 
 ---
 
-## Finding Aid Edits
+## Finding Aid Edits (if not proceeding to 2b/3)
 *This can be done on a regular staff laptop with ArchivesSpace access, although being in the lab to refer to the processing materials and logs can be helpful.  
 
 Processing Note: 
