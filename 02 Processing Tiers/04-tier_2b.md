@@ -1,19 +1,17 @@
 # Tier 2b - Full Processing without Restrictions
-Tier 2b processing is done by staff, students, and interns as deemed appropriate. Tier 2b builds upon what was started with [Tier 2](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202). Tier 2b collections are those that contain relevant collection material and do not have any restrictions put on them as determined in the Deed. These can be large or small, depending on the collection. 
-
 To process at the Tier 2b level, begin after step 7, deduplication, in Tier 2 and follow the additional steps below. Once the files are normalized and arranged, complete the [finding aid edits](#finding-aid-edits), [upload to the reading room server](#upload-to-reading-room-server), and mark the collection as Tier 2b in the shelf list.
 
-Record actions and observations in a media log. If a log was not already created during accessioning/Tier 1 processing, or if the log does not include fields for Tier 2-3 processing steps, you may create a new one or create a .txt readme file to document processing work instead. The log is recommended over a .txt file for large, complex collections.
+Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
 # Workflow
-8. [Normalize Files](#normalize-files)
-9. [Arrange Files](#arrange-files)
-10. [TAR Files](#tar-files)
-11. [Bag Files](#bag-files)
-12. [Directory Listing](#directory-listing)
-13. [Upload to Keep](#upload-to-keep)
-14. [Finding Aid Edits](#finding-aid-edits)
-15. [Upload to Reading Room Server](#upload-to-reading-room-server)
+* [Normalize Files](#normalize-files)
+* [Arrange Files](#arrange-files)
+* [TAR Files](#tar-files)
+* [Bag Files](#bag-files)
+* [Directory Listing](#directory-listing)
+* [Upload to Keep](#upload-to-keep)
+* [Finding Aid Edits](#finding-aid-edits)
+* [Upload to Reading Room Server](#upload-to-reading-room-server)
 
 [Examples](#examples)
 
@@ -42,8 +40,6 @@ a. To select multiple files at once, select the first one, then hold down the "S
 3. For TIFF/BMP/PNG files, right click and choose “Open With...” and choose Paint. Do these one at a time. In Paint, choose “Save As…” and choose JPG. Navigate to the proper folder and hit “Save”
 4. For Photoshop/Illustrator files, right click and choose “Open With...” and choose GIMP. Click “Ok” when GIMP asks how to read the file (so, going with normal initial settings). Go to “File” at the top and choose “Export As” and choose JPG as the file type in the pop-up box in the bottom scroll list. Slide the resolution up to 10 and hit “Export” and navigate to proper folder for it to export to. 
 5. If you run into an odd or unfamiliar file type, contact the digital archivist for assistance.
-
-[Back to top](#table-of-contents)
 
 ---
 
@@ -82,13 +78,14 @@ a. To select multiple files at once, select the first one, then hold down the "S
 ## Bag Files
 *This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 1. In BitCurator, mount the hard drive and navigate to the [MSS_ID]_[title_statement] folder
-2. Right click inside the folder and select “Open in Terminal”
-3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
-4. Let it run
-5. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
-6. A message should appear saying it is valid. If not, contact the digital archivist.
-7.
-8. ---
+2. Place copies of any checksum manifests, directory lists, and  other documentation from processing in the folder
+3. Right click inside the folder and select “Open in Terminal”
+4. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
+5. Let it run
+6. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
+7. A message should appear saying it is valid. If not, contact the digital archivist.
+
+---
 
 ## Upload to Preservation Repository
 
@@ -107,7 +104,7 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 [2026 note: Rewrite this section with instructions for LIBSAFE Go upload instead of RR server.]
 
-Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
+Talk with the digital archivist to upload to the reading room server. The digital archivist will remove any log files or other non-public items prior to upload.
 
 ---
 
