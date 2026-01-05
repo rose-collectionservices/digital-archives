@@ -1,8 +1,6 @@
 # Tier 1 - Accessioning and Imaging
 
-Tier 1 is imaging or transfer of content and ingest into a preservation repository during the accessioning process. The goal is basic control and stability. All digital content selected for preservation after preliminary appraisal by a curator, processing archivist, or digital archivist will be minimally processed at Tier 1. Tier 1 is the digital equivalent of the baseline collection-level processing done for paper materials at the point of accessioning.
-
-## Tier 1 Processing Procedures
+## General workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
 * Document processing steps and collection needs
