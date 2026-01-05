@@ -5,7 +5,7 @@ If only system files or degraded files are left after completion of steps 1-7 be
 
 Record actions and observations in a media log. If a log was not already created during accessioning/Tier 1 processing, or if the log does not include fields for Tier 2-3 processing steps, you may create a new one or create a .txt readme file to document processing work instead. The log is recommended over a .txt file for large, complex collections.
 
-# Table of Contents
+# Workflow
 1. [Folder Structure Setup](#folder-structure-setup)
 2. [Extraction](#extraction)</br>
 •	[Pull down from Keep](#pull-down-from-keep)</br>
@@ -163,7 +163,7 @@ Processing Note:
 3. *If something could be imaged but nothing extracted AND there is something that couldn’t be imaged (Mann Bond):* 
 ```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
 4. *Another example of failed file conversion language (Mari Evans):* 
-```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological restraints.```
+```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
 
 [Back to top](#table-of-contents)
 
