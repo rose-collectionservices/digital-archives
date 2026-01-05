@@ -56,11 +56,11 @@ Tier 3 processing is done by digital archives staff **only**, as these collectio
 
 ---
 
+While the born-digital processing tiers do not map perfectly to [traditional levels and arrangement and description](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-LEVELS%20OF%20ARRANGEMENT%20AND%20DESCRIPTION#51-levels-of-arrangement-and-description), it can be helpful to think of Tier 1 as corresponding roughly with collection-level processing. Tiers 2, 2b, and 3 can be considered variations on file-level processing. 
+
 There is no hard and fast formula for determining the appropriate tier of processing. Archivists should refer to the following criteria and use their best judgement, recognizing that this decision can be revisited later should additional processing become warranted. Once a decision has been made, it should be documented in the digital archives processing plan.
 
 Generally, though, the following guidelines apply: All materials should receive Tier 1 processing at or near the time of accessioning to establish basic intellectual and physical control and ensure researchers know the content exists. At Tier 1, born-digital materials are still considered unprocessed. Processing to Tier 2, 2b, or 3 typically occurs when a researcher requests access, when a collection is selected for priority processing, or when processing additions to a collection that already has digital content processed to Tier 2b or 3. Tier 2b is the most common level for content available to researchers. Tier 2 is the stopping point when processing step yield no usable content or when content can be used as is after extraction. When recovered content requires additional work to facilitate access, the archivist either completes the additional steps from Tier 2b (which involves possible rearrangement and normalizations) and, in some cases, Tier 3 (which includes more extensive review and restriction). 
-
-While the born-digital processing tiers do not map perfectly to [traditional levels and arrangement and description](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-LEVELS%20OF%20ARRANGEMENT%20AND%20DESCRIPTION#51-levels-of-arrangement-and-description), it can be helpful to think of Tier 1 as corresponding roughly with collection-level processing. Tiers 2, 2b, and 3 can be considered variations on file-level processing. 
 
 ## Processing tier criteria
 
