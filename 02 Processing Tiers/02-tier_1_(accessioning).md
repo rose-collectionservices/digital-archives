@@ -36,70 +36,7 @@ These steps apply when accessioning a new born-digital collection or digital med
    * If the collection includes archived websites, create another accession record and add an AO and DO for each one in the finding aid. For more detailed instructions, see [accessioning and description guidelines for web archives](https://github.com/rose-collectionservices/collection-services-manual/tree/master/11-FORMAT%20SPECIFIC%20PROCEDURES#114-web-archives).
 
 ## Accessioning Checklist for Born-Digital Content
-Note that not all steps will apply in every situation—adapt as needed.
-
-### Entire Accession
-Use this checklist when the born-digital material is the entire collection or accession. This version includes both digital-specific steps and general accessioning steps. 
-1. Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a> and processing plan/readme
-2. Label disks with numbers
-3. Image or transfer content
-5. Create manifests/checksums
-6. Scan for viruses
-7. Collect/bag content and supplemental files
-8. Ingest to preservation repository
-9. Record metadata in preservation repository
-10. Create CL-2 file (physical and electronic)
-    *  Write accession number on acquisitions paperwork
-    *  File acquisitions paperwork in CL-2
-11. Update accession record
-    * Link to acquisitions paperwork in SharePoint
-12. Archive web content
-    *  Add seeds to Archive-It and start test crawl
-    *  QA and save
-    *  Create additional accession record
-13. Create or update finding aid with digital-specific information:
-    * Extent
-    * Abstract
-    * Scope and content note
-    * Processing note
-    * Conditions governing access note
-14. Add AO for each piece of media or batch of files
-15. Add DO for each AO describing digital content
-16. Create or update catalog record 
-17. Gather physical media into BD box(es)
-    * Label and barcode boxes
-    * Create top container(s) for boxes and link to AOs in ASpace
-    * Add box(es) to Alma holdings
-    * Move box(es) to permanent location
-18. Update shelf list (main entry and digital archives tab)
-19. Update records in Acquisitions & Accessioning table
-20. Update processing stats
-21. Announce to #collections Slack channel (if new or significant)
-
-### Part of Previous Accession
-Often digital media will have been physically accessioned or processed without their content being captured for preservation and access. Use this checklist when accessioning digital content from a larger, mixed-format accession or even a collection that's already been fully processed. Typically there will already be an accession record and possibly a resource record. The goal of these steps is to stabilize digital content and provide baseline access equivalent to the rest of the accessioned materials in other formats.
-
-1. Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">accession log</a>
-2. Label disks with numbers
-3. Image or transfer content
-4. Move media to BD box
-5. Create manifests/checksums
-6. Scan for viruses
-7. Collect/bag content and supplemental files
-8. Ingest to preservation repository
-9. Record metadata in preservation repository
-11. Update accession record
-13. Update finding aid with digital-specific information:
-    * Extent
-    * Abstract
-    * Scope and content note
-    * Processing note
-    * Conditions governing access note
-18. Create AO for each piece of media or batch of files
-15. Add DO for each AO
-16. Update catalog record 
-18. Update shelf list (main entry and digital archives tab)
-20. Update processing stats
+There are [two versions of the checklist](https://emory.sharepoint.com/:w:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/Templates/Accessioning%20Checklist%20for%20Born-Digital%20Content.docx?d=w58343e7735794a51a6ed9fac99aa61a0&csf=1&web=1&e=CkChHx): one outlining the required steps when handling a digital-only accession and the other outlining the required steps when accessioning digital content from a hybrid accession or otherwise processed collection. The checklist is not required and does not become part of the collection file, but it can be a useful tool. Note that not all steps will apply in every situation—adapt as needed.
 
 ## Size Estimates
 
