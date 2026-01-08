@@ -18,7 +18,7 @@ Record Tier 2b actions and observations in a .txt readme file, digital processin
 ---
 
 ## Normalize Files
-The instructions below are specifically for text and image files. They may be applied to all files in a collection or a subset. 
+The instructions below work best for text and image files. They may be applied to all files in a collection or a subset. 
 
 This step is no longer required in all cases, as most text and image files can be used in their original formats. It is still recommended when files are in uncommon formats and will not be usable by researchers using standard reading room access tools. If the files of concern are not text or image files that can be converted to PDF or JPG using the scripts, a digital archivist will identify alternative tools or suitable manual processes.
 
