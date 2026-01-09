@@ -75,7 +75,7 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 ---
 
-## Bag Files
+## Bag Processed Files
 *This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 1. In BitCurator, mount the hard drive and navigate to the [MSS_ID]_[title_statement] folder
 2. Place copies of any checksum manifests, directory lists, and  other documentation from processing in the folder
