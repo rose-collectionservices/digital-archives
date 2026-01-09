@@ -107,4 +107,5 @@ The file should look like this:
 	
 15. Type in **bash bagger.bash** and hit **enter**
 
-[Back to top](#table-of-contents)
+### Alternative method:
+If you cannot access the content in BitCurator or if you prefer a manual approach for a very small number of disk images, you may use the Bagger GUI tool in Windows. Select <no profile>, add contact name as a bag info field and fill in your Emory ID as the value, and make sure the boxes for md5 bag and tag manifests are checked. You may choose to bag in place or save as depending on the drive holding the content and the expected bag size. This method should also be used when bagging processed files prior to LIBSAFE Go ingest, as the bagging script above is specific to disk images.
