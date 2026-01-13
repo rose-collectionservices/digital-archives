@@ -3,14 +3,14 @@
 ## General workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
-* Document processing steps and collection needs
+1. Document processing steps and collection needs
    * Review deed terms and check for born digital addendum.
    * Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">media log</a> with one row for each carrier or file transfer/batch. If the accession or collection contains very few carriers/batches, a .txt readme or additional notes in the accession record may be sufficient. High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record. 
    * After accessioning is complete, be sure to add the completed log, along with any addenda and other relevant records, to the collection file.
-* Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
+2. Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
    * Remove any out-of-scope computer equipment or nonfunctional media.
    * Label physical media. Write the disk number (the collection identifier followed by a sequential number: 1315_05 or EUA283_100, for example) on a small white sticker and apply it in a discreet location that will not harm the media. This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
-* Transfer and ingest content
+3. Transfer and ingest content
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
@@ -24,7 +24,7 @@ These steps apply when accessioning a new born-digital collection or digital med
      * See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep.
      * See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go. If content is ingested to LIBSAFE Go as a bag, verify using the built-in function. Content ingested to LIBSAFE Go should go through the complete accessioning workflow in the platform and will typically go through the processing workflow as well, although the latter might be abbreviated for Tier 1 (e.g., no weeding or arrangement, minimal object metadata).
    * If the collection includes web content, set up seed(s) in Archive-It, run a test crawl, QA the crawl, and configure recurring crawls if applicable.
-* Describe content
+4. Describe content
    * Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
    * Add basic descriptive information to the finding aid. Collection-level description should follow the requirements outlined in the [Collection Services Manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-DESCRIPTION) and include the following at minimum:
      * Collection-level access note ("Researchers must contact the Rose Library in advance for access to unprocessed born digital materials in this collection. Collection restrictions, copyright limitations, or technical complications may hinder the Rose Library's ability to provide access to unprocessed born digital materials").
