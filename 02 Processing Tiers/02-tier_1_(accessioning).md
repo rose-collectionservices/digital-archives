@@ -26,6 +26,7 @@ These steps apply when accessioning a new born-digital collection or digital med
    * If the collection includes web content, set up seed(s) in Archive-It, run a test crawl, QA the crawl, and configure recurring crawls if applicable.
 4. Describe content
    * Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
+     * For unprocessed disk images ingested into LIBSAFE Go, only the administrative metadata fields are required. Fill these out for the disk image file itself.
    * Add basic descriptive information to the finding aid. Collection-level description should follow the requirements outlined in the [Collection Services Manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-DESCRIPTION) and include the following at minimum:
      * Collection-level access note ("Researchers must contact the Rose Library in advance for access to unprocessed born digital materials in this collection. Collection restrictions, copyright limitations, or technical complications may hinder the Rose Library's ability to provide access to unprocessed born digital materials").
      * Recommended at the file level: "This born-digital material is unprocessed. Researchers must contact the Rose Library in advance for access. Use of the original digital media is restricted." Remember to select the "Restricted" local access restriction type and publish the note. 
