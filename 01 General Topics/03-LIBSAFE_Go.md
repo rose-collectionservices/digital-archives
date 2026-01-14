@@ -14,7 +14,9 @@ Some notes on LIBSAFE Go content structure:
   * Used when applicable: MSS####_RestrictedFiles (for files that are restricted for a period of time, files that have been extracted from a disk image but require further processing prior to access, such as .pst files, etc.)
 * The content of MSS####_ProcessedFiles is also ingested to the appropriate collection folder within the RRR - Rose Reading Room node. This is considered a convenience copy for end-user access. The copy stored in EUA - Emory University Archives Node or EUA - Emory University Archives Node is the copy of record. Archivists should take care to make any changes in both places.
 
-More on restricted content in LSG:
+Restricted content in LSG:
+* All disk images and other unprocessed original copies should be tagged as restricted. Accompanying reports and logs need not be.
+* Content extracted from originals that is embargoed or otherwise restricted per Rose Library policy or donor agreement should also be tagged as restricted. Typically such items will be placed in the container's MSS####_RestrictedFiles folder, provided their original locations are not essential or we can easily restore original order when they are opened in the future. In some cases, restriction management and future reversal might be more straightforward if the restricted files remain in their original locations within MSS####_ProcessedFiles but are removed from the corresponding folder in the user-accessible RRR - Rose Reading Room node; in this situation, however, it is extremely important to accurately tag the files and keep careful records in the collection file and in the MSS####_PreservationDescriptionInfo folder explaining the circumstances.
 
 Accessioning vs. processing "workflows":
 
