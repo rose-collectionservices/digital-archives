@@ -7,12 +7,13 @@ As much as possible, Rose Library's LIBSAFE Go workflows and policies should ali
 
 Some notes on LIBSAFE Go content structure:
 * Preservation copies live in the permanent MSS or EUA node within LIBSAFE Go. Each collection has a single container.
-* Within each collection container should be two to four directories:
+* Within each collection container should be two to four directories (all four are part of the template copied automatically when you create a new container):
   * Required: MSS####_PreservationDescriptionInfo (for logs, manifests, and other documentation generated during transfer and processing and not bagged with a specific disk image or batch of files).
   * Required: MSS####_Originals (for disk images or packaged logical transfers ingested during the Tier 1 workflow).
   * Used when applicable: MSS####_ProcessedFiles (for extracted and processed files produced during a Tier 2b/3 workflow)
   * Used when applicable: MSS####_RestrictedFiles (for files that are restricted for a period of time, files that have been extracted from a disk image but require further processing prior to access, such as .pst files, etc.)
 * The content of MSS####_ProcessedFiles is also ingested to the appropriate collection folder within the RRR - Rose Reading Room node. This is considered a convenience copy for end-user access. The copy stored in EUA - Emory University Archives Node or EUA - Emory University Archives Node is the copy of record. Archivists should take care to make any changes in both places.
+* Containers for some legacy collections or collections with unique acquisition and processing workflows, such as EUA 177 (Department of Music collection), may employ a different structure.
 
 Restricted content in LSG:
 * All disk images and other unprocessed original copies should be tagged as restricted. Accompanying reports and logs need not be.
