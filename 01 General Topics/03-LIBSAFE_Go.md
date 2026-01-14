@@ -8,7 +8,7 @@ As much as possible, Rose Library's LIBSAFE Go workflows and policies should ali
 Some notes on LIBSAFE Go content structure:
 * Preservation copies live in the permanent MSS or EUA node within LIBSAFE Go. Each collection has a single container.
 * Within each collection container should be two to four directories:
-  * Required: MSS####_PreservationDescriptionInfo (for logs, manifests, and other documentation generated during transfer and processing.
+  * Required: MSS####_PreservationDescriptionInfo (for logs, manifests, and other documentation generated during transfer and processing and not bagged with a specific disk image or batch of files).
   * Required: MSS####_Originals (for disk images or packaged logical transfers ingested during the Tier 1 workflow).
   * Used when applicable: MSS####_ProcessedFiles (for extracted and processed files produced during a Tier 2b/3 workflow)
   * Used when applicable: MSS####_RestrictedFiles (for files that are restricted for a period of time, files that have been extracted from a disk image but require further processing prior to access, such as .pst files, etc.)
