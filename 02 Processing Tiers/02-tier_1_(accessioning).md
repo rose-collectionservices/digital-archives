@@ -1,7 +1,9 @@
 # Tier 1 - Accessioning and Imaging
 
-## General workflow
+## Standard workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
+
+This section describes the steps in detail. If you need a simpler version for quick reference, see the checklist linked below.
 
 1. Document processing steps and collection needs
    * Review deed terms and check for born digital addendum.
@@ -14,10 +16,10 @@ These steps apply when accessioning a new born-digital collection or digital med
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
      * This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
 3. Transfer and ingest content
-   * Create a folder for the collection on a working drive with sufficient space. Create three subfolders: MSS#_Original, MSS#_ExtractedFiles, and MSS#_WorkingFiles. Only the first will be used for Tier 1.
-     * MSS#_Original will hold the disk images or bagged/tarred logical transfers that will be ingested as preservation copies.
-     * MSS#_ExtractedFiles will hold extracted or unpackaged files left untouched during processing in case of problems and stored afterward on the working drive.
-     * MSS#_WorkingFiles will hold a second copy of those files available for weeding, arrangement, normalization, etc.; after processing, this subfolder will be renamed and ingested and access.
+   * Create a folder for the collection on a working drive with sufficient space. Create three subfolders:  
+     * [MSS/EUA]###_Originals will hold the disk images or bagged/tarred logical transfers that will be ingested as preservation copies. This is the only subfolder that will be used for Tier 1.
+     * [MSS/EUA]###_ExtractedFiles will hold extracted or unpackaged files left untouched during processing in case of problems and stored afterward on the working drive.
+     * [MSS/EUA]###_WorkingFiles will hold a second copy of those files available for weeding, arrangement, normalization, etc.; after processing, this subfolder will be renamed as [MSS/EUA]###_ProcessedFiles and ingested to two locations, one for preservation and one for access.
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
@@ -36,7 +38,7 @@ These steps apply when accessioning a new born-digital collection or digital med
    * If the collection includes web content, set up seed(s) in Archive-It, run a test crawl, QA the crawl, and configure recurring crawls if applicable.
 4. Describe content
    * Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
-     * For unprocessed disk images ingested into LIBSAFE Go, only the administrative metadata fields are required. Fill these out for the disk image file itself.
+     * For unprocessed material (preservation copies transferred as Tier 1) ingested into LIBSAFE Go, only the administrative metadata fields are required. Fill these out for the disk image file itself. (If the material is later processed to a higher level, the processed copies will have more extensive metadata assigned.)
    * Add basic descriptive information to the finding aid. Collection-level description should follow the requirements outlined in the [Collection Services Manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/05-DESCRIPTION) and include the following at minimum:
      * Collection-level access note ("Researchers must contact the Rose Library in advance for access to unprocessed born digital materials in this collection. Collection restrictions, copyright limitations, or technical complications may hinder the Rose Library's ability to provide access to unprocessed born digital materials").
      * Recommended at the file level: "This born-digital material is unprocessed. Researchers must contact the Rose Library in advance for access. Use of the original digital media is restricted." Remember to select the "Restricted" local access restriction type and publish the note. 
@@ -48,7 +50,7 @@ These steps apply when accessioning a new born-digital collection or digital med
 5. Log your work in Airtable (if applicable), the Digital Archives tab of the shelf list, and the annual processing stats spreadsheet.
 
 ## Accessioning Checklist for Born-Digital Content
-There are [two versions of the checklist](https://emory.sharepoint.com/:w:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/Templates/Accessioning%20Checklist%20for%20Born-Digital%20Content.docx?d=w58343e7735794a51a6ed9fac99aa61a0&csf=1&web=1&e=CkChHx): one outlining the required steps when handling a digital-only accession and the other outlining the required steps when accessioning digital content from a hybrid accession or otherwise processed collection. The checklist is not required and does not become part of the collection file, but it can be a useful tool. Note that not all steps will apply in every situation—adapt as needed.
+There are [two versions of the checklist](https://emory.sharepoint.com/:w:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/Templates/Accessioning%20Checklist%20for%20Born-Digital%20Content.docx?d=w58343e7735794a51a6ed9fac99aa61a0&csf=1&web=1&e=CkChHx): one for digital-only accessions and the other for accessioning digital content from hybrid accessions or otherwise processed collections. The checklist is not required and does not become part of the collection file, but it can be a useful tool. Note that not all steps will apply in every situation, so the archivist should adapt as needed.
 
 ## Size Estimates
 
