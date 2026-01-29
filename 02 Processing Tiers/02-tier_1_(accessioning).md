@@ -16,10 +16,13 @@ This section describes the steps in detail. If you need a simpler version for qu
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
      * This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
 3. Transfer and ingest content
-   * Create a folder for the collection on a working drive with sufficient space. Create three subfolders:  
-     * [MSS/EUA]###_Originals will hold the disk images or bagged/tarred logical transfers that will be ingested as preservation copies. This is the only subfolder that will be used for Tier 1.
-     * [MSS/EUA]###_ExtractedFiles will hold extracted or unpackaged files left untouched during processing in case of problems and stored afterward on the working drive.
-     * [MSS/EUA]###_WorkingFiles will hold a second copy of those files available for weeding, arrangement, normalization, etc.; after processing, this subfolder will be renamed as [MSS/EUA]###_ProcessedFiles and ingested to two locations, one for preservation and one for access.
+   * Set up folder structure on working drive with sufficient space.
+     * Create a top-level folder called [MSS/EUA]###_ShortName.
+     * Create three subfolders:  
+       * [MSS/EUA]###_Originals will hold the disk images or bagged/tarred logical transfers that will be ingested as preservation copies. This is the only subfolder that will be used for Tier 1.
+       * [MSS/EUA]###_ExtractedFiles will hold extracted or unpackaged files left untouched during processing in case of problems and stored afterward on the working drive.
+       * [MSS/EUA]###_WorkingFiles will hold a second copy of those files available for weeding, arrangement, normalization, etc.; after processing, this subfolder will be renamed as [MSS/EUA]###_ProcessedFiles and ingested to two locations, one for preservation and one for access.
+     * Within the Orignals folder, create a subfolder for each disk image/batch. In Ubuntu: While in the Originals folder, right click and choose "Open in Terminal." In the command line window that opens, type the following, replacing the second number in curly brackets with an estimated final number based on the number of media: mkdir ###\_{01..##} (for example: mkdir 1538\_{01..35}). If you need a command to batch create folders in Windows, ask a digital archivist.
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
