@@ -12,21 +12,19 @@
 3. Before beginning the process of creating bags, each forensically packaged disk image (.E01) must be placed with any supplemental files inside a folder named using the MSSnumber_ID (e.g., 1297_01). Each folder needs to contain the following files:
 	a. The forensically packaged disk image (e.g., .E01)
 	b. Any log files or manifests generated during imaging or transfer
-	c. The ``fiwalk.xml``
+	c. The ``fiwalk.xml`` file, if applicable
 4. If folders for each disk already exist in the Originals folder, you can simply highlight them and move them into the netID folder you just created in step 2. If these folders do not yet exist, here is the quickest way to create them:
 
 In the netID folder you just created, right click and select **Open in Terminal**
 	
-a. Type the following command to create all folders at once and hit **enter**
+Type the following command to create all folders at once and hit **enter**
 
     mkdir 1297_{[ID]..[ID]}
     
 *For example*
 
     mkdir 1297_{150..170}
-	
- file, if applicable
-	
+		
 ### Copy files:
 **Skip if your disk images and supplemental files are already located in the appropriate subfolders.**
 	
