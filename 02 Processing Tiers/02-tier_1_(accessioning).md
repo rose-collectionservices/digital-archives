@@ -8,9 +8,9 @@ This section describes the steps in detail. If you need a simpler version for qu
 1. Document processing steps and collection needs
    * Review deed terms and check for born digital addendum.
    * Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">media log</a> with one row for each carrier or file transfer/batch. If the accession or collection contains very few carriers/batches, a .txt readme or additional notes in the accession record may be sufficient. High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record. 
-   * After accessioning is complete, be sure to add the completed log, along with any addenda and other relevant records, to the collection file.
+   * After accessioning is complete, be sure to add the completed log, along with any addenda and other relevant records, to the CL-2 or CL-11 collection file and the preservation description information folder in LIBSAFE Go.
 2. Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
-   * Remove any out-of-scope computer equipment or nonfunctional media.
+   * Remove any out-of-scope computer equipment and blank or nonfunctional media.
    * Label physical media.
      * Write the disk number (the collection identifier followed by a sequential number: 1315_05 or EUA283_100, for example) on a small white sticker and apply it in a discreet location that will not harm the media (on a case or enclosure, if possible, or direct on the media if needed).
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
