@@ -15,6 +15,9 @@ All incoming born-digital materials undergo the same stages of work following ar
 	b.	*Transferred files* will be quarantined for thirty days and scanned for viruses. If not completed during transfer, checksums will be created for all files.
 5.	Content is analyzed and reports created. Often this involves using Fiwalk to producing a DFXML report with metadata and provenance information, but it might instead mean creating a directory list, a checksum manifest, or other outputs from similar tools.
 6.	At this point, the archivist will determine and document the appropriate tier of processing for the collection.
+
+Archivists may use the [digital media log template](https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/_layouts/15/Doc.aspx?sourcedoc=%7BDF9842DA-4BCB-4997-B1DA-1899AB188D4E%7D&file=DigitalArchives_MediaLog.xlsx&action=default&mobileredirect=true) to inventory materials and record actions taken during processing.
+
 ---
 ## Levels of processing
 Born-digital materials are processed at one of four tiers:
