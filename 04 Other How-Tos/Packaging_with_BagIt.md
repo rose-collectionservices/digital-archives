@@ -19,7 +19,7 @@
 			echo
 		
 			done
-5. Edit the information located in the brackets [] to match your collection information. The ID numbers should equal the folder numbers you are wanting to bag. For example:
+5. Edit the information located in the brackets [] to match your collection information. If there are any spaces in the file path, make sure there's a forward slash before each space or put the entire path in quotation marks. The netID should be your Emory ID. The ID numbers in curly brackets should equal the folder numbers you are wanting to bag. For example:
 
    		cd /media/bcadmin/New\ Volume1/digitalArchives/diskImages/test_diskImages/bedwa
 	
