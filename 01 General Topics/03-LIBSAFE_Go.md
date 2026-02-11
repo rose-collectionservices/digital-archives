@@ -5,7 +5,7 @@ LIBSAFE Go (LSG) is the preservation repository for most born-digital materialâ€
 
 As much as possible, Rose Library's LIBSAFE Go workflows and policies should align with general [Collection Services procedures](https://github.com/rose-collectionservices/collection-services-manual/tree/master) and guidelines in the TDS-managed [LIBSAFE Go Confluence wiki](https://emorylib.atlassian.net/wiki/spaces/LG/overview?homepageId=160465038). This page outlines local practice for management of Rose Library content in LIBSAFE Go.
 
-# LIBSAFE Go content structure
+## LIBSAFE Go content structure
 
 See the [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/884178947/Organizing+Your+Content) for general guidance on organizing content.
 
@@ -19,16 +19,16 @@ Rose-specific content structure:
 * The content saved in MSS####_ProcessedFiles is also ingested to the appropriate collection folder within the RRR - Rose Reading Room node. This is a convenience copy for Public Services and end users. The copy stored in EUA - Emory University Archives Node or EUA - Emory University Archives Node is the copy of record. Archivists should take care to make any changes in both places.
 * Containers for some legacy collections or collections with unique acquisition and processing workflows, such as EUA 177 (Department of Music collection), may employ a different structure.
 
-# Restricted content in LSG
+## Restricted content in LSG
 * All disk images and other unprocessed original copies should be tagged as restricted. Accompanying reports and logs need not be.
 * Restricted or embargoed content extracted from originals should also be tagged as restricted. Typically such items will be placed in the container's MSS####_RestrictedFiles folder, provided their original locations are not essential or we can easily restore original order in the future. If it is better to keep restricted files in their original locations with the MSS###_ProcessedFiles directory, they must still be removed from the corresponding folder in the user-accessible RRR - Rose Reading Room node. In this situation, it is particularly important to accurately tag the files and keep careful records in the collection file and in the MSS####_PreservationDescriptionInfo folder explaining the circumstances.
 
-# Accessioning and processing "workflows"
+## Accessioning and processing "workflows"
 "Accessioning" and "processing" have specific meanings within the context of LSG workflows. The tasks and functions each workflow includes do not match perfectly with those included in general Rose Library accessioning or processing workflows.
 
 The Rose Accessioning Workflow outlines the steps required for preliminary review, logging, and stabilization of content submitted by donors/creators. It is used only for working with containers in RACC, the Rose Accessioning Node. The Rose Processing Workflow, which is applied to containers in the EUA and MSS nodes where permanent collection containers live, outlines the steps necessary for more complete physical and intellectual control. 
 
-## Rose accessioning workflow 
+### Rose accessioning workflow 
 Any content uploaded the Rose Accessioning Node either directly or via submission areas should go through this workflow. It includes the minimum required steps to gain basic control of the content. If staff upload content directly into a collection container (for example, after processing files received on physical media) they should ensure equivalent steps are taken prior to entering the processing workflow. 
 1. Save submission form and agreement
    * This step is for content uploaded by external contributors through a submission area.
@@ -58,7 +58,7 @@ Any content uploaded the Rose Accessioning Node either directly or via submissio
 10. Delete submission/accessioning container
     * Do this only after the move is complete, youâ€™ve verified the md5 manifest, and the content in the permanent container has gone through the processing workflow.
    
-## Rose processing workflow 
+### Rose processing workflow 
 Any time new content is added to a permanent collection container, the archivist should restart the Archival Processing Workflow and go through each applicable step.  
 
 1. Assign/update container metadata 
@@ -87,12 +87,12 @@ Any time new content is added to a permanent collection container, the archivist
    * This step takes place in ArchivesSpace but must be completed as part of the process to ensure all content stored permanently in LSG is described in a resource record (aggregate representation is fine).
    * Follow ArchivesSpace field usage guidelines and local practice to decide which notes and other fields should be updated. 
 
-## Notes on using workflows
+### Notes on using workflows
 * Archivists should use the Rose Processing Workflow within the permanent collection node when uploading disk images and other content worked on outside the LSG platform (it is assumed steps equivalent to those in the Rose Accessioning Workflow have already been completed).
 * Some steps in the Rose Processing Workflow, such as recording object metadata or reviewing content analysis, can be minimal for content processed at Tier 1 and more extensive at Tiers 2-3. See the processing tier workflows for guidance. 
 * For EUA acquisitions only: Some collections do not yet have finding aids, and creating resource records at the point of accessioning is not always feasible (or necessary, especially if the materials will be closed for a period of time). In this case, when moving EUA records through the LSG processing workflow, pause at the resource record step if a finding aid has not been created. A digital archivist will revisit and complete the workflow once there is a finding aid.
 
-# Metadata 
+## Metadata 
 Field usage guidelines and instructions for batch import are in the [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/210075651/Metadata).
 
 Rose local practice notes:
