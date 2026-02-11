@@ -80,19 +80,14 @@ As a result, these files should be bagged and stored on Digital Archives Lab sto
 Calculate SHA-256, Re-read source after acquisition for verifications (takes twice as long), and Verify 
 image after acquisition (takes twice as long))
 9. Hit *Start*.
-
-**NOTE:** You can check the progress of disk imaging by scrolling to the right in the Guymager window.
+  **NOTE:** You can check the progress of disk imaging by scrolling to the right in the Guymager window.
 
 10. In the folder created at step 2, right-click the disk image file and select *Rename*.
 11. Change the file extension from *.dd* to *.iso*. (**NOTE:** As of 2026, renaming files to change their extensions is no longer necessary.)
 
-**NOTE:** You can review the disk image contents by right-clicking the object and selecting Scripts > Mount Disk Image. 
-The disk image will be mounted on the Desktop. Double-click to open it and view files.
-
-**NOTE:** If you are doing multiple CDs at once, after you load the CD into the drive, hit “Rescan” in the top left corner of 
+12. You can review the disk image contents by right-clicking the object and selecting Scripts > Mount Disk Image. The disk image will be mounted on the Desktop. Double-click to open it and view files.
+13. If you are doing multiple CDs at once, after you load the CD into the drive, hit “Rescan” in the top left corner of 
 Guymager to have it appear in the list. 
-
-[Back to top](#table-of-contents)
 
 ---
 
@@ -114,11 +109,3 @@ select one of four options and proceed with imaging, or quit. One selection will
 - *An Error(s) occurred during reading* window will ask if you want to delete the file.
 - Click No. 
 - Click *Save* on the next window that appears, saving it as a *.cue file. 
-
-[Back to top](#table-of-contents)
-9. Complete **Rights Metadata:** 
-- The following field should be completed:
-  * **Access Status:** Select *13: Metadata only* from the drop-down menu*.
-10. Hit *Save*.
-
-[Back to top](#table-of-contents)
