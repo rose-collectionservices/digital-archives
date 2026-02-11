@@ -16,7 +16,7 @@ This section describes the steps in detail. If you need a simpler version for qu
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
      * This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
 3. Transfer and ingest content
-   * [Set up folder structure](04 Other How-Tos/Setting_Up_Folders.md) on working drive.
+   * [Set up folder structure](digital-archives/04 Other How-Tos/Setting_Up_Folders.md) on working drive.
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
