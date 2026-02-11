@@ -84,7 +84,7 @@ image after acquisition (takes twice as long))
 **NOTE:** You can check the progress of disk imaging by scrolling to the right in the Guymager window.
 
 10. In the folder created at step 2, right-click the disk image file and select *Rename*.
-11. Change the file extension from *.dd* to *.iso*.
+11. Change the file extension from *.dd* to *.iso*. (**NOTE:** As of 2026, renaming files to change their extensions is no longer necessary.)
 
 **NOTE:** You can review the disk image contents by right-clicking the object and selecting Scripts > Mount Disk Image. 
 The disk image will be mounted on the Desktop. Double-click to open it and view files.
