@@ -6,6 +6,10 @@ LIBSAFE Go (LSG) is the preservation repository for most born-digital materialâ€
 As much as possible, Rose Library's LIBSAFE Go workflows and policies should align with general Collection Services procedures and with the information contained in the TDS-managed [LIBSAFE Go Confluence wiki](https://emorylib.atlassian.net/wiki/spaces/LG/overview?homepageId=160465038). This page is used to add Rose-specific details that are difficult to outline within the processing workflow document and to clarify how Rose Library is interpreting and applying broader data models and policies within our LIBSAFE Go content nodes.
 
 # LIBSAFE Go content structure
+
+See the [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/884178947/Organizing+Your+Content) for general guidance on organizing content.
+
+Rose-specific content structure:
 * Preservation copies live in the permanent MSS or EUA node within LIBSAFE Go. Each collection has a single container.
 * Within each collection container should be two to four directories (all four are part of the template copied automatically when you create a new container):
   * Required: MSS####_PreservationDescriptionInfo (for logs, manifests, and other documentation generated during transfer and processing and not bagged with a specific disk image or batch of files).
@@ -88,9 +92,10 @@ Any time new content is added to a permanent collection container, the archivist
 * For EUA acquisitions only: Some collections do not yet have finding aids, and creating resource records at the point of accessioning is not always feasible (or necessary, especially if the materials will be closed for a period of time). When moving EUA records through the LSG processing workflow, pause at the resource record step if a finding aid has not been created. A digital archivist will revisit and complete the workflow when a finding aid is needed.
 
 # Metadata 
+Field usage guidelines and instructions for batch import are in the [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/210075651/Metadata).
+
+Rose local practice notes:
 * Files in MSS####_ProcessedFiles (and equivalent folders in RRR Rose Reading Room) should have object-level metadata assigned, with required fields completed at minimum.
-* Files in MSS####_Originals and MSS####_RestrictedFiles are not intended for end-user access, so object-level metadata is a lower priority and a reduced number of completed fields may be appropriate. Administrative metadata fields (ArchivesSpace ID, original object/batch ID, accession number, and PID) are still required when applicable.
+* Files in MSS####_Originals and MSS####_RestrictedFiles are not intended for end-user access, so object-level metadata is a lower priority and a reduced number of completed fields may be appropriate. Administrative metadata fields (ArchivesSpace ID, original object/batch ID, accession number, and PID) are necessary when applicable.
+* When assigning administrative metadata to unprocessed material/Tier 1 preservation copies, complete the fields for the disk image files themselves. Assigning metadata to log files, bag manifests, etc., is not necessary.
 * Files in MSS####_PreservationDescriptionInfo do not need object metadata assigned. 
-
-* For unprocessed material (preservation copies transferred as Tier 1) ingested into LIBSAFE Go, only the administrative metadata fields are required. Fill these out for the disk image file itself. (If the material is later processed to a higher level, the processed copies will have more extensive metadata assigned.)
-
