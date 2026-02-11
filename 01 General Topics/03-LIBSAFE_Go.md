@@ -83,21 +83,9 @@ Any time new content is added to a permanent collection container, the archivist
    * This step takes place in ArchivesSpace but must be completed as part of the process to ensure all content stored permanently in LSG is described in a resource record (aggregate representation is fine).
    * Follow ArchivesSpace field usage guidelines and local practice to decide which notes and other fields should be updated. 
 
-
-
-
-
-
-
-
-
-
-
 ## Notes on using workflows
 * Content uploaded by an archivist after disk imaging or other accessioning and processing steps outside the LSG platform can go directly into the permanent collection node and follow the Archival Processing Workflow. (It is assumed steps equivalent to those in the Archival Accessioning Workflow will have already been completed.)
 * For EUA acquisitions only: Some collections do not yet have finding aids, and creating resource records at the point of accessioning is not always feasible (or necessary, especially if the materials will be closed for a period of time). When moving EUA records through the LSG processing workflow, pause at the resource record step if a finding aid has not been created. A digital archivist will revisit and complete the workflow when a finding aid is needed.
-
-* 
 
 # Metadata 
 * Files in MSS####_ProcessedFiles (and equivalent folders in RRR Rose Reading Room) should have object-level metadata assigned, with required fields completed at minimum.
