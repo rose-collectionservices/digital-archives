@@ -1,4 +1,4 @@
-# LIBSAFE Go
+# LIBSAFE Go Documentation
 [This page is under construction.]
 
 LIBSAFE Go (LSG) is the preservation repository for most born-digital material—disk images, logical transfers, and processed files. A separate node within LIBSAFE Go is used to provide reading room access to processed, unrestricted access copies of born-digital material. Legacy born-digital material (primarily disk images and some tar files of processed material) is stored in The Keep, but there are plans to migrate this content to LIBSAFE Go in 2026.
