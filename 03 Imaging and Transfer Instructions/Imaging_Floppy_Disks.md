@@ -8,6 +8,8 @@ Quick steps for imaging with FTK Imager (to be revised and expanded):
 5. On the following screen, browse to and select the folder you prepared for the disk image to be stored.
 6. Ensure all verification and reporting boxes are checked, then click "Finish."
 
+If imaging with FC5025, the University of Michigan's [5.25" Floppy Disk Imaging Manual is a helpful guide](https://digipreslab.lib.umich.edu/wp-content/uploads/sites/8/2018/08/UMich-Public5-25imagingManual_v2-0.pdf).
+
 Before imaging a floppy disk using any method, check for physical damage and make sure the write-protect tab is open.
 
 # Transferring data from floppy disks using the KryoFlux
