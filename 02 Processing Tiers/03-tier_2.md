@@ -153,13 +153,13 @@ At this point, take a look to see if there is anything in the folders that is no
 
 Processing Note: 
 1. *If the material did not image:* 
-```Born digital materials processed by [name], [date]. No data could be recovered from the [material] due to degradation.```
+```Born-digital materials processed by [name], [date]. No data could be recovered from the [material] due to degradation.```
 2. *If there is an image file successfully created, but nothing is extracted:* 
-```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted from the images using FTK Imager. No data could be recovered from disks due to degradation.```
+```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted from the images using FTK Imager. No data could be recovered from disks due to degradation.```
 3. *If something could be imaged but nothing extracted AND there is something that couldn’t be imaged (Mann Bond):* 
-```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
+```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
 4. *Another example of failed file conversion language (Mari Evans):* 
-```Born digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
+```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
 
 ---
 
