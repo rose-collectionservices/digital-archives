@@ -161,6 +161,13 @@ Processing Note:
 4. *Another example of failed file conversion language (Mari Evans):* 
 ```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
 
+Digital Object Records:
+If you ended up with a disk image or other copy stored in a preservation system, even if it's not processed or usable, make sure the AO corresponding with that content has a DO record with an unpublished file version pointing to the preservation copy. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
+
+Access Notes:
+Recommended at the collection level when processing doesn't produce usable content for some or all media: "Due to technical complications, the Rose Library is currently unable to provide access to unprocessed born-digital materials.
+Recommended at the file level when processing doesn't produce usable content: "Due to technical complications, the Rose Library is currently unable to provide access to this unprocessed born-digital material."
+
 ---
 
 ## Examples
