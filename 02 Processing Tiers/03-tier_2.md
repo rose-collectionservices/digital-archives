@@ -7,7 +7,6 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
   * [Pull down from Keep](#pull-down-from-keep)
   * [FTK Imager](#ftk-imager)</br>
 * [Virus Scanning](#virus-scanning)
-* [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows)
 * [XML Files](#xml-files)
 * [MD5 File Creation](#md5-file-creation)
 * [Deduplication](#deduplication)</br>
@@ -18,44 +17,50 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
 
 ---
 
-## Folder Structure Setup
-*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
-1. Place hard drive in dock, connect to the USB port on the computer, and power on the dock. The Windows file explorer should automatically open once the hard drive is mounted and recognized by the computer. 
-2. Create a folder called [collectionName]_[MSS_ID] (Example: Mackey_1297) (if it doesn't already exist)
-6. Inside of that folder, create or organize existing content into the following 4 folders:
-a. OriginalDiskImages (not needed if working on the same drive the images were saved to originally)
-b. ExtractedFiles
-c. WorkingFiles
-d. [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers) (this will become the access copy)
-7. In OriginalDiskImages, create subfolders for each disk image you’re pulling down from the Keep
+## Workspace Setup (if needed)
+*This step should take place in the Windows environment. Please see [Switching between BitCurator and Windows](#switching-to-bitcuratorubuntu-from-windows](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Switching_BitCurator_Windows.md) for instructions.*
+1. Place selected hard drive in dock, connect to the USB port on the computer, and power on the dock. The Windows file explorer should automatically open once the hard drive is mounted and recognized by the computer.
+2. If a folder for the collection doesn't already exist, follow the instructions in [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) to create a collection folder with three subfolders (for original files, extracted files, and working files). 
+3. In the ExtractedFiles folder, create subfolders for each disk image/batch you successfully transferred and expect to extract content from.
+
+Ideally you will be working on the same hard drive used during Tier 1 and therefore already have the disk images/logical copies on hand. If they are no longer on the working drive or you don't have enough space on drive used for Tier 1, start by downloading the preservation copies from the relevant repository:
+* Pulling down from Keep
+  *  Log into the Keep using your netID and search for the collection or specific image you want to extract.
+  *  Once you locate the disk image in the Keep, click on it to open the metadata form. You should see an option to download "Original Disk Image" at the very top. If you do not, talk with Katherine Fisher to double-check your Keep access level.
+  *  Download only the disk image or tar file, not any accompanying material.
+  *  *Note that these will pull down with their PIDs as the identifying titles, so be sure to pay attention to which one you are on to click and drag it to the proper folder in the Originals subfolder.*
+
+* Pulling down from LIBSAFE Go
+  * Log in and navigate to the appropriate collection container.
+  * Check in to explore content, then right click on each disk image or folder you need and choose "download."
+  * Place the downloaded files into the appropriate location in the Originals subfolder.
+
+*If a number is skipped in the Keep files, delete that folder from Originals and ExtractedFiles. This means that specific number either did not image or there was an issue uploading into the Keep. Check the media log or processing plan for more information.*
 
 ---
 
 ## Extraction 
-*The following steps should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+*The following steps should take place in the Windows environment.*</br>
 
-[2026 note: Rewrite this section to include possibility of pulling down from LSG and suggest additional reports from FTK Imager if not generated during Tier 1.]
+*Note: If the files were transferred as a logical copy, a tar file, or any form other than a disk image, you may use TeraCopy, 7-Zip, or another appropriate tool to copy a usable version of the content from Originals to ExtractedFiles. See a digital archivist for help.*
 
-### Pull down from Keep
-**Staff:** Pull down images from Keep (just images, not any accompanying material) on Windows side. To do this, log into the Keep using your netID, and search for the collection or specific image you want to extract. Once you locate the disk image in the Keep, click on it to open the metadata form. You should see an option to download "Original Disk Image" at the very top - if you do not, talk with Katherine Fisher to double-check your Keep access level. </br></br>
-*Note:* these will pull down with their PID as the identifying title, so be sure to pay attention to which one you are on to click and drag it to the proper folder in Original Disk Images </br></br>
-*Note:* If a number is skipped in the Keep files, delete that folder from Original Disk Images and Extracted Files - this means that specific number either did not image or there was an issue uploading into the Keep. Check the Processing Plan for more information. 
-
-### FTK Imager
-*Student/Staff:*
 **Using FTK Imager in Windows to extract the files**
 1. Launch FTK Imager from the Desktop.
 2. From the drop-down File menu, select “Add Evidence Item.”
 3. Choose “Image File” and click “Next.”
-4. Browse to image file in Original Disk Images and click “Finish.”
-5. The selected image file will appear in the Evidence Tree Pane. Click the small + mark to the left of the image file. 
+4. Browse to image file in Originals and click “Finish.”
+5. The selected image file will appear in the Evidence Tree pane. Click the small + mark to the left of the image file. 
 6. The next sub-folder down will note the file system in brackets alongside the virtual disk label. Right-click over this sub-folder and select “Export Files.”</br>
 a. You’re looking for the [root] folder or the most granular folder you can find. 
-•	Note: If all you see is “Unallocated space” or "Unrecognized file system", there was an issue with the image, and the folder number can be deleted from Extracted Files ONLY – keep the original disk image
-7. Navigate to the Original Disk Images folder and the corresponding ID number for the image you have open, and hit “Enter”
+•	Note: If all you see is “Unallocated space” or "Unrecognized file system", there was an issue with the image, and the folder number can be deleted from ExtractedFiles ONLY – keep the original disk image
+7. Navigate to the ExtractedFiles folder and the corresponding ID number for the image you have open, and hit “Enter”
 8. Click “OK.”
 9. Once the export has finished, a dialogue box will open with details of how many folders and files have been exported. Click “OK.”
 10. Continue doing these one at a time, paying attention to what number you are on so it exports to the correct folder in Extracted Files
+11. If you did not generate a fiwalk report (or alternatively, export a directory listing and checksum manifest from FTK Imager) during Tier 1, create reports now.
+    * To get a directory listing, right click on the top level of the disk image in the Evidence Tree pane and select "Export Directory Listing." Enter the object/batch ID followed by "_directorylisting" as the file name.
+    * To get a checksum manifest, right click on the second level of the tree and select "Export File Hash List." Enter the object/batch ID followed by "_hashes" as the file name.
+    * Save both resulting csv files in the ExtractedFiles folder or a PDI folder for the collection (whichever makes more sense for the particular collection and will be easier to upload to LIBSAFE Go after processing). 
 
 ---
 
@@ -72,19 +77,9 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 
 ---
 
-## Switching to BitCurator/Ubuntu from Windows
-
-[2026 note: Move this somewhere else.]
-
-1. [Instructions here](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
-2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
-3. Shut down the computer fully when switching between the two
-
----
-
 ## XML Files
 
-[2026 note: Can probably eliminate this step.]
+[2026 note: This is not part of the current workflow. Skip it for most collections.]
 
 *This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 **Note:** This step involves the original hard drive the images were created on. Locate the corresponding hard drive where the original disk images are stored (See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list). </br>
@@ -108,10 +103,9 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 ---
 
 ## MD5 File Creation
-
 [2026 note: Update this section with reminder to check if manifests already exist and include other current methods of generating checksums if needed.]
 
-*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.* </br>
+*This step should take place in the BitCurator/Ubuntu environment.*
 
 *Create MD5 file for Working Files folder*
 1. Copy all the folder and files in ExtractedFiles to WorkingFiles
@@ -124,7 +118,7 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 ---
 
 ## Deduplication
-*These steps should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+*These steps should take place in the BitCurator/Ubuntu environment.*</br>
 1. On the desktop, click the Forensics and Reporting folder
 2. Double click FSLint to launch it
 
@@ -149,13 +143,13 @@ At this point, take a look to see if there is anything in the folders that is no
 ---
 
 ## Finding Aid Edits (if not proceeding to 2b/3)
-*This can be done on a regular staff laptop with ArchivesSpace access, although being in the lab to refer to the processing materials and logs can be helpful.  
+*This can be done on a regular staff laptop with ArchivesSpace access, although being in the lab to refer to the processing materials and logs can be helpful.*  
 
 Processing Note: 
 1. *If the material did not image:* 
 ```Born-digital materials processed by [name], [date]. No data could be recovered from the [material] due to degradation.```
-2. *If there is an image file successfully created, but nothing is extracted:* 
-```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted from the images using FTK Imager. No data could be recovered from disks due to degradation.```
+2. *If image files were successfully created, but nothing usable was extracted:* 
+```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. [Name] attempted recovery of individual files from the images using [program]. No data could be recovered from disks due to degradation. [Alternatively, if data is recoverable but it's all system files, software, etc.: No usable original files were present.]``` 
 3. *If something could be imaged but nothing extracted AND there is something that couldn’t be imaged (Mann Bond):* 
 ```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
 4. *Another example of failed file conversion language (Mari Evans):* 
