@@ -13,23 +13,24 @@ The following instructions describe the steps required to switch between BitCura
 
 ### To switch from Windows to BitCurator:
 
-1. Click the **Windows** icon in the very bottom-left corner of the Windows desktop.
-2. Click the **On/Off** icon and select **Restart**.
-3. Pay attention as the computer restarts. As soon as you see the Dell boot screen, hit **F12**. You should see the message **Preparing one-time boot menu** in yellow in the upper right hand corner.
-4. Use the arrow keys to scroll to **ubuntu** and hit **enter**.
-5. Use the arrow keys to scroll to **BitCurator-1.8.12 GNU/Linux** and hit **enter**.
-6. After a few minutes, you will be prompted to enter a log-in username. Type the BitCurator user name and hit **enter**.
-7. You will be prompted for a password. Type the BitCurator password and hit **enter**.
-8. Hit the up arrow key until you see the following command
+1. Eject any mounted working drives and turn off the hard drive dock or disconnect its USB cable.
+2. Click the **Windows** icon in the very bottom-left corner of the Windows desktop.
+3. Click the **On/Off** icon and select **Restart**.
+4. Pay attention as the computer restarts. As soon as you see the Dell boot screen, hit **F12**. You should see the message **Preparing one-time boot menu** in yellow in the upper right hand corner.
+5. Use the arrow keys to scroll to **ubuntu** and hit **enter**.
+6. Use the arrow keys to scroll to **BitCurator-1.8.12 GNU/Linux** and hit **enter**.
+7. After a few minutes, you will be prompted to enter a log-in username. Type the BitCurator user name and hit **enter**.
+8. You will be prompted for a password. Type the BitCurator password and hit **enter**.
+9. Hit the up arrow key until you see the following command
 
 	```sudo mount -o remount,rw '/dev/sda2' ```
 	
-9. Hit **enter**.
-10. Hit the up arrow key until you see the following command:
+10. Hit **enter**.
+11. Hit the up arrow key until you see the following command:
 	
 	```sudo service lightdm start```
 	
-11. Hit **enter**. The BitCurator GUI will launch.
+12. Hit **enter**. The BitCurator GUI will launch.
 
 **Note**: 
 On the right computer, the steps are a bit different. 
