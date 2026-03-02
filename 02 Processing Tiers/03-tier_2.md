@@ -4,13 +4,10 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
 # Workflow
 * [Folder Structure Setup](#folder-structure-setup)
 * [Extraction](#extraction)
-  * [Pull down from Keep](#pull-down-from-keep)
-  * [FTK Imager](#ftk-imager)</br>
 * [Virus Scanning](#virus-scanning)
 * [XML Files](#xml-files)
 * [MD5 File Creation](#md5-file-creation)
-* [Deduplication](#deduplication)</br>
-    * [FSLint](#fslint)</br>
+* [Deduplication](#deduplication)
 * [Finding Aid Edits](#finding-aid-edits) (if not proceeding to Tier 2b/3)
 
 [Examples](#examples)
