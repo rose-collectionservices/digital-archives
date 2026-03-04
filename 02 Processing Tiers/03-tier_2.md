@@ -15,7 +15,8 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
 ---
 
 ## Workspace Setup (if needed)
-*This step should take place in the Windows environment. Please see [Switching between BitCurator and Windows](#switching-to-bitcuratorubuntu-from-windows](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Switching_BitCurator_Windows.md) for instructions.*
+*This step should take place in the Windows environment. Please see [Switching between BitCurator and Windows](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Switching_BitCurator_Windows.md) for instructions.*
+
 1. Place selected hard drive in dock, connect to the USB port on the computer, and power on the dock. The Windows file explorer should automatically open once the hard drive is mounted and recognized by the computer.
 2. If a folder for the collection doesn't already exist, follow the instructions in [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) to create a collection folder with three subfolders (for original files, extracted files, and working files). 
 3. In the ExtractedFiles folder, create subfolders for each disk image/batch you successfully transferred and expect to extract content from.
@@ -36,10 +37,10 @@ Ideally you will be working on the same hard drive used during Tier 1 and theref
 
 ---
 
-## Extraction 
-*The following steps should take place in the Windows environment.*</br>
+## Extraction (required)
+*The following steps should take place in the Windows environment.*
 
-*Note: If the files were transferred as a logical copy, a tar file, or any form other than a disk image, you may use TeraCopy, 7-Zip, or another appropriate tool to copy a usable version of the content from Originals to ExtractedFiles. See a digital archivist for help.*
+Note: If the files were transferred as a logical copy, a tar file, or any form other than a disk image, you may use TeraCopy, 7-Zip, or another appropriate tool to copy a usable version of the content from Originals to ExtractedFiles. See a digital archivist for help.
 
 **Using FTK Imager in Windows to extract the files**
 1. Launch FTK Imager from the Desktop.
@@ -53,7 +54,7 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 7. Navigate to the ExtractedFiles folder and the corresponding ID number for the image you have open, and hit “Enter”
 8. Click “OK.”
 9. Once the export has finished, a dialogue box will open with details of how many folders and files have been exported. Click “OK.”
-10. Continue doing these one at a time, paying attention to what number you are on so it exports to the correct folder in Extracted Files
+10. Continue doing these one at a time, paying attention to what number you are on so it exports to the correct folder in ExtractedFiles.
 11. If you did not generate a fiwalk report (or alternatively, export a directory listing and checksum manifest from FTK Imager) during Tier 1, create reports now.
     * To get a directory listing, right click on the top level of the disk image in the Evidence Tree pane and select "Export Directory Listing." Enter the object/batch ID followed by "_directorylisting" as the file name.
     * To get a checksum manifest, right click on the second level of the tree and select "Export File Hash List." Enter the object/batch ID followed by "_hashes" as the file name.
@@ -61,24 +62,26 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 
 ---
 
-## Virus Scanning
+## Virus Scanning (required)
 
-[2026 note: Rewrite this section to acknowledge use of Crowdstrike in most cases.]
+[2026 note: Review this section for accuracy and add Crowdstrike as an option.]
 
-*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
+*This step should take place in the Windows environment.*
+
 1. Once the files are extracted, select all of the folders in the Extracted Files folder (Ctrl+A)
-2. Right click and select “Scan with McAfee Virus Defense”
+2. Right click and select “Scan with McAfee Virus Defense” or Avast.
 3. A window will pop up showing how many files are being scanned
 4. When done, it will say “Scan: Complete” and have a count of infected files below
 5. If any files are infected, let the digital archivist know right away
 
 ---
 
-## XML Files
+## XML Files (legacy—usually not needed)
 
 [2026 note: This is not part of the current workflow. Skip it for most collections.]
 
-*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+*This step should take place in the BitCurator/Ubuntu environment.*
+
 **Note:** This step involves the original hard drive the images were created on. Locate the corresponding hard drive where the original disk images are stored (See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list). </br>
 1. Before turning on the hard drive dock, insert the hard drive with the original disk images into the **LEFT** slot on the dock. 
 2. Turn on the hard drive dock and mount both hard drives in BitCurator (open file directory and click on each hard drive ONCE to mount them). Right-click one of the hard drives and select "Open in new window" so you can see contents of both hard drives simultaneously. 
@@ -99,7 +102,7 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 
 ---
 
-## MD5 File Creation
+## MD5 File Creation (required)
 [2026 note: Update this section with reminder to check if manifests already exist and include other current methods of generating checksums if needed.]
 
 *This step should take place in the BitCurator/Ubuntu environment.*
@@ -114,7 +117,7 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 
 ---
 
-## Deduplication
+## Deduplication (if needed)
 *These steps should take place in the BitCurator/Ubuntu environment.*</br>
 1. On the desktop, click the Forensics and Reporting folder
 2. Double click FSLint to launch it
