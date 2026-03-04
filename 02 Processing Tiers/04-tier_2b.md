@@ -17,7 +17,10 @@ Record Tier 2b actions and observations in a .txt readme file, digital processin
 
 ---
 
-## Normalize Files
+## Normalize Files (if needed)
+
+*This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
+
 The instructions below work best for text and image files. They may be applied to all files in a collection or a subset. 
 
 This step is no longer required in all cases, as most text and image files can be used in their original formats. It is still recommended when files are in uncommon formats and will not be usable by researchers using standard reading room access tools. If the files of concern are not text or image files that can be converted to PDF or JPG using the scripts, a digital archivist will identify alternative tools or suitable manual processes.
@@ -43,8 +46,8 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 ---
 
-## Arrange Files
-*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.* </br>
+## Arrange Files (if needed)
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
 1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers). This folder will become the final version of the content and will live as two copies in our systems: one packaged for preservation and ingested alongside the Tier 1/original versions, and one uploaded to an access system for researcher use.
 2. If you are maintaining the original groupings of the content by carrier or batch, copy and paste (ideally using TeraCopy) the content of the WorkingFiles into the new [MSS_ID]_[title_statement] folder. Within each disk-level subfolder, move any folders and files past the root folder up to the disk-level directory to reduce the number of unnecessary nested folders. (This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.)
 3. If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement, create folders with the [MSS_ID]_[title_statement] folder based on the planned arrangement. Then copy the content of each individual folder under WorkingFiles into the appropriate new location. (This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.)
@@ -52,8 +55,8 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 ---
 
-## Directory Listing
-*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+## Directory Listing (required)
+*This step should take place in the BitCurator/Ubuntu environment.*
 
 [2026 note: Rewrite this section to use TreeSize Pro report instead with the original method as a backup/alternative.]
 
