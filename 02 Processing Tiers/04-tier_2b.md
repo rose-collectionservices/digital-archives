@@ -18,8 +18,7 @@ Record Tier 2b actions and observations in a .txt readme file, digital processin
 ---
 
 ## Normalize Files (if needed)
-
-*This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
+*This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. See [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
 
 The instructions below work best for text and image files. They may be applied to all files in a collection or a subset. 
 
@@ -47,18 +46,32 @@ a. To select multiple files at once, select the first one, then hold down the "S
 ---
 
 ## Arrange Files (if needed)
-*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
-1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers). This folder will become the final version of the content and will live as two copies in our systems: one packaged for preservation and ingested alongside the Tier 1/original versions, and one uploaded to an access system for researcher use.
-2. If you are maintaining the original groupings of the content by carrier or batch, copy and paste (ideally using TeraCopy) the content of the WorkingFiles into the new [MSS_ID]_[title_statement] folder. Within each disk-level subfolder, move any folders and files past the root folder up to the disk-level directory to reduce the number of unnecessary nested folders. (This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.)
-3. If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement, create folders with the [MSS_ID]_[title_statement] folder based on the planned arrangement. Then copy the content of each individual folder under WorkingFiles into the appropriate new location. (This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.)
+*This step should take place in the Windows environment.*
+
+If you are maintaining the original groupings of the content by carrier or batch (This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.)
+1. Within each disk-level subfolder of WorkingFiles, move any folders and files past the root folder up to the disk-level directory to reduce the number of unnecessary nested folders.
+2. Rename WorkingFiles to MSS/EUA###_ProcessedFiles.
+
+If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement (This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.)
+1. Create a complete copy of WorkingFiles, ideally using TeraCopy, and name it MSS/EUA###_ProcessedFiles.
+2. Create folders within the ProcessedFiles folder based on the planned arrangement.
+3. Copy the content of each disk-level folder under WorkingFiles into the appropriate new location. 
 4. If there are any files noted by Windows as duplicates as you copy and paste, select **See details for all files** in the pop-up window. Select **BOTH** checkboxes at the top of the list to select both copies of the materials. Windows will automatically append a "(1)" to the end of the original file title.
+5. Once you are satisfied with the folder structure and everything has been sorted, delete WorkingFiles, retaining only the finished ProcessedFiles (in addition to Originals and ExtractedFiles).
+
+At the end of this stage, all processed files intended to be made available to researchers should be in subfolders within the ProcessedFiles directory. This directory is the final version of the content and will live as two copies in our systems: one packaged for preservation and ingested alongside the Tier 1/original versions, and one uploaded to an access system for researcher use.
 
 ---
 
 ## Directory Listing (required)
-*This step should take place in the BitCurator/Ubuntu environment.*
 
-[2026 note: Rewrite this section to use TreeSize Pro report instead with the original method as a backup/alternative.]
+### Current method, as of 2026
+*This step should take place in Windows.*
+
+[Add TreeSize Pro report instructions.]
+
+### Legacy method
+*This step should take place in the BitCurator/Ubuntu environment.*
 
 1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
 2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
@@ -77,23 +90,45 @@ a. To select multiple files at once, select the first one, then hold down the "S
 15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
 
 ---
+## Upload to Reading Room Server
+*This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
-## Bag Processed Files
-*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-1. In BitCurator, mount the hard drive and navigate to the [MSS_ID]_[title_statement] folder
-2. Place copies of any checksum manifests, directory lists, and  other documentation from processing in the folder
-3. Right click inside the folder and select “Open in Terminal”
-4. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
-5. Let it run
-6. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
+Only a digital archivist or trained processing archivist should complete this step, which requires appropriate LIBSAFE Go permissions. 
+
+Note that these instructions describe uploading processed files using the LSG web interface. For large or complex collections, uploading through an S3 client is preferred. See a digital archivist for help.
+
+1. Log into LIBSAFE Go, navigate to the Rose Reading Room (RRR) node, and check in to the "Processed Born-Digital Files" container.
+2. Create a folder for the collection, if one does not already exist, following the convention you see used for other collections (MSS/EUA###_TitleStatement).
+3. Open the collection folder you just created, click the upload button, click "add files," browse to the ProcessedFiles folder on the working drive, select all of the files/folders within it, and click "open."
+4. Check the status window periodically to make sure files are uploading successfully.
+5. If ProcessedFiles had any checksum manifests, log files, or other non-public items still present at the time of upload, delete those files from the LSG access copy.
+
+***NOTE: The archivist who uploads the processed files should take care to exclude any restricted files or other content that should not be available in the reading room but is not required to tag files or assign metadata in the RRR node. The digital archivist is responsible for maintaining any metadata needed in this node. These instructions, and possibly the order in which we ingest access and preservation copies, will be revised later when LSG updates their metadata functionality.
+
+---
+## Bag Processed Files (required)
+*This step should take place in the BitCurator/Ubuntu environment.*
+
+1. In BitCurator, mount the hard drive and navigate to the ProcessedFiles folder.
+3. Right click inside the folder and select “Open in Terminal.”
+4. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`.
+5. Let it run.
+6. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`.
 7. A message should appear saying it is valid. If not, contact the digital archivist.
 
 ---
-
 ## Upload to Preservation Repository
+*This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
-[2026 note: Rewrite this section with instructions for LIBSAFE Go upload instead of Keep.]
+### LIBSAFE Go upload
+1. Log into LIBSAFE Go, navigate to the MSS or EUA node, and create a new container using the default template (or open the container if one for the collection alreayd exists).
+2. Rename the top-level directories with the actual collection identifier (the template will populate the folder structure but with placeholder names).
+3. Locate any checksum manifests, directory lists, and other documentation from processing on the working drive and upload these to the PreservationDescriptionInfo folder. (If the originals were not bagged prior to ingest, you may decide to add the reports to the Originals subfolders in LSG instead; if the originals were bagged, however, the reports should be stored in the collection's PDI folder so as not to interfere with future bag validation.)
+4. Upload the bagged version of ProcessedFiles to the ProcessedFiles folder in the LSG container.
+5. Select the bag and use the validate function to ensure it uploaded correctly. 
+6. Click through the LSG processing workflow for the container and ensure any remaining steps are complete, including assigning object metadata and creating DO records. (See [LIBSAFE Go documentation](https://github.com/rose-collectionservices/digital-archives/blob/master/01%20General%20Topics/03-LIBSAFE_Go_Documentation.md) for details.)
 
+### Keep upload (legacy—do not use)
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 *Staff: Follow [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
 1. **Abstract:** *TAR file of files brought to Tier 2b processing, MD5 file, and original disk image*
@@ -102,16 +137,8 @@ a. To select multiple files at once, select the first one, then hold down the "S
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
 
 ---
-
-## Upload to Reading Room Server
-
-[2026 note: Rewrite this section with instructions for LIBSAFE Go upload instead of RR server.]
-
-Talk with the digital archivist to upload to the reading room server. The digital archivist will remove any log files or other non-public items prior to upload.
-
----
-
 ## Finding Aid Edits
+*This step can take place on any computer in any operating system.*
 
 [2026 note: Add step for creating DO records and replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
 
