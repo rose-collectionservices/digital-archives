@@ -117,10 +117,10 @@ Note that these instructions describe uploading processed files using the LSG we
 7. A message should appear saying it is valid. If not, contact the digital archivist.
 
 ---
-## Upload to Preservation Repository
+## Upload to Preservation Repository (required)
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
-### LIBSAFE Go upload
+### LIBSAFE Go upload (default as of 2026)
 1. Log into LIBSAFE Go, navigate to the MSS or EUA node, and create a new container using the default template (or open the container if one for the collection alreayd exists).
 2. Rename the top-level directories with the actual collection identifier (the template will populate the folder structure but with placeholder names).
 3. Locate any checksum manifests, directory lists, and other documentation from processing on the working drive and upload these to the PreservationDescriptionInfo folder. (If the originals were not bagged prior to ingest, you may decide to add the reports to the Originals subfolders in LSG instead; if the originals were bagged, however, the reports should be stored in the collection's PDI folder so as not to interfere with future bag validation.)
@@ -137,7 +137,7 @@ Note that these instructions describe uploading processed files using the LSG we
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
 
 ---
-## Finding Aid Edits
+## Finding Aid Edits (required)
 *This step can take place on any computer in any operating system.*
 
 [2026 note: Add step for creating DO records and replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
