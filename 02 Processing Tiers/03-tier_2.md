@@ -110,10 +110,10 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 
 1. Copy all the folder and files in ExtractedFiles to WorkingFiles. Anything you do from this point forward to weed, arrange, or otherwise alter the files should happen in WorkingFiles. ExtractedFiles should remain untouched in case you need to backtrack.
 2. Select all the folders in WorkingFiles.
-3. Right click and select “Scripts” and then “Calculate MD5 script.”
+3. Right click and select “Scripts,” "File Analysis," and then “Calculate MD5.”
 4. After the script runs, a file called md5 should appear in the main WorkingFiles folder.
 5. Open it to make sure the script ran recursively and the file appears to have md5 checksums for all items.
-6. Save the file to upload to the collection's PDI folder in LSG.
+6. Rename the file as MSS/EUA###_WorkingFiles.md5 and save the file in PreservationDescriptionInfo to upload to the collection's PDI folder in LSG.
 
 ---
 
