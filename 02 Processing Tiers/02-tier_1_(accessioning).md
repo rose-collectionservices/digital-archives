@@ -15,6 +15,8 @@ This section describes the steps in detail. If you need a simpler version for qu
      * Write the disk number (the collection identifier followed by a sequential number: 1315_05 or EUA283_100, for example) on a small white sticker and apply it in a discreet location that will not harm the media (on a case or enclosure, if possible, or direct on the media if needed).
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
      * This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
+   * Put loose CDs and DVDs in cases or sleeves.
+   * Put internal hard drives in padded antistatic bags.
 3. Transfer and ingest content
    * [Set up folder structure](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) on working drive.
    * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
