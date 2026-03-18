@@ -27,11 +27,8 @@ To process at the Tier 3 level, begin after deduplication in the [Tier 2 instruc
 ---
 
 ## Examples
-* [Alice Walker papers](https://findingaids.library.emory.edu/documents/walker1061/)
-* [Rita Ann Higgins papers](https://findingaids.library.emory.edu/documents/higgins1194/)
-* [Southern Christian Leadership Conference records](https://findingaids.library.emory.edu/documents/sclc1083/)
-* [Eamon Grennan papers](https://findingaids.library.emory.edu/documents/grennan1150/)
-* [Tracy K. Smith papers](https://findingaids.library.emory.edu/documents/smith1468/)
-* [Alli Royce Soble papers](https://findingaids.library.emory.edu/documents/soble1315/)
-
-[Back to top](#table-of-contents)
+Alice Walker papers
+Rita Ann Higgins papers
+Southern Christian Leadership Conference records
+Eamon Grennan papers
+Tracy K. Smith papers
