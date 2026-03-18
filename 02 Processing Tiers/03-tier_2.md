@@ -1,17 +1,6 @@
 # Tier 2 - File Extraction and Light Processing
 Record Tier 2 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
-# Workflow
-* [Folder Structure Setup](#folder-structure-setup)
-* [Extraction](#extraction)
-* [Virus Scanning](#virus-scanning)
-* [XML Files](#xml-files)
-* [MD5 File Creation](#md5-file-creation)
-* [Deduplication](#deduplication)
-* [Finding Aid Edits](#finding-aid-edits) (if not proceeding to Tier 2b/3)
-
-[Examples](#examples)
-
 ---
 
 ## Workspace Setup (if needed)
@@ -31,7 +20,6 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
    * Log in and navigate to the appropriate collection container.
    * Check in to explore content, then right click on each disk image or folder you need and choose "download."
    * Place the downloaded file into the appropriate location in the Originals subfolder.
-
 
 ---
 
@@ -178,7 +166,7 @@ Recommended at the file level when processing doesn't produce usable content: "D
 ---
 
 ## Examples
-* [Morris B. Arbam papers](https://findingaids.library.emory.edu/documents/abram514/)
-* [Elizabeth Dewberry papers](https://findingaids.library.emory.edu/documents/dewberry666/)
-* [Horace Mann and Julia W. Bond family papers](https://findingaids.library.emory.edu/documents/bond1144/)
-* [Mari Evans papers](https://findingaids.library.emory.edu/documents/evans1284/)
+Morris B. Arbam papers
+Elizabeth Dewberry papers
+Horace Mann and Julia W. Bond family papers
+Mari Evans papers
