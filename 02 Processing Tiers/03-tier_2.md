@@ -105,7 +105,7 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 
 ---
 
-## Content review and weeding (if needed, using one or more methods)
+## Content Review and Weeding (if needed, using one or more methods)
 
 ### Deduplication with FSLint
 *This step should take place in the BitCurator/Ubuntu environment.*
