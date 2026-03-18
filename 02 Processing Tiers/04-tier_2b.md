@@ -2,6 +2,7 @@
 To process at the Tier 2b level, begin after deduplication in Tier 2 and follow the additional steps below. If you are following these steps as part of a Tier 3 processing project, complete the Tier 3 steps related to restrictions before following the instructions below.
 
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
+
 ---
 ## Content Review and Restriction (if needed—Tier 3 collections)
 If Tier 3 processing is most appropriate for the collection, complete [the Tier 3 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/05-tier_3.md) then return here to complete the remaining steps.
@@ -71,9 +72,9 @@ At the end of this stage, all processed files intended to be made available to r
    5. Click "OK" to save your export settings.
 5. Back in the export window, click the "Save" button.
 6. Open the resulting HTML file in Notepad or another text editor.
-   1. In the line starting with <!DOCTYPE HTML><HTML><HEAD><TITLE>, replace the default title with the collection identifier and title (e.g., "EUA 251, Emory University campus buildings and grounds collection").
-   2. Farther down, find <h1 align="center"> and replace the text after the tag with the following heading: [MSS/EUA ###], [Title]: Inventory of born-digital material (as of [today's date] (e.g., "EUA 251, Emory University campus buildings and grounds collection: Inventory of born-digital material (as of 3/10/2026)").
-   3. Delete <h3>Drive:&nbsp;F:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size:&nbsp;5.5&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used:&nbsp;201.4&nbsp;GB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free:&nbsp;5.3&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+   1. After the title tag, replace the default title with the collection identifier and title (e.g., "EUA 251, Emory University campus buildings and grounds collection").
+   2. Farther down, replace the text after the h1 tag with the following heading: [MSS/EUA ###], [Title]: Inventory of born-digital material (as of [today's date] (e.g., "EUA 251, Emory University campus buildings and grounds collection: Inventory of born-digital material (as of 3/10/2026)").
+   3. Delete the h3 tag and the content after it identifying the source drive and its capacity.
 5. In the collection contain in LIBSAFE Go, upload the HTML file to the PreservationDescriptionInfo folder. 
 
 ### Legacy method
@@ -117,6 +118,7 @@ Note that these instructions describe uploading processed files using the LSG we
 *This step can take place in either Windows or BitCurator/Ubuntu.*
 
 Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolder as a bag.
+
 ---
 ## Upload to Preservation Repository (required)
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
@@ -141,7 +143,7 @@ Following the [BagIt/Bagger instructions](https://github.com/rose-collectionserv
 ## Finding Aid Edits (required)
 *This step can take place on any computer in any operating system.*
 
-[2026 note: Add step for creating DO records and replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
+[2026 note: Replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
 
 Add or updating the following fields in the resource record:
 1. *Extent:* at end have “[MB/GB amount] born-digital material ([# files])
