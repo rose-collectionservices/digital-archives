@@ -117,13 +117,13 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 
 ---
 
-## Deduplication (if needed)
+## Content review and weeding (if needed, using one or more methods)
+
+### Deduplication with FSLint
 *This step should take place in the BitCurator/Ubuntu environment.*
 
-1. On the desktop, click the Forensics and Reporting folder
-2. Double click FSLint to launch it
-
-### FSLint
+1. On the desktop, click the Forensics and Reporting folder.
+2. Double click FSLint to launch it.
 3. Once open, click the “+Add” button at the top left and navigate to the hard drive and WorkingFiles folder. 
 4. Double click the first folder in WorkingFiles.
 5. Remove the “/” from the top box using the “X Remove” button under the “+Add” button.
@@ -137,6 +137,16 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 13. Repeat this process for other folders in the collection, removing and adding each one every time.
 14. Once done with the individual folders, add the WorkingFiles folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once. This is to triple-check there are no more lingering duplicate files or empty directories in the collection. 
 
+### Size and format analysis with TreeSize Pro
+*This step should take place in Windows.*
+
+1. Open TreeSize Pro and scan the WorkingFiles folder.
+2. In the results, look for files or folders that are particularly large, possibly duplicative, in problematic formats, etc. At this stage, do not assess or make decisions about individual files, but look for patterns and problem areas.
+3. If you find folders that are clearly out of scope, delete them from WorkingFiles.
+4. If you notice anything that requires more careful review or intervention, flag it and consider taking the collection to Tier 3.
+5. Record any relevant information that will help with writing more accurate description later.
+
+### After weeding
 At this point, take a look to see if there is anything in the folders that is not system or program files—content with likely research value, like Word files, photographs, etc. 
 
 If potentially usable content remains after the Tier 2 steps, proceed to [Tier 2b](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b) (ingest, description, possible arrangement and normalization) and then, if appropriate, Tier 3 (content review and restriction). 
