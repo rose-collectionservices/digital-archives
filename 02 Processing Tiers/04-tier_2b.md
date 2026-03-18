@@ -2,20 +2,9 @@
 To process at the Tier 2b level, begin after deduplication in Tier 2 and follow the additional steps below. If you are following these steps as part of a Tier 3 processing project, complete the Tier 3 steps related to restrictions before following the instructions below.
 
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
-
-# Workflow
-* [Normalize Files](#normalize-files)
-* [Arrange Files](#arrange-files)
-* [TAR Files](#tar-files)
-* [Bag Files](#bag-files)
-* [Directory Listing](#directory-listing)
-* [Upload to Keep](#upload-to-keep)
-* [Finding Aid Edits](#finding-aid-edits)
-* [Upload to Reading Room Server](#upload-to-reading-room-server)
-
-[Examples](#examples)
-
 ---
+## Content Review and Restriction (if needed—Tier 3 collections)
+If Tier 3 processing is most appropriate for the collection, complete [the Tier 3 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/05-tier_3.md) then return here to complete the remaining steps.
 
 ## Normalize Files (if needed)
 *This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. See [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
@@ -68,7 +57,24 @@ At the end of this stage, all processed files intended to be made available to r
 ### Current method, as of 2026
 *This step should take place in Windows.*
 
-[Add TreeSize Pro report instructions.]
+1. After the ProcessedFiles subfolder is reviewed, arranged, and organized to your satisfaction and you're certain any non-public files have been moved elsewhere, open TreeSize Pro.
+2. In the address bar, browse to the appropriate ProcessedFiles folder on the working drive and click the green arrow to begin a scan.
+3. When the scan is complete, click the "Export" button in the toolbar.
+   1. Browse to the PDI folder on the working drive as the save location, and enter MSS/EUA###_ProcessedFilesInventory.html as the file name.
+   2. Make sure the export format is HTML.
+   3. Click "Customize Export."
+4. In the export options menu that opens, configure the following settings: 
+   1. In the export format list on the left, select HTML.
+   2. Uncheck all chart and list options except for "Directory Tree."
+   3. Make sure "Export Depth" is set to "Full Directory Tree" and "Exported Elements" to "Folders, [Files] item and single files."
+   4. Under "Exported Columns," select "Use custom column settings." Choose the following column options: Name, Size, Files, Folders, Last Modified, Type, Folder Path, File Extension.
+   5. Click "OK" to save your export settings.
+5. Back in the export window, click the "Save" button.
+6. Open the resulting HTML file in Notepad or another text editor.
+   1. In the line starting with <!DOCTYPE HTML><HTML><HEAD><TITLE>, replace the default title with the collection identifier and title (e.g., "EUA 251, Emory University campus buildings and grounds collection").
+   2. Farther down, find <h1 align="center"> and replace the text after the tag with the following heading: [MSS/EUA ###], [Title]: Inventory of born-digital material (as of [today's date] (e.g., "EUA 251, Emory University campus buildings and grounds collection: Inventory of born-digital material (as of 3/10/2026)").
+   3. Delete <h3>Drive:&nbsp;F:\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Size:&nbsp;5.5&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used:&nbsp;201.4&nbsp;GB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free:&nbsp;5.3&nbsp;TB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+5. In the collection contain in LIBSAFE Go, upload the HTML file to the PreservationDescriptionInfo folder. 
 
 ### Legacy method
 *This step should take place in the BitCurator/Ubuntu environment.*
@@ -90,7 +96,7 @@ At the end of this stage, all processed files intended to be made available to r
 15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
 
 ---
-## Upload to Reading Room Server
+## Upload Access Copies
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
 Only a digital archivist or trained processing archivist should complete this step, which requires appropriate LIBSAFE Go permissions. 
@@ -102,20 +108,15 @@ Note that these instructions describe uploading processed files using the LSG we
 3. Open the collection folder you just created, click the upload button, click "add files," browse to the ProcessedFiles folder on the working drive, select all of the files/folders within it, and click "open."
 4. Check the status window periodically to make sure files are uploading successfully.
 5. If ProcessedFiles had any checksum manifests, log files, or other non-public items still present at the time of upload, delete those files from the LSG access copy.
+6. Upload a copy of the TreeSize report within the collection folder.
 
 ***NOTE: The archivist who uploads the processed files should take care to exclude any restricted files or other content that should not be available in the reading room but is not required to tag files or assign metadata in the RRR node. The digital archivist is responsible for maintaining any metadata needed in this node. These instructions, and possibly the order in which we ingest access and preservation copies, will be revised later when LSG updates their metadata functionality.
 
 ---
 ## Bag Processed Files (required)
-*This step should take place in the BitCurator/Ubuntu environment.*
+*This step can take place in either Windows or BitCurator/Ubuntu.*
 
-1. In BitCurator, mount the hard drive and navigate to the ProcessedFiles folder.
-3. Right click inside the folder and select “Open in Terminal.”
-4. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`.
-5. Let it run.
-6. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`.
-7. A message should appear saying it is valid. If not, contact the digital archivist.
-
+Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolder as a bag.
 ---
 ## Upload to Preservation Repository (required)
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
@@ -142,6 +143,7 @@ Note that these instructions describe uploading processed files using the LSG we
 
 [2026 note: Add step for creating DO records and replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
 
+Add or updating the following fields in the resource record:
 1. *Extent:* at end have “[MB/GB amount] born-digital material ([# files])
 * *To find out the size and number of files:* In Windows, right-click on the *[MSS_ID]_[title_statement]* folder and select *Properties*. A new window will appear with size information and the number of files and folders. For the MB/GB amount, choose the first one (size).
 2. *Summary:* make sure “and born-digital material” is included
@@ -152,14 +154,15 @@ Note that these instructions describe uploading processed files using the LSG we
 * b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
 6. *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born-digital materials. 
 7. *Digital object records:* Create or update the DO records to include all instances of each AO. In most cases, each AO will correspond to one media carrier or file batch and have a single associated DO. That DO might have up to three file versions: one of the unprocessed copy of the content in a preservation repository, one for the processed copy in a preservation repository (if different from the original copy), and one for the user-facing access copy. The DO record and the user-facing file version should be published; any other file versions should remain unpublished. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
+8. *Other Finding Aids:* An inventory of the individual born-digital files available in the collection is <extref xlink:href="[TreeSizeReportURL]">available to researchers as an HTML page</extref>. [Not yet implemented—waiting for confirmation on file hosting location.] 
    
 Once the files are processed, ingested, and described, mark the collection as Tier 2b (or Tier 3, if applicable) in the shelf list and update any applicable inventory notes.
 
 ---
 
 ## Examples
-* [Thomas Kinsella papers](https://findingaids.library.emory.edu/documents/kinsella774/)
-* [Constance W. Curry paper](https://findingaids.library.emory.edu/documents/curry818/)
-* [Henry H. and Ella Pearson Mitchell papers](https://findingaids.library.emory.edu/documents/mitchell1018/)
-* [AID Atlanta records](https://findingaids.library.emory.edu/documents/aidatlanta1264/)
-* [Teri Darnell photographs](https://findingaids.library.emory.edu/documents/darnell1450/)
+Thomas Kinsella papers
+Constance W. Curry papers
+Henry H. and Ella Pearson Mitchell papers
+AID Atlanta records
+Teri Darnell photographs
