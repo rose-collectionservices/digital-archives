@@ -1,5 +1,4 @@
-# Packaging disk images and supplemental files using BagIt
-
+# Packaging disk images and supplemental files from Tier 1 processing using BagIt
 1. Boot the computer into BitCurator. Ensure that the hard drive dock is powered on and the drive is mounted.
 2. If needed: Set up a folder for each disk image. See step 4 of [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md).
 3. Ensure each folder named with an original carrier/batch identifier (MSS###_##; e.g., 1297_01) contains the following:
@@ -41,5 +40,14 @@
 	
 8. Type in **bash bagger.bash** and hit **enter**.
 
-### Alternative method (Windows):
-If you cannot access the content in BitCurator or if you prefer a manual approach for a very small number of disk images, you may use the Bagger GUI tool in Windows. Click "Create New Bag" and select "<no profile>." In the Bag Info frame, add contact name as a field and fill in your Emory ID as the value. Add the folder containing the disk image and manifest files to the payload. When saving the bag, make sure the boxes for md5 bag and tag manifests are checked and "holey bag" is NOT checked. You may choose to bag in place or save as depending on the drive holding the content and the expected bag size. Validate the bag after creating it. This method may also be used when bagging processed files prior to LIBSAFE Go ingest, as the bagging script above is specific to disk images.
+# Packaging final files from Tier 2b-3 processing using BagIt
+1. Boot the computer into BitCurator. Ensure that the hard drive dock is powered on and the drive is mounted.
+2. Navigate to the ProcessedFiles folder.
+3. Right click inside the folder and select “Open in Terminal.”
+4. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS/EUA###]_ProcessedFiles`.
+5. Let it run.
+6. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS/EUA###]_ProcessedFiles`.
+7. A message should appear saying it is valid. If not, contact the digital archivist.
+
+### Alternative method (Windows)
+If you cannot access the content in BitCurator or if you prefer a manual approach for a very small number of bags, you may use the Bagger GUI tool in Windows. Click "Create New Bag" and select "<no profile>." In the Bag Info frame, add contact name as a field and fill in your Emory ID as the value. Add the folder containing the disk image and manifest files (or the ProcessedFiles folder) to the payload. When saving the bag, make sure the boxes for md5 bag and tag manifests are checked and "holey bag" is NOT checked. You may choose to bag in place or save as depending on the drive holding the content and the expected bag size. Validate the bag after creating it.
