@@ -1,6 +1,6 @@
 ## Creating TAR Files
 
-These instructions explain how to create and extract a TAR file in cases where a complete disk image is not warranted. An example of this is an overly large hard drive or a CD-RW (read-write) optical disc. 
+These instructions explain how to create and extract a TAR file in cases where a complete disk image is not warranted or possible. Examples: media with multiple failed attempts to image, large hard drives, CD-RW (read-write) optical discs, disks with notable privacy concerns or containing significant amounts of out-of-scope content. In some of these cases, it may also be appropriate to extract logical copies using FTK Imager and then bag or tar the extracted files for preservation.
 
 ### Using the Windows machine in the lab:
 *This should take place in the Windows environment. Please see [Switching from BitCurator to Windows](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Switching_BitCurator_Windows.md) for instructions to switch. Right click to open in a new tab.*
