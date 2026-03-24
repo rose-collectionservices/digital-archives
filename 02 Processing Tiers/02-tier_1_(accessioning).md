@@ -3,23 +3,25 @@
 ## Standard workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
-This section describes the steps in detail. If you need a simpler version for quick reference, see the checklist linked below.
+This section describes the steps in detail. If you need a simpler version for quick reference, see the checklist linked below. Steps that appear in bold type are those that students might perform when assisting with born-digital accessioning.
 
 1. Document processing steps and collection needs
    * Review deed terms and check for born digital addendum.
-   * Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">media log</a> with one row for each carrier or file transfer/batch. If the accession or collection contains very few carriers/batches, a .txt readme or additional notes in the accession record may be sufficient. High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record. 
+   * **Create <a href="https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/Shared%20Documents/Digital%20Collections/Transfer%20and%20processing/DigitalArchives_MediaLog_Tier1Processing.xlsx?d=wdf9842da4bcb4997b1da1899ab188d4e&csf=1&web=1&e=AQ67Fv">media log</a> with one row for each carrier or file transfer/batch.** If the accession or collection contains very few carriers/batches, a .txt readme or additional notes in the accession record may be sufficient. High-level or summary information about Tier 1 work that can't be captured in the accession log can be recorded in the ArchivesSpace accession record. 
    * After accessioning is complete, be sure to add the completed log, along with any addenda and other relevant records, to the CL-2 or CL-11 collection file and the preservation description information folder in LIBSAFE Go.
+
 2. Extended physical processing (some preliminary steps might have been completed during initial accessioning if the collection is hybrid)
    * Remove any out-of-scope computer equipment and blank or nonfunctional media.
-   * Label physical media.
+   * **Label physical media.**
      * Write the disk number (the collection identifier followed by a sequential number: 1315_05 or EUA283_100, for example) on a small white sticker and apply it in a discreet location that will not harm the media (on a case or enclosure, if possible, or direct on the media if needed).
      * Optical discs should be labeled on the clear plastic center ring, preferably with an optical media pen.
      * This number will be entered in the media log to identify the disk or transfer, in ArchivesSpace as the Component Unique Identifier for the AO describing the content, and in the object metadata in LIBSAFE Go.
-   * Put loose CDs and DVDs in cases or sleeves.
-   * Put internal hard drives in padded antistatic bags.
+   * **Put loose CDs and DVDs in cases or sleeves.**
+   * **Put internal hard drives in padded antistatic bags.**
+
 3. Transfer and ingest content
-   * [Set up folder structure](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) on working drive.
-   * Image media or complete logical transfer of files. See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
+   * **[Set up folder structure](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) on working drive.**
+   * **Image media or complete logical transfer of files.** See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
      * To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md).
@@ -35,6 +37,7 @@ This section describes the steps in detail. If you need a simpler version for qu
        * Content ingested to LIBSAFE Go should go through the complete accessioning workflow in the platform and will typically go through the processing workflow as well, although the latter might be abbreviated for Tier 1 (e.g., no weeding or arrangement, minimal object metadata).
        * Any log files, manifests, or similar information not contained in batch/disk-level bags, including the completed media log spreadsheet, should be uploaded to the PDI folder within the collection container.
    * If the collection includes web content, set up seed(s) in Archive-It, run a test crawl, QA the crawl, and configure recurring crawls if applicable.
+
 4. Describe content
    * Enter the metadata required by the preservation repository. See links in the previous step for detailed instructions.
      * For unprocessed material (preservation copies transferred as Tier 1) ingested into LIBSAFE Go, only the administrative metadata fields are required. Fill these out for the disk image file itself. (If the material is later processed to a higher level, the processed copies will have more extensive metadata assigned.)
@@ -47,6 +50,7 @@ This section describes the steps in detail. If you need a simpler version for qu
    * Create a corresponding digital object record as an instance of each AO describing digital content. Every DO record should have a one-to-one relationship with an AO record, description following [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU), and a file version linking to the relevant disk image or batch of files in the preservation repository. (A DO might have multiple file versions if there are separate preservation and access copies in the same or different systems.)
    * If the AO is not a file transfer and is associated with physical media, add the container housing the media as an instance.
    * If the collection includes archived websites, create another accession record and add an AO and DO for each one in the finding aid. For more detailed instructions, see [accessioning and description guidelines for web archives](https://github.com/rose-collectionservices/collection-services-manual/tree/master/11-FORMAT%20SPECIFIC%20PROCEDURES#114-web-archives).
+
 5. Log your work in Airtable (if applicable), the Digital Archives tab of the shelf list, and the annual processing stats spreadsheet.
 
 ## Accessioning Checklist for Born-Digital Content
