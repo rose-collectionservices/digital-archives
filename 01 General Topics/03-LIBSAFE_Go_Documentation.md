@@ -61,13 +61,15 @@ Any content uploaded the Rose Accessioning Node either directly or via submissio
 ### Rose processing workflow 
 Any time new content is added to a permanent collection container, the archivist should restart the Archival Processing Workflow and go through each applicable step.  
 
-1. Assign/update container metadata 
-2. Validate bags (if applicable)
+1. Assign/update container metadata
+2. Add content
+    * Transfer or upload the material to the container using the appropriate method: LSG copy function to move from another container, upload button for small amounts from a workstation, or S3 client for larger batches of files from a workstation.
+3. Validate bags (if applicable)
     * If any content was bagged prior to submission/ingest, use the validation function to ensure it is complete and correct.
     * Open the Originals subfolder, select all bags, and click "Validate Bagits in Container" in the function menu.
-3. Dedupe/weed/arrange files (if applicable)
-   * Note that for large or complex collections, it might be best to complete this step outside LSG on a processing workstation and ingest the content already arranged. This is because 1) the move and copy functions in LSG can be slow, 2) it is easy to cause discrepancies or lose information by changing container content while previous processes are running, 3) LSG lacks tools that might be useful in processing (e.g., for normalization or PII detection).
-4. Create md5 manifest
+4. Dedupe/weed/arrange files (if applicable)
+   * Note that for large or complex collections, it is best to complete this step outside LSG on a processing workstation prior to upload and then ingest the content already arranged. This is because 1) the move and copy functions in LSG can be slow, 2) it is easy to cause discrepancies or lose information by changing container content while previous processes are running, 3) LSG lacks tools that might be useful in processing (e.g., for normalization or PII detection).
+5. Create md5 manifest
    * Click “Explore Content,” select all folders/files within the viewer, and click “create-md5-manifest” in the “Functions” menu on the right side. Leave the filename prompt blank to accept the default file name or assign one using the following convention: YYYY-MM-DD_MSS/EUA###_hashes
    * After the process finishes running, refresh the container to make sure the manifest has appeared.  
    * Content moved from the Accessioning Node will already have a manifest, but creating a second one is recommended to ensure it reflects any deletions or changes made during processing and contains all files, including those that might have already been in the collection container.
@@ -88,7 +90,9 @@ Any time new content is added to a permanent collection container, the archivist
    * Any DO record, regardless of level of description, must correspond 1:1 with a folder (top level or subfolder) or item within the collection container. 
 11. Update resource record
    * This step takes place in ArchivesSpace but must be completed as part of the process to ensure all content stored permanently in LSG is described in a resource record (aggregate representation is fine).
-   * Follow ArchivesSpace field usage guidelines and local practice to decide which notes and other fields should be updated. 
+   * Follow ArchivesSpace field usage guidelines and local practice to decide which notes and other fields should be updated.
+12. Complete
+   * Advance all containers to this step when finished. This signals that no further work needs to be done unless/until new content is added.
 
 ### Notes on using workflows
 * Archivists should use the Rose Processing Workflow within the permanent collection node when uploading disk images and other content worked on outside the LSG platform (it is assumed steps equivalent to those in the Rose Accessioning Workflow have already been completed).
