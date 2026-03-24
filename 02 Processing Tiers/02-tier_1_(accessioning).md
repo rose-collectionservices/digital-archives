@@ -21,7 +21,7 @@ This section describes the steps in detail. If you need a simpler version for qu
 
 3. Transfer and ingest content
    * **[Set up folder structure](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) on working drive.**
-   * **Image media or complete logical transfer of files.** See the [Imaging](https://github.com/rose-collectionservices/digital-archives/tree/master/Imaging%20Instructions) folder for more information on how to image different types of media upon accessioning.
+   * **Image media or complete logical transfer of files.** See the [imaging instructions]((https://github.com/rose-collectionservices/digital-archives/tree/master/03%20Imaging%20and%20Transfer%20Instructions)) for more information on how to image different types of media upon accessioning.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
    * Generate manifest and scan for viruses.
      * To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md).
