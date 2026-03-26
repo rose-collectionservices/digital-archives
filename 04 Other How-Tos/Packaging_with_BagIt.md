@@ -1,10 +1,11 @@
 # Packaging disk images and supplemental files from Tier 1 processing using BagIt
 1. Boot the computer into BitCurator. Ensure that the hard drive dock is powered on and the drive is mounted.
-2. If needed: Set up a folder for each disk image. See step 4 of [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md).
+2. If needed: Set up a folder within Originals for each disk image. See step 4 of [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md).
 3. Ensure each folder named with an original carrier/batch identifier (MSS###_##; e.g., 1297_01) contains the following:
 	* Forensically packaged disk image, tar file, or batch of logically transferred files
  	* Any log files or manifests generated during imaging or transfer
  	* A fiwalk.xml file, if applicable
+4. Create a folder within Originals named with your Emory ID, and move all of the other folders you wish to bag inside the new folder.
 4. On the Desktop, locate the file **bagger.bash** and click to open it.
 		The file should look like this: 
 	
