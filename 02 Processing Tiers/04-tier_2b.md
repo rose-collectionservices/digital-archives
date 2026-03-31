@@ -97,7 +97,7 @@ At the end of this stage, all processed files intended to be made available to r
 15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
 
 ---
-## Upload Access Copies
+## Upload Use Copies for Researcher Access
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
 Only a digital archivist or trained processing archivist should complete this step, which requires appropriate LIBSAFE Go permissions. 
@@ -120,16 +120,15 @@ Note that these instructions describe uploading processed files using the LSG we
 Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolder as a bag.
 
 ---
-## Upload to Preservation Repository (required)
+## Ingest Processed Files for Preservation (required)
 *This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
 
 ### LIBSAFE Go upload (default as of 2026)
-1. Log into LIBSAFE Go, navigate to the MSS or EUA node, and create a new container using the default template (or open the container if one for the collection alreayd exists).
-2. Rename the top-level directories with the actual collection identifier (the template will populate the folder structure but with placeholder names).
-3. Locate any checksum manifests, directory lists, and other documentation from processing on the working drive and upload these to the PreservationDescriptionInfo folder. (If the originals were not bagged prior to ingest, you may decide to add the reports to the Originals subfolders in LSG instead; if the originals were bagged, however, the reports should be stored in the collection's PDI folder so as not to interfere with future bag validation.)
-4. Upload the bagged version of ProcessedFiles to the ProcessedFiles folder in the LSG container.
-5. Select the bag and use the validate function to ensure it uploaded correctly. 
-6. Click through the LSG processing workflow for the container and ensure any remaining steps are complete, including assigning object metadata and creating DO records. (See [LIBSAFE Go documentation](https://github.com/rose-collectionservices/digital-archives/blob/master/01%20General%20Topics/03-LIBSAFE_Go_Documentation.md) for details.)
+1. Log into LIBSAFE Go, navigate to the MSS or EUA node, and open the container created for the collection during Tier 1 processing (or create a new container using the default template if one doesn't yet exist). If needed, rename the top-level directories with the actual collection identifier (the template will populate the folder structure but with placeholder names).
+2. Locate any checksum manifests, directory lists, and other documentation from processing on the working drive and upload these to the PreservationDescriptionInfo folder. (If the originals were not bagged prior to ingest, you may decide to add the reports to the Originals subfolders in LSG instead; if the originals were bagged, however, the reports should be stored in the collection's PDI folder so as not to interfere with future bag validation.)
+3. Upload the bagged version of ProcessedFiles to the ProcessedFiles folder in the LSG container.
+4. Select the bag and use the validate function to ensure it uploaded correctly. 
+5. Click through the LSG processing workflow for the container and ensure any remaining steps are complete, including assigning object metadata and creating DO records. (See [LIBSAFE Go documentation](https://github.com/rose-collectionservices/digital-archives/blob/master/01%20General%20Topics/03-LIBSAFE_Go_Documentation.md) for details.)
 
 ### Keep upload (legacy—do not use)
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
