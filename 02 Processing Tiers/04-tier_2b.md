@@ -38,11 +38,15 @@ a. To select multiple files at once, select the first one, then hold down the "S
 ## Arrange Files (if needed)
 *This step should take place in the Windows environment.*
 
-If you are maintaining the original groupings of the content by carrier or batch (This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.)
+### If you are maintaining the original groupings of the content by carrier or batch 
+This is the most common approach except in situations where the original groupings are not meaningful and may in fact impede access. Even entire hard drives can often be handled this way, provided robust scope notes and detailed directory lists are made available to help researchers locate content.
+
 1. Within each disk-level subfolder of WorkingFiles, move any folders and files past the root folder up to the disk-level directory to reduce the number of unnecessary nested folders.
 2. Rename WorkingFiles to MSS/EUA###_ProcessedFiles.
 
-If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement (This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.)
+### If you are instead arranging files (a) by material type (floppy disks and optical discs, hard drive model, etc.) or (b) to match series arrangement 
+This used to be our standard practice but is now uncommon because it takes more time and obscures provenance.
+
 1. Create a complete copy of WorkingFiles, ideally using TeraCopy, and name it MSS/EUA###_ProcessedFiles.
 2. Create folders within the ProcessedFiles folder based on the planned arrangement.
 3. Copy the content of each disk-level folder under WorkingFiles into the appropriate new location. 
