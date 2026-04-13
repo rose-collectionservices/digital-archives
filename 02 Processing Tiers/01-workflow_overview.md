@@ -3,22 +3,6 @@
 This document outlines a tiered approach to processing born-digital material for the Digital Archives program at the Stuart A. Rose Manuscripts, Archives, and Rare Books Library at Emory University in Atlanta, GA.
 
 ---
-## Born-digital processing overview
-
-All incoming born-digital materials undergo the same stages of work following arrival at Emory:
-
-1.	The digital media is received or files are transferred.
-2.	Born-digital materials are accessioned.
-3.	Born-digital materials are inventoried.
-4.	Born-digital materials are stabilized and prepared for ingest. This process will vary depending on the original format of the materials:
-	a.	*Digital media* will be imaged.
-	b.	*Transferred files* will be quarantined for thirty days and scanned for viruses. If not completed during transfer, checksums will be created for all files.
-5.	Content is analyzed and reports created. Often this involves using Fiwalk to producing a DFXML report with metadata and provenance information, but it might instead mean creating a directory list, a checksum manifest, or other outputs from similar tools.
-6.	At this point, the archivist will determine and document the appropriate tier of processing for the collection.
-
-Archivists may use the [digital media log template](https://emory.sharepoint.com/:x:/r/sites/EUVRoseLibrary/_layouts/15/Doc.aspx?sourcedoc=%7BDF9842DA-4BCB-4997-B1DA-1899AB188D4E%7D&file=DigitalArchives_MediaLog.xlsx&action=default&mobileredirect=true) to inventory materials and record actions taken during processing.
-
----
 ## Levels of processing
 Born-digital materials are processed at one of four tiers:
 
