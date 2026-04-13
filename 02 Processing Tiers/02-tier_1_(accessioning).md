@@ -2,12 +2,12 @@
 
 ## Workflow overview
 
-All incoming born-digital materials go through the same basic process following arrival at Emory, although the order and depth of the stages might vary:
+All incoming born-digital materials go through the same basic process, although the order and depth of the stages might vary. This work ideally occurs as soon as possible after the materials' arrival at Emory.
 
 1.	Digital media is received or files are transferred.
-2.	Materials are accessioned.
-3.	Materials are inventoried.
-4.	Materials are stabilized and prepared for ingest. 
+2.	Material is inventoried.
+3.	Collection or addition is accessioned. (This includes format-agnostic accessioning steps that are done for both hybrid and digital-only collections.) 
+4.	Content is stabilized and prepared for ingest. 
 5.	Content is analyzed and reports created. 
 6.	Archivist determines and documents whether Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
 
