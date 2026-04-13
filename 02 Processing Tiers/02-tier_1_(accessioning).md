@@ -7,9 +7,9 @@ All incoming born-digital materials go through the same basic process following 
 1.	Digital media is received or files are transferred.
 2.	Materials are accessioned.
 3.	Materials are inventoried.
-4.	Materials are stabilized and prepared for ingest. For digital media this involves disk imaging or logical transfer of files. For transferred files this involves a 30-day quarantine period, virus scan, and checksum creation. 
+4.	Materials are stabilized and prepared for ingest. 
 5.	Content is analyzed and reports created. 
-6.	Archivist determines and documents wehther Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
+6.	Archivist determines and documents whether Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
 
 ## Detailed workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
