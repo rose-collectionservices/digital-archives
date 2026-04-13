@@ -51,6 +51,7 @@ This used to be our standard practice but is now uncommon because it takes more 
 5. Once you are satisfied with the folder structure and everything has been sorted, delete WorkingFiles, retaining only the finished ProcessedFiles (in addition to Originals and ExtractedFiles).
 
 At the end of this stage, all processed files intended to be made available to researchers should be in subfolders within the ProcessedFiles directory. This directory is the final version of the content and will live as two copies in our systems: one packaged for preservation and ingested alongside the Tier 1/original versions, and one uploaded to an access system for researcher use.
+
 ---
 
 ## Tier 2b Examples
