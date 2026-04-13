@@ -5,11 +5,10 @@
 All incoming born-digital materials go through the same basic process, although the order and depth of the stages might vary. This work ideally occurs as soon as possible after the materials' arrival at Emory.
 
 1.	Digital media is received or files are transferred.
-2.	Material is inventoried.
-3.	Collection or addition is accessioned. (This includes format-agnostic accessioning steps that are done for both hybrid and digital-only collections.) 
-4.	Content is stabilized and prepared for ingest. 
-5.	Content is analyzed and reports created. 
-6.	Archivist determines and documents whether Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
+2.	Collection or addition is inventoried and accessioned. (This includes format-agnostic accessioning steps that are done for both hybrid and digital-only collections. See the [Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/10-PHYSICAL%20PROCESSING#1074-processing-digital-media) for physical processing of digital media that takes place at this stage.) 
+3.	Content is stabilized and prepared for ingest. 
+4.	Content is analyzed and reports created. 
+5.	Archivist determines and documents whether Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
 
 ## Detailed workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
