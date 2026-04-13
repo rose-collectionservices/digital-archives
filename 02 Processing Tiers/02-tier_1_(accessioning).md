@@ -1,6 +1,17 @@
 # Tier 1 - Accessioning and Imaging
 
-## Standard workflow
+## Workflow overview
+
+All incoming born-digital materials go through the same basic process following arrival at Emory, although the order and depth of the stages might vary:
+
+1.	Digital media is received or files are transferred.
+2.	Materials are accessioned.
+3.	Materials are inventoried.
+4.	Materials are stabilized and prepared for ingest. For digital media this involves disk imaging or logical transfer of files. For transferred files this involves a 30-day quarantine period, virus scan, and checksum creation. 
+5.	Content is analyzed and reports created. 
+6.	Archivist determines and documents wehther Tier 1 treatment is sufficient or the collection should undergo a higher level of processing.
+
+## Detailed workflow
 These steps apply when accessioning a new born-digital collection or digital media from a previously accessioned hybrid collection. If the collection as a whole has not yet been accessioned, be sure to also complete the general accessioning steps described in the [Rose Library Collection Services manual](https://github.com/rose-collectionservices/collection-services-manual/tree/master/03-ACCESSIONING).
 
 This section describes the steps in detail. If you need a simpler version for quick reference, see the checklist linked below. Steps that appear in bold type are those that students might perform when assisting with born-digital accessioning.
@@ -22,15 +33,17 @@ This section describes the steps in detail. If you need a simpler version for qu
 3. Transfer and ingest content
    * **[Set up folder structure](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) on working drive.**
    * **Image media or complete logical transfer of files.** See the [imaging instructions]((https://github.com/rose-collectionservices/digital-archives/tree/master/03%20Imaging%20and%20Transfer%20Instructions)) for more information on how to image different types of media upon accessioning.
+     * If the material arrived via any form of remote transfer other than direct submission to LIBSAFE Go (e.g., email, FTP, Dropbox, network drive) rather than on physical media, quarantine for 30 days on a working drive before proceeding.
+     * We don't have hard and fast rules about when to image vs. logically copy, so consulting a digital archivist is recommended. Decisions may be made at the level of the collection, media type, or individual carrier and involve considerations like the age and fragility of the media, PII and sensitivity concerns, content volume, and preservation intent.
    * Determine which preservation repository will house the content. As of 2025, most newly accessioned content will go into LIBSAFE Go. Content from collections that already have born-digital material in The Keep should go into The Keep so the collections are split; however, it is likely all Keep disk images will migrate to LIBSAFE Go in 2026, so new ingest to The Keep will stop at that point.
-   * Generate manifest and scan for viruses.
+   * Generate manifest with metadata and provenance information and scan for viruses.
      * To complete this step for content destined for The Keep, see [Fiwalk instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Generating_Fiwalk_reports.md).
      * For content submitted directly to LIBSAFE Go, use the platform's built-in virus scan and md5 checksum functions.
      * For content an archivist is uploading to LIBSAFE Go, use any appropriate combination of tools prior to ingest (recommendation as of 2025: for virus scan, Microsoft Defender, and for manifest, Fiwalk report OR FTK Imager directory list and hash list) then repeat with LIBSAFE Go's built-in functions after uploading. If possible, either format the pre-ingest md5 manifest in a compatible manner so it can be verified by LIBSAFE Go or plan to package the content with Bagger so it can be verified as a bag. 
    * Assemble disk images/logically transferred content and supplemental files, including imaging or transfer logs, checksum manifests, DFXML files, and readmes.
      * If uploading to The Keep, bag using Bagger. See [BagIt packaging instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Imaging%20Instructions/Packaging_with_BagIt.md).
      * For LIBSAFE Go, bagging is recommended for preservation copies of content processed by an archivist outside the platform (vs. files transferred directly through submission areas).
-   * Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go).
+   * Ingest packaged content and supplemental files to a preservation repository (The Keep or LIBSAFE Go).  
      * See the [Keep upload instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) for instructions on how to upload bagged materials to the Keep.
      * See the Emory Libraries [LIBSAFE Go wiki](https://emorylib.atlassian.net/wiki/spaces/LG/pages/405995521/Using+LIBSAFE+Go+Non-Admin+Users) on Confluence or Libnova's [product documentation](https://docs.libnova.com/libsafe-go) for instructions on how to ingest to LISBAFE Go.
        * If content is ingested to LIBSAFE Go as a bag, verify using the built-in function.
