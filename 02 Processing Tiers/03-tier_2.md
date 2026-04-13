@@ -1,5 +1,9 @@
-# Tier 2 - File Extraction and Light Processing
-Record Tier 2 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
+# Tier 2 - Processing for Access
+Tier 2 is divided into two sublevels. All processing begins with the first, Tier 2(a); this level is sufficient when no usable content remains at the end of the steps outlined below or when the content that remains is straightforwardly arranged with easily renderable formats and requires no further intervention for access. An archivist may proceed to Tier 2b as necessary, typically when extracted content requires normalization or arrangement beyond original groupings.
+
+Record Tier 2 and 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
+
+# Tier 2(a) - File Extraction and Light Processing
 
 ---
 
@@ -143,7 +147,7 @@ If only system files, program files, or corrupted/unconvertable files are left a
 
 ---
 
-## Finding Aid Edits (if not proceeding to 2b/3)
+## Finding Aid Edits (complete if no useful content remains, then stop after this step)
 *This can be done on a regular staff laptop with ArchivesSpace access, although being in the lab to refer to the processing materials and logs can be helpful.*  
 
 Processing Note: 
@@ -165,8 +169,122 @@ Recommended at the file level when processing doesn't produce usable content: "D
 
 ---
 
-## Examples
-Morris B. Arbam papers
+## Reroute to 2b or 3 (if needed)
+If the steps above yielded content with research value but it requires normalization, arrangement, restrictions, or other higher-level intervention, pause here to complete those steps before returning to the remaining steps in this workflow.
+
+Go to [Tier 2b - Full Processing without Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/04-tier_2b.md).
+Go to [Tier 3 - Full Processing with Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/05-tier_3.md).
+
+---
+
+## Directory Listing (required)
+
+### Current method, as of 2026
+*This step should take place in Windows.*
+
+1. After the ProcessedFiles subfolder is reviewed, arranged, and organized to your satisfaction and you're certain any non-public files have been moved elsewhere, open TreeSize Pro.
+2. In the address bar, browse to the appropriate ProcessedFiles folder on the working drive and click the green arrow to begin a scan.
+3. When the scan is complete, click the "Export" button in the toolbar.
+   1. Browse to the PDI folder on the working drive as the save location, and enter MSS/EUA###_ProcessedFilesInventory.html as the file name.
+   2. Make sure the export format is HTML.
+   3. Click "Customize Export."
+4. In the export options menu that opens, configure the following settings: 
+   1. In the export format list on the left, select HTML.
+   2. Uncheck all chart and list options except for "Directory Tree."
+   3. Make sure "Export Depth" is set to "Full Directory Tree" and "Exported Elements" to "Folders, [Files] item and single files."
+   4. Under "Exported Columns," select "Use custom column settings." Choose the following column options: Name, Size, Files, Folders, Last Modified, Type, Folder Path, File Extension.
+   5. Click "OK" to save your export settings.
+5. Back in the export window, click the "Save" button.
+6. Open the resulting HTML file in Notepad or another text editor.
+   1. After the title tag, replace the default title with the collection identifier and title (e.g., "EUA 251, Emory University campus buildings and grounds collection").
+   2. Farther down, replace the text after the h1 tag with the following heading: [MSS/EUA ###], [Title]: Inventory of born-digital material (as of [today's date] (e.g., "EUA 251, Emory University campus buildings and grounds collection: Inventory of born-digital material (as of 3/10/2026)").
+   3. Delete the h3 tag and the content after it identifying the source drive and its capacity.
+5. In the collection contain in LIBSAFE Go, upload the HTML file to the PreservationDescriptionInfo folder. 
+
+### Legacy method
+*This step should take place in the BitCurator/Ubuntu environment.*
+
+1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
+2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
+3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
+4. Hit **Enter**
+5. When the command is done running, go to the *[MSS_ID]_[title_statement]* folder in the file viewer and select the *[MSS_ID]_[title_statement].txt* file created. 
+6. ```Ctrl+X``` the file and navigate to the main *[collectionName]_[MSS_ID]* folder and *Paste* it there. 
+7. Double-click the TXT file just copied to open it in the text editor software. 
+8. In the text editor, click on the three (3) stacked lines next to the "Save" button in the top right corner. 
+9. Click the printer icon in the top middle row of icons. 
+10. In the pop-up window, click the extention after "File" near the middle of the window. 
+11. Navigate to the [collectionName]_[MSS_ID] folder on the hard drive in the window. 
+12. In the window, edit the file name to remove the ".txt" extension and then hit "Enter" on the keyboard. This should close out the printer destination window. 
+13. In the remaining window, click "Print" in the top right corner. 
+14. For larger documents/collections, wait until the orange progress bar at the top of the text editor is gone to make sure the PDF is finished being printed. 
+15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
+
+---
+## Upload Use Copies for Researcher Access
+*This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
+
+Only a digital archivist or trained processing archivist should complete this step, which requires appropriate LIBSAFE Go permissions. 
+
+Note that these instructions describe uploading processed files using the LSG web interface. For large or complex collections, uploading through an S3 client is preferred. See a digital archivist for help.
+
+1. Log into LIBSAFE Go, navigate to the Rose Reading Room (RRR) node, and check in to the "Processed Born-Digital Files" container.
+2. Create a folder for the collection, if one does not already exist, following the convention you see used for other collections (MSS/EUA###_TitleStatement).
+3. Open the collection folder you just created, click the upload button, click "add files," browse to the ProcessedFiles folder on the working drive, select all of the files/folders within it, and click "open."
+4. Check the status window periodically to make sure files are uploading successfully.
+5. If ProcessedFiles had any checksum manifests, log files, or other non-public items still present at the time of upload, delete those files from the LSG access copy.
+6. Upload a copy of the TreeSize report within the collection folder.
+
+***NOTE: The archivist who uploads the processed files should take care to exclude any restricted files or other content that should not be available in the reading room but is not required to tag files or assign metadata in the RRR node. The digital archivist is responsible for maintaining any metadata needed in this node. These instructions, and possibly the order in which we ingest access and preservation copies, will be revised later when LSG updates their metadata functionality.
+
+---
+## Bag Processed Files (required)
+*This step can take place in either Windows or BitCurator/Ubuntu.*
+
+Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolder as a bag.
+
+---
+## Ingest Processed Files for Preservation (required)
+*This step can take place in either Windows or BitCurator/Ubuntu and requires an internet connection for LIBSAFE Go access.*
+
+### LIBSAFE Go upload (default as of 2026)
+1. Log into LIBSAFE Go, navigate to the MSS or EUA node, and open the container created for the collection during Tier 1 processing (or create a new container using the default template if one doesn't yet exist). If needed, rename the top-level directories with the actual collection identifier (the template will populate the folder structure but with placeholder names).
+2. Locate any checksum manifests, directory lists, and other documentation from processing on the working drive and upload these to the PreservationDescriptionInfo folder. (If the originals were not bagged prior to ingest, you may decide to add the reports to the Originals subfolders in LSG instead; if the originals were bagged, however, the reports should be stored in the collection's PDI folder so as not to interfere with future bag validation.)
+3. Upload the bagged version of ProcessedFiles to the ProcessedFiles folder in the LSG container.
+4. Select the bag and use the validate function to ensure it uploaded correctly. 
+5. Click through the LSG processing workflow for the container and ensure any remaining steps are complete, including assigning object metadata and creating DO records. (See [LIBSAFE Go documentation](https://github.com/rose-collectionservices/digital-archives/blob/master/01%20General%20Topics/03-LIBSAFE_Go_Documentation.md) for details.)
+
+### Keep upload (legacy—do not use)
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+*Staff: Follow [these instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Tier%201/Keep_Ingest.md) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
+1. **Abstract:** *TAR file of files brought to Tier 2b processing, MD5 file, and original disk image*
+2. **Imaging Date:** put the date the bag was created
+3. **Hardware:** put the summation of the media, without count
+4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
+
+---
+## Finding Aid Edits (required)
+*This step can take place on any computer in any operating system.*
+
+[2026 note: Replace details with links to CS manual sections where appropriate so instructions are less fragmented and easier to maintain.]
+
+Add or updating the following fields in the resource record:
+1. *Extent:* at end have “[MB/GB amount] born-digital material ([# files])
+* *To find out the size and number of files:* In Windows, right-click on the *[MSS_ID]_[title_statement]* folder and select *Properties*. A new window will appear with size information and the number of files and folders. For the MB/GB amount, choose the first one (size).
+2. *Summary:* make sure “and born-digital material” is included
+3. *Restrictions on access:* Access to processed born-digital materials is only available in the Stuart A. Rose Manuscript, Archives, and Rare Book Library (the Rose Library). Use of the original digital media is restricted, but media is available to view upon request.
+4. *Appraisal Note (if applicable):* Blank and/or broken disks have been discarded.
+5. *Processing Note:* Born-digital materials processed, arranged, and described by [name], [date]. Born-digital materials include files taken from [list of items]. 
+* a. *If finding aid has series:* For information as to how these materials were processed, see the processing note in the description of series [number], Born-digital material. *(Or series the born-digital material is found in. Add the below note to the **series level** Processing Note)*
+* b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
+6. *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born-digital materials. 
+7. *Digital object records:* Create or update the DO records to include all instances of each AO. In most cases, each AO will correspond to one media carrier or file batch and have a single associated DO. That DO might have up to three file versions: one of the unprocessed copy of the content in a preservation repository, one for the processed copy in a preservation repository (if different from the original copy), and one for the user-facing access copy. The DO record and the user-facing file version should be published; any other file versions should remain unpublished. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
+8. *Other Finding Aids:* An inventory of the individual born-digital files available in the collection is <extref xlink:href="[TreeSizeReportURL]">available to researchers as an HTML page</extref>. [Not yet implemented—waiting for confirmation on file hosting location.] 
+   
+Once the files are processed, ingested, and described, mark the collection as Tier 2, 2b, 3 in the shelf list and update any applicable inventory notes.
+
+## Tier 2 Examples
+Morris B. Abram papers
 Elizabeth Dewberry papers
 Horace Mann and Julia W. Bond family papers
 Mari Evans papers
