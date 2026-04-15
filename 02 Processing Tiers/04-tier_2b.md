@@ -1,5 +1,5 @@
 # Tier 2b - Full Processing without Restrictions
-To process at the Tier 2b level, begin after deduplication in Tier 2 and follow the additional steps below. When finished, return to the [Tier 2 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/03-tier_2.md) for the final workflow steps, which are identical for Tiers 2, 2b, and 3.
+To process at the Tier 2b level, typically when extracted content requires normalization or arrangement beyond original groupings, begin after deduplication in Tier 2 and follow the additional steps below. When finished, return to the [Tier 2 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/03-tier_2.md) for the final workflow steps, which are identical for Tiers 2, 2b, and 3.
 
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
