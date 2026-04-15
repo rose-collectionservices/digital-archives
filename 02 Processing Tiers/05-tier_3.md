@@ -3,7 +3,9 @@ The Tier 3 workflow further extends Tiers 2 and 2b with steps to implement conte
 
 To process at the Tier 3 level, begin after deduplication in the [Tier 2 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/Processing%20Tiers/Tier%202.md) or after normalization and arrangement in the [Tier 2b instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/04-tier_2b.md) as appropriate. When finished, return to the [Tier 2 instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/03-tier_2.md) for the final workflow steps, which are identical for Tiers 2, 2b, and 3. 
 
-Note that after PII review and implementation of restrictions, you might need to revisit some arrangement decisions and other work completed earlier in the process. Record Tier 3 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
+Note that after PII review and implementation of restrictions, you might need to revisit some arrangement decisions and other work completed earlier in the process. 
+
+Record Tier 3 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
 ---
 
