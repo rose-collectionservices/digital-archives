@@ -1,5 +1,7 @@
 # Tier 2(a) - File Extraction and Light Processing
-Tier 2 is divided into two sublevels. All processing begins with the first, Tier 2(a); this level is sufficient when no usable content remains at the end of the steps outlined below or when the content that remains is straightforwardly arranged with easily renderable formats and requires no further intervention for access. An archivist may proceed to Tier 2b as necessary, typically when extracted content requires normalization or arrangement beyond original groupings.
+In addition to steps specific to Tier 2, this page contains general steps required to make processed content available for researchers to use. If processing at Tier 2b or 3, leave this page at the point indicated below then return here for the final steps, which are identical for Tiers 2, 2b, and 3.
+
+Tier 2 focuses on making preservation copies of content available for researchers to use and is divided into two sublevels. All processing begins with the first, Tier 2(a); this level is sufficient when no usable content remains at the end of the steps outlined below or when the content that remains is straightforwardly arranged with easily renderable formats and requires no further intervention for access. An archivist may proceed to Tier 2b as necessary, typically when extracted content requires normalization or arrangement beyond original groupings.
 
 Record Tier 2 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
@@ -167,7 +169,7 @@ Recommended at the file level when processing doesn't produce usable content: "D
 
 ---
 
-## Reroute to 2b or 3 (if needed)
+## Reroute to Tier 2b and/or 3 (if needed)
 If the steps above yielded content with research value but it requires normalization, arrangement, restrictions, or other higher-level intervention, pause here to complete those steps before returning to the remaining steps in this workflow.
 
 Go to [Tier 2b - Full Processing without Restrictions](https://github.com/rose-collectionservices/digital-archives/blob/master/02%20Processing%20Tiers/04-tier_2b.md).
