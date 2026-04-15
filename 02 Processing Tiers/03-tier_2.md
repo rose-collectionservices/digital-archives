@@ -72,7 +72,7 @@ Legacy practice note: In different points in the past, we've used Avast, McAfee,
 ## XML Files (legacy—usually not needed)
 *This step should take place in the BitCurator/Ubuntu environment.*
 
-As for 2026, this is not part of the workflow. Skip it unless a digital archivist indicates it is needed for work with a legacy collection.
+As of 2026, this is not part of the workflow. Skip it unless a digital archivist indicates it is necessary when working on a legacy collection.
 
 This step involves the original hard drive the images were created on. Locate the corresponding hard drive where the original disk images are stored (see the shelf list or legacy disk image inventory to identify the correct drive).
 
