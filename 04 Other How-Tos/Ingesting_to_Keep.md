@@ -1,4 +1,6 @@
-# Ingesting packaged content into the Keep
+# Ingesting packaged content into the Keep (legacy)
+
+Born-digital material was migrated from The Keep to LIBSAFE Go in spring 2026. Going forward, The Keep is unavailable for born-digital ingest and all newly acquired or processed born-digital material is destined for LIBSAFE Go.
 
 ## Move packaged content to the server:
 
