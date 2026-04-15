@@ -109,7 +109,9 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 
 ---
 
-## Content Review and Weeding (if needed, using one or more methods)
+## Content Review and Weeding (if needed)
+
+If needed, use one or more of the methods described below. For small or homogeneous collections, a visual review without software tooling might be sufficient.
 
 ### Deduplication with FSLint
 *This step should take place in the BitCurator/Ubuntu environment.*
