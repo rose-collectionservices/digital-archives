@@ -55,8 +55,9 @@ At the end of this stage, all processed files intended to be made available to r
 ---
 
 ## Tier 2b Examples
-Thomas Kinsella papers
-Constance W. Curry papers
-Henry H. and Ella Pearson Mitchell papers
-AID Atlanta records
-Teri Darnell photographs
+
+* Thomas Kinsella papers
+* Constance W. Curry papers
+* Henry H. and Ella Pearson Mitchell papers
+* AID Atlanta records
+* Teri Darnell photographs
