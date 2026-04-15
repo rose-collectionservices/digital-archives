@@ -1,9 +1,7 @@
-# Tier 2 - Processing for Access
+# Tier 2(a) - File Extraction and Light Processing
 Tier 2 is divided into two sublevels. All processing begins with the first, Tier 2(a); this level is sufficient when no usable content remains at the end of the steps outlined below or when the content that remains is straightforwardly arranged with easily renderable formats and requires no further intervention for access. An archivist may proceed to Tier 2b as necessary, typically when extracted content requires normalization or arrangement beyond original groupings.
 
-Record Tier 2 and 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
-
-# Tier 2(a) - File Extraction and Light Processing
+Record Tier 2 actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
 ---
 
@@ -284,7 +282,7 @@ Add or updating the following fields in the resource record:
 Once the files are processed, ingested, and described, mark the collection as Tier 2, 2b, 3 in the shelf list and update any applicable inventory notes.
 
 ## Tier 2 Examples
-Morris B. Abram papers
-Elizabeth Dewberry papers
-Horace Mann and Julia W. Bond family papers
-Mari Evans papers
+* Morris B. Abram papers
+* Elizabeth Dewberry papers
+* Horace Mann and Julia W. Bond family papers
+* Mari Evans papers
