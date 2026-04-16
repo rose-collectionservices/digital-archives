@@ -243,7 +243,7 @@ Note that these instructions describe uploading processed files using the LSG we
 ## Bag Processed Files (required)
 *This step can take place in either Windows or BitCurator/Ubuntu.*
 
-Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolder as a bag.
+Following the [BagIt/Bagger instructions](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Packaging_with_BagIt.md), package the ProcessedFiles subfolders as bags. If necessary, you can package the entire ProcessedFiles directory as a single bag.
 
 ---
 ## Ingest Processed Files for Preservation (required)
