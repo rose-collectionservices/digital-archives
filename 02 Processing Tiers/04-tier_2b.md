@@ -4,6 +4,40 @@ To process at the Tier 2b level, typically when extracted content requires norma
 Record Tier 2b actions and observations in a .txt readme file, digital processing plan, or media log spreadsheet (recommended for large, complex collections). 
 
 ---
+
+## Content Review and Weeding (if needed)
+
+If needed, use one or more of the methods described below. For small or homogeneous collections, a visual review without software tooling might be sufficient.
+
+### Deduplication with FSLint
+*This step should take place in the BitCurator/Ubuntu environment.*
+
+1. On the desktop, click the Forensics and Reporting folder.
+2. Double click FSLint to launch it.
+3. Once open, click the “+Add” button at the top left and navigate to the hard drive and WorkingFiles folder. 
+4. Double click the first folder in WorkingFiles.
+5. Remove the “/” from the top box using the “X Remove” button under the “+Add” button.
+6. Make sure the tab on the left is set to “Duplicates.”
+7. Click the “Find” button on the bottom left of the screen to start finding duplicates within the one folder.
+8. In the results screen, right click and choose "within groups," then “select all but newest” then click “Delete” in the bottom right corner.
+9. Click “Find” again to make sure everything else got deleted.
+10. On the left, choose the “Empty Directories” tab and click “Find.”
+11. Delete all the empty directories which appear.
+12. Do the same for the “Temp Files” tab.
+13. Repeat this process for other folders in the collection, removing and adding each one every time.
+14. Once done with the individual folders, add the WorkingFiles folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once. This is to triple-check there are no more lingering duplicate files or empty directories in the collection. 
+
+### Size and format analysis with TreeSize Pro
+*This step should take place in Windows.*
+
+1. Open TreeSize Pro and scan the WorkingFiles folder.
+2. In the results, look for files or folders that are particularly large, possibly duplicative, in problematic formats, etc. At this stage, do not assess or make decisions about individual files, but look for patterns and problem areas.
+3. If you find folders that are clearly out of scope, delete them from WorkingFiles.
+4. If you notice anything that requires more careful review or intervention, flag it and consider taking the collection to Tier 3.
+5. Record any relevant information that will help with writing more accurate description later.
+
+---
+
 ## Normalize Files (if needed)
 *This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. See [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
 
