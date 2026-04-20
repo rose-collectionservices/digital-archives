@@ -38,7 +38,7 @@ If needed, use one or more of the methods described below. For small or homogene
 
 ---
 
-## Normalize Files (if needed)
+## Normalization (if needed)
 *This step may take place in either BitCurator/Ubuntu or Windows, depending on the material being normalized and the method chosen. See [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
 
 The instructions below work best for text and image files. They may be applied to all files in a collection or a subset. 
@@ -66,7 +66,7 @@ a. To select multiple files at once, select the first one, then hold down the "S
 
 ---
 
-## Arrange Files (if needed)
+## Arrangement (if needed)
 *This step should take place in the Windows environment.*
 
 ### If you are maintaining the original groupings of the content by carrier or batch 
