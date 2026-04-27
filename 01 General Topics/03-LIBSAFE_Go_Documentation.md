@@ -106,4 +106,17 @@ Rose local practice notes:
 * Files in MSS####_ProcessedFiles (and equivalent folders in RRR Rose Reading Room) should have object-level metadata assigned, with required fields completed at minimum.
 * Files in MSS####_Originals and MSS####_RestrictedFiles are not intended for end-user access, so object-level metadata is a lower priority and a reduced number of completed fields may be appropriate. Administrative metadata fields (ArchivesSpace ID, original object/batch ID, accession number, and PID) are necessary when applicable.
 * When assigning administrative metadata to unprocessed material/Tier 1 preservation copies, complete the fields for the disk image files themselves. Assigning metadata to log files, bag manifests, etc., is not necessary.
-* Files in MSS####_PreservationDescriptionInfo do not need object metadata assigned. 
+* Files in MSS####_PreservationDescriptionInfo do not need object metadata assigned.
+
+## Pulling Browser Links from LIBSAFE Go
+If you need to create many Digital Object records or DO file versions, this method of generating a list of links to preservation copies in LIBSAFE Go will save time and improve accuracy over copying and pasting from the file/folder properties in the LSG Explore Content view. Note that while it's possible to use the same method to get links to access copies from the reading room access container, the volume of the container will make running the report and manipulating the data cumbersome.
+
+1. Open the collection container or the RR access container and enter the Reports area.
+2. Run the "Files by Storage Class" report.
+3. In the history tab for the report, click the download button to get a csv.
+4. Sort and filter as needed to delete the rows you don't need and end up with a list of only the things you intend to link to. This will most often be folders with a relative path similar to /MSS1315_Originals/1315_20/ or /MSS1315_ProcessedFiles/1315_13/. For example, if you know you'll be linking exclusively folders, not actual files, you could sort by the size column then delete all rows with a value other than 0.
+5. Next to the # column in the export, insert three empty columns.
+6. In one of them, paste the URL stem. You can get this by copying and pasting from the properties of something already in the collection container, or you can create it by inserting the container number into this generic version: https://go.emory.libnova.com/containers/[containerID]/file/
+7. In the next column, enter this formula: =CONCATENATE(B2,A2) (or replace the cell references with the locations of the URL stem and the file number). Drag down to auto-populate the formula for all rows.
+8. Highlight the column with the newly created URLs, copy, right click on the final empty column you inserts, and choose the Paste Values option. You now have a list of URLs next to the paths they link to.
+9. Copy and paste each URL into the appropriate row of your ASpace import spreadsheet or the appropriate field of your DO record. If inserting a particularly large number of URLs into an import spreadsheet, consider using another function to match and enter the correct values from the entire list at once instead of manually pasting them in.
