@@ -204,7 +204,6 @@ Note that these instructions describe uploading processed files using the LSG we
 3. Open the collection folder you just created, click the upload button, click "add files," browse to the ProcessedFiles folder on the working drive, select all of the files/folders within it, and click "open."
 4. Check the status window periodically to make sure files are uploading successfully.
 5. If ProcessedFiles had any checksum manifests, log files, or other non-public items still present at the time of upload, delete those files from the LSG access copy.
-6. Upload a copy of the TreeSize report within the collection folder.
 
 ***NOTE: The archivist who uploads the processed files should take care to exclude any restricted files or other content that should not be available in the reading room but is not required to tag files or assign metadata in the RRR node. The digital archivist is responsible for maintaining any metadata needed in this node. These instructions, and possibly the order in which we ingest access and preservation copies, will be revised later when LSG updates their metadata functionality.
 
