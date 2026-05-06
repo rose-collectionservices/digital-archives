@@ -12,14 +12,15 @@ Record Tier 2 actions and observations in a .txt readme file, digital processing
 
 1. Place selected hard drive in dock, connect the dock to a USB port on the computer, and power on the dock. The Windows file explorer should automatically open once the hard drive is mounted and recognized by the computer.
 2. If a folder for the collection doesn't already exist, follow the instructions in [Setting Up Folders](https://github.com/rose-collectionservices/digital-archives/blob/master/04%20Other%20How-Tos/Setting_Up_Folders.md) to create a collection folder with three subfolders (for original files, extracted files, and working files). 
-3. In the ExtractedFiles folder, create subfolders for each disk image/batch you successfully transferred and expect to extract content from. *If a number is skipped in the Keep files, delete that folder from Originals and ExtractedFiles. This means that specific number either did not image or there was an issue uploading into the Keep. Check the media log or processing plan for more information.*
-4. Ideally you will be working on the same hard drive used during Tier 1 and therefore already have the disk images/logical copies on hand. If they are no longer on the working drive or you don't have enough space on drive used for Tier 1, start by downloading the preservation copies from the relevant repository and putting them in the appropriate subfolder under Originals:
+3. In the ExtractedFiles folder, create a subfolder for each disk image/batch you successfully transferred and expect to extract content from.
+    * If you need to skip a number (because a disk wouldn't image, the content was duplicative, etc.), delete that folder from Originals and ExtractedFiles. Make sure the media log or processing plan explains why there's no Tier 1 copy or why you won't be extracting anything for Tier 2.
+5. Ideally you will be working on the same hard drive used during Tier 1 and therefore already have the disk images/logical copies on hand. If the Tier 1 files are no longer on the working drive or there isn't room on the drive used during Tier 1 to extract the files, you will need to copy the Tier 1 files from the initial drive to a new working drive or download the preservation copies from the relevant repository and save them to an Originals folder on your current working drive.
  * Pulling down from Keep
    *  Log into the Keep using your netID and search for the collection or specific image you want to extract.
    *  Once you locate the disk image in the Keep, click on it to open the metadata form. You should see an option to download "Original Disk Image" at the very top. If you do not, talk with Katherine Fisher to double-check your Keep access level.
-   *  Download only the disk image or tar file, not any accompanying material.
+   *  Download the disk image or tar file, not any accompanying material.
    *  Place the downloaded file into the appropriate location in the Originals subfolder.
-   *  *Note that these will pull down with their PIDs as the identifying titles, so be sure to pay attention to which one you are on and make sure it goes into the proper folder.*
+   *  *Note that the files will now be identified by their PIDs, not their media numbers, so be careful they go into the correct folders.*
  * Pulling down from LIBSAFE Go
    * Log in and navigate to the appropriate collection container.
    * Check in to explore content, then right click on each disk image or folder you need and choose "download."
@@ -55,12 +56,13 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 ## Virus Scanning (required)
 *This step should take place in the Windows environment.*
 
-Note that lab workstations have a Crowdstrike virus and malware detection sensor installed, as required by Emory IT policy. This means most viruses will likely be detected and removed in the background without our knowledge or the ability to record those results in our metadata or collection files. This is not ideal, and we are looking for a solution so we can transparently document any Crowdstrike actions.
+Note that lab workstations have the Crowdstrike virus and malware detection sensor installed, as required by Emory IT policy. This means most viruses will likely be detected and removed in the background without our knowledge or the ability to record those results in our metadata or collection files. This is not ideal, and we are looking for a solution so we can transparently document any Crowdstrike actions.
 
-Running an additional virus scan so we can view the results ourselves is preferred; however, it is acceptable to record in the log spreadsheet that Crowdstrike was used as the AV tool (with the date of extraction as the AV date, since the scan happens automatically when the computer detects the files).
+In order to view virus scan results, it is preferable to run an additional virus scan; however, it is acceptable to record in the log spreadsheet that Crowdstrike was used to detect viruses (with the date of extraction as the anti-virus date, since the scan happens automatically when the computer detects the files).
 
 Legacy practice note: In different points in the past, we've used Avast, McAfee, and ClamAV (as a fiwalk plugin) for this step. These options are not part of the current workflow, and documentation mentioning them may be out of date.
 
+To run an additional virus scan:
 1. Once the files are extracted, select all of the folders in ExtractedFiles folder (Ctrl+A).
 2. Right click and select “Scan with Microsoft/Windows Defender.”
 3. A window will pop up showing how many files are being scanned.
@@ -98,14 +100,15 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 ## WorkingFiles Preparation and MD5 File Creation (required)
 *This step should take place in the BitCurator/Ubuntu environment.*
 
-You might have previously created checksum manifests during fiwalk or FTK Imager steps, but this step should be done anyway and will result in a single list for all extracted files. If you need an alternative method, such as a Windows-based tool, talk to a digital archivist.
+You might have previously created checksum manifests during fiwalk or FTK Imager steps, but this step should be done anyway because it results in a single list for all extracted files. If you need an alternative method, such as a Windows-based tool, talk to a digital archivist.
 
 1. Copy all the folder and files in ExtractedFiles to WorkingFiles. Anything you do from this point forward to weed, arrange, or otherwise alter the files should happen in WorkingFiles. ExtractedFiles should remain untouched in case you need to backtrack.
 2. Select all the folders in WorkingFiles.
 3. Right click and select “Scripts,” "File Analysis," and then “Calculate MD5.”
 4. After the script runs, a file called md5 should appear in the main WorkingFiles folder.
 5. Open it to make sure the script ran recursively and the file appears to have md5 checksums for all items.
-6. Rename the file as MSS/EUA###_WorkingFiles.md5 and save the file in PreservationDescriptionInfo to upload to the collection's PDI folder in LSG.
+6. Rename the file to MSS/EUA###_WorkingFiles.md5 and save in PreservationDescriptionInfo.
+7. Later, when ingesting logs, manifests, and other administrative information for preservation, upload the file to the LIBSAFE Go PreservationDescriptionInfo (PDI) folder for the collection.
 
 ---
 
