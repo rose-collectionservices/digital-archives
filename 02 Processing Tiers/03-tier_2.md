@@ -113,32 +113,32 @@ You might have previously created checksum manifests during fiwalk or FTK Imager
 ---
 
 ### Content Review (required)
-At this point, take a look to see if there is anything in the folders that is not system or program files—content with likely research value, like Word files, photographs, etc. If the collection is large or complex, you will likely need to divert to Tier 2b at the point indicated below and complete a more thorough content analysis.
+At this point, check whether WorkingFiles contains files we wish to make available, like Word files, photographs, etc. (as opposed to system and software files). If the collection is large or complex, you will likely need to divert to Tier 2b and complete a more thorough content analysis.
 
-If potentially usable content remains after the Tier 2 steps, proceed to [Tier 2b](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b) (ingest, description, possible arrangement and normalization) and then, if appropriate, Tier 3 (content review and restriction). 
+If WorkingFiles contains content with research value that is not usable as is, proceed to [Tier 2b](https://github.com/rose-collectionservices/digital-archives/tree/master/Tier%202b) (extended content review, arrangement, and normalization) and then, if appropriate, Tier 3 (PII review, restriction). 
 
-If you were unable to image or extract content from anything in the collection, or if you found only have out-of-scope material (e.g., system files, software, corrupted files, files we have no viable way to make accessible), use the language below to edit the collection's finding aid to reflect nothing of research value to the collection was found. Mark the collection as Tier 2 in the shelf list and processing stats spreadsheet. 
+If you were unable to image or extract content from anything in the collection, or if WorkingFiles contains only out-of-scope material (e.g., system files, software, corrupted files, files we have no viable way to make accessible), update the finding aid to reflect that nothing of research value was found. Mark the collection as Tier 2 in the shelf list and processing stats spreadsheet. 
 
 ---
 
 ## Finding Aid Edits (complete if no useful content remains, then stop after this step)
-*This can be done on a regular staff laptop with ArchivesSpace access, although being in the lab to refer to the processing materials and logs can be helpful.*  
+*This can be done on a regular staff laptop with ArchivesSpace access, although it can be useful to work in the lab for easy access to processed material and logs.*  
 
 Processing Note: 
 1. *If the material did not image:* 
 ```Born-digital materials processed by [name], [date]. No data could be recovered from the [material] due to degradation.```
 2. *If image files were successfully created, but nothing usable was extracted:* 
 ```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. [Name] attempted recovery of individual files from the images using [program]. No data could be recovered from disks due to degradation. [Alternatively, if data is recoverable but it's all system files, software, etc.: No usable original files were present.]``` 
-3. *If something could be imaged but nothing extracted AND there is something that couldn’t be imaged (Mann Bond):* 
+3. *If something could be imaged but nothing was extracted AND there is something that couldn’t be imaged (Mann Bond):* 
 ```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
-4. *Another example of failed file conversion language (Mari Evans):* 
+4. *Another example of failed file conversion language:* 
 ```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
 
 Digital Object Records:
-If you ended up with a disk image or other copy stored in a preservation system, even if it's not processed or usable, make sure the AO corresponding with that content has a DO record with an unpublished file version pointing to the preservation copy. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
+If you ended up with a disk image or other copy stored in a preservation system (even if it's not processed or usable), create a DO that corresponds to the AO. Add to the DO an unpublished file version pointing to the preservation copy. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
 
 Access Notes:
-Recommended at the collection level when processing doesn't produce usable content for some or all media: "Due to technical complications, the Rose Library is currently unable to provide access to unprocessed born-digital materials.
+Recommended at the collection level when digital processing didn't produce usable content for some or all media: "Due to technical complications, the Rose Library is currently unable to provide access to unprocessed born-digital materials.
 Recommended at the file level when processing doesn't produce usable content: "Due to technical complications, the Rose Library is currently unable to provide access to this unprocessed born-digital material."
 
 ---
