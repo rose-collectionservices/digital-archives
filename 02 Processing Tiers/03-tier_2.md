@@ -124,23 +124,9 @@ If you were unable to image or extract content from anything in the collection, 
 ## Finding Aid Edits (complete if no useful content remains, then stop after this step)
 *This can be done on a regular staff laptop with ArchivesSpace access, although it can be useful to work in the lab for easy access to processed material and logs.*  
 
-Processing Note: 
-1. *If the material did not image:* 
-```Born-digital materials processed by [name], [date]. No data could be recovered from the [material] due to degradation.```
-2. *If image files were successfully created, but nothing usable was extracted:* 
-```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. [Name] attempted recovery of individual files from the images using [program]. No data could be recovered from disks due to degradation. [Alternatively, if data is recoverable but it's all system files, software, etc.: No usable original files were present.]``` 
-3. *If something could be imaged but nothing was extracted AND there is something that couldn’t be imaged (Mann Bond):* 
-```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were attempted to be extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; those found were removed. The hard drive from Julia Bond's computer could not be imaged, and no data could be recovered from the floppy disks due to degradation.```
-4. *Another example of failed file conversion language:* 
-```Born-digital materials processed by [name], [date]. Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Files could not be converted due to technological constraints.```
-
-Digital Object Records:
-If you ended up with a disk image or other copy stored in a preservation system (even if it's not processed or usable), create a DO that corresponds to the AO. Add to the DO an unpublished file version pointing to the preservation copy. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
-
-Access Notes:
-Recommended at the collection level when digital processing didn't produce usable content for some or all media: "Due to technical complications, the Rose Library is currently unable to provide access to unprocessed born-digital materials.
-Recommended at the file level when processing doesn't produce usable content: "Due to technical complications, the Rose Library is currently unable to provide access to this unprocessed born-digital material."
-
+1. Processing Note: Use relevant language from [CS Manual 6.1.7](https://github.com/rose-collectionservices/collection-services-manual/tree/master/06-DESCRIPTION#6117-processing-information).
+2. Digital Object Records: If you ended up with a disk image or other copy stored in a preservation system (even if it's not processed or usable), create a DO that corresponds to the AO. Add to the DO an unpublished file version pointing to the preservation copy. Follow [Emory's metadata guidelines for digital archival objects](https://emory.sharepoint.com/:w:/r/sites/EmoryUniversityLibraries/Shared%20Documents/Staff/Committees%20%26%20Working%20Groups/Metadata%20Policy%20Committee/Archival%20Description%20Sub-Committee/Policy%20Documentation/Metadata%20Guidelines%20for%20Digital%20Archival%20Objects%20in%20ArchivesSpace%20at%20Emory.docx?d=w25158557429b4a4a867cf6fe6fd0946d&csf=1&web=1&e=5tb8UU) when creating DO records and file versions.
+3. Access Notes: Add a collection-level note based on the examples in [CS Manual 6.1.18.2](https://github.com/rose-collectionservices/collection-services-manual/tree/master/06-DESCRIPTION#61182-physical-access) to indicate that we cannot provide access for technical reasons. If the inaccessible content is described in a published AO, add the suggested file-level access note as well.
 ---
 
 ## Reroute to Tier 2b and/or 3 (if needed)
